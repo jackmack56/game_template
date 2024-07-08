@@ -56,7 +56,7 @@
 
                                     </ul>
                                 </li>
-                                <li><a href="/contact_us.html">Contacts</a></li>
+                                <li><a href="/contact_us">Contacts</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -175,10 +175,10 @@
                         <div class="footer__nav">
                             <ul>
                                 <li class="active"><a href="/">Homepage</a></li>
-                                <li><a href="/about_us.html">About Us</a></li>
-                                <li><a href="/privacy_policy.html">Privacy Policy</a></li>
-                                <li><a href="/term_of_use.html">Term of Use</a></li>
-                                <li><a href="/contact_us.html">Contact Us</a></li>
+                                <li><a href="/about_us">About Us</a></li>
+                                <li><a href="/privacy_policy">Privacy Policy</a></li>
+                                <li><a href="/term_of_use">Term of Use</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
