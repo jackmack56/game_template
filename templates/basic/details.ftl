@@ -1,190 +1,228 @@
-<html lang="en">
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inkognito - private investigator HTML website template">
+  <!-- fav icon -->
+  
 
-<head>
+  <!-- bootstarp css file -->
+  <link rel="stylesheet" href="/7-6-1/css/bootstrap.min.css">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-    rel="stylesheet">
+  <!--  toasts file     -->
+  <link rel="stylesheet" href="/7-6-1/css/toastr.min.css">
 
-  <title>${service_name}</title>
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="/7-6-1/css/all.min.css">
+  <link rel="stylesheet" href="/7-6-1/css/all.min1.css">
 
-  <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-
-
-  <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="/css/agame.subfg.cn/fontawesome.css">
-  <link rel="stylesheet" href="/css/agame.subfg.cn/templatemo-lugx-gaming.css">
-  <link rel="stylesheet" href="/css/agame.subfg.cn/owl.css">
-  <link rel="stylesheet" href="/css/agame.subfg.cn/animate.css">
-  <link rel="stylesheet" href="/css/agame.subfg.cn/swiper-bundle.min.css">
-
+  <!-- main css file -->
+  <link rel="stylesheet" href="/7-6-1/css/styles.css">
+  <title>agentic - creative digital agency website template</title>
 </head>
 
-<body>
+<body class="body      pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
 
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader loaded">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
+  <!-- start scroll to top button -->
+  <div id="progress" style="display: none; background: conic-gradient(rgb(31, 43, 227) 0%, rgb(215, 215, 215) 0%);">
+    <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
   </div>
-  <!-- ***** Preloader End ***** -->
+  <!-- end scroll to top button -->
 
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="/" class="logo">
-              <h1>
-                ${service_name}
-              </h1>
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <div style="overflow: auto;">
-              <ul class="nav">
-                <#list game_types as game_type>
-                  <li><a href="/type/${game_type}" class="active">${game_type}</a></li>
-                </#list>
-              </ul>
-            </div>
-            <a class="menu-trigger">
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
+
+  <!-- ======= start Header ======= -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a href="/">
+          <h3 class="heading-3  primary-text">${service_name}</h3>
+        </a>
+        <!-- if you prefer to use an image as logo -->
+        <!-- <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav ms-auto" id="navbar">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/privacy_policy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/term_of_use.html">Term of Use</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/contact_us.html">Contact Us</a>
+            </li>
+          </ul>
+          
         </div>
       </div>
-    </div>
+    </nav>
   </header>
-  <!-- ***** Header Area End ***** -->
 
-  <div class="page-heading header-text">
-    <div class="container">
-
-    </div>
-  </div>
-
-
-  <div class="single-product section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="left-image">
-            <img src="${game.gamePreview}" alt="">
+  <div class="breadcrumb container bg-box padding-32 b-radius d-flex flex-column justify-content-center align-items-center mb-5">
+    <div class="d-flex flex-column justify-content-center align-items-center text-center gap-8">
+        <h2 class="heading-1">${game.gameName}</h2>
+        <div class="row" style="width: 100%;">
+          <div class="">
+            <div class="d-flex flex-column padding-16 gap-32 bg-box">
+              <div class="img">
+                <img src="${game.gamePreview}" class="b-radius" alt="portfolio">
+              </div>
+              <div>
+                Players: ${game.gameHot}  <span style="padding-left: 30px;">Type: ${game.gameCategory}</span>
+              </div>
+              <div class="d-flex justify-content-between align-items-start">
+                <div class="d-flex flex-column" style="width: 100%;">
+                  <a href="${game.gameUri}">
+                    <div class="icon-container" style="padding: 20px;">
+                      PLAY NOW 
+                      <i class="fa fa-arrow-right unique-text icon-sm" aria-hidden="true"></i>
+                    </div>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6 align-self-center">
-          <h4>${game.gameName}</h4>
-          <form id="qty" action="#">
-            <button type="submit"><a href="${game.gameUri}" style="color: white;"><i class="fa fa-play"></i> PLAY NOW</a></button>
-          </form>
-          <ul>
-            <li><span>Players:</span> ${game.gameHot}</li>
-            <li><span>eCategory:</span> ${game.gameCategory}</li>
-          </ul>
-        </div>
-        <div class="col-lg-12">
-          <div class="sep"></div>
+    </div>
+    <div class="d-flex flex-column gap-8" style="padding-top: 40px;">
+      <h1>Description</h1>
+      <p class="body-2" style="height: auto !important; max-height: 200px;overflow: auto;">${game.gameDesc}</p>
+    </div>
+</div>
+  
+  <section class="portfolio section" id="portfolio">
+    <div class="container d-flex flex-column gap-64">
+      <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start">
+        <div class="heading d-flex flex-column col-lg-8 col-12 ">
+          <h1 class="heading-1">Trending Games</h1>
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="more-info">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="tabs-content">
-            <div class="row">
-              <div class="nav-wrapper ">
-                <ul class="nav nav-tabs" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="description-tab" data-bs-toggle="tab"
-                      data-bs-target="#description" type="button" role="tab" aria-controls="description"
-                      aria-selected="true">Description</button>
-                  </li>
-                </ul>
+      <div class="row g-4">
+        <#list alikeGame as game>
+          <div class="col-lg-4 col-12">
+            <a href="/details/${game.id}" class="d-flex flex-column padding-16 gap-32 bg-box">
+              <div class="img">
+                <img src="${game.gamePreview}" class="b-radius" alt="portfolio">
               </div>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="description" role="tabpanel"
-                  aria-labelledby="description-tab" style="max-height: 200px;overflow: auto;">
-                  ${game.gameDesc}
+              <div class="d-flex justify-content-between align-items-start">
+                <div class="d-flex flex-column">
+                  <h4 class="heading-4">${game.gameName}</h4>
+                  <p class="body-2">${game.gameDesc}</p>
+                </div>
+                <div class="icon-container" style="padding: 10px;">
+                  <i class="fa fa-arrow-right unique-text icon-sm" aria-hidden="true"></i>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section trending">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="section-heading">
-            <h6>Trending</h6>
-            <h2>Trending Games</h2>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="main-button">
-            <a href="/type/${game.gameCategory}">View All</a>
-          </div>
-        </div>
-        <!-- list -->
-        <#list alikeGame as game>
-          <div class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="thumb">
-                <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""></a>
-              </div>
-              <div class="down-content">
-                <span class="category">${game.gameCategory}</span>
-                <h4>${game.gameName}</h4>
-                <a href="/details/${game.id}"><i class="fa fa-play"></i></a>
-              </div>
-            </div>
+            </a>
           </div>
         </#list>
       </div>
     </div>
-  </div>
+  </section>
+  
 
-  <footer>
-    <div class="container">
-      <div class="col-lg-12">
-        <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-          <a style="color: white !important;" href="/about_us.html">About Us</a>
-          <a style="color: white !important;" href="/privacy_policy.html">Privacy Policy</a>
-          <a style="color: white !important;" href="/term_of_use.html">Term of Use</a>
-          <a style="color: white !important;" href="/contact_us.html">Contact Us</a>
+
+  
+  
+  
+
+  
+  
+  
+
+
+  
+  
+  
+
+
+  
+  
+  
+
+
+
+  
+  <section class="footer position-relative pt-5 mt-5 pb-4">
+    <div class="container d-flex flex-column gap-16">
+      
+      <hr>
+      <div class="row justify-content-between align-items-start g-4 py-5" style="
+    justify-content: space-between;
+">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="d-flex flex-column gap-8">
+            
+            <h4 class="m-0 p-0">Copyright © 2024.Company name All rights reserved.
+            
+            <p></p>
+          </h4></div>
         </div>
-        <p>Copyright © 2024.Company ${service_name} All rights reserved.</p>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="d-flex flex-column gap-2">
+            <h4>About</h4>
+            <div class="d-flex flex-column gap-1">
+              <a href="/about_us">About Us</a>
+              <a href="/privacy_policy">Privacy Policy</a>
+              <a href="/term_of_use">Term of Use</a>
+              <a href="/contact_us">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
     </div>
-  </footer>
+  </section>
+  
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-  <script src="/js/jquery.min.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/agame.subfg.cn/isotope.min.js"></script>
-  <script src="/js/agame.subfg.cn/owl-carousel.js"></script>
-  <script src="/js/agame.subfg.cn/counter.js"></script>
-  <script src="/js/agame.subfg.cn/custom.js"></script>
-</body>
 
-</html>
+  <!--  JQuery file     -->
+  <script src="/7-6-1/js/jquery-3.6.1.min.js"></script>
+
+  <!--  JQuery pace file     -->
+  <script src="/7-6-1/js/pace.js"></script>
+
+  <!--  JQuery bez file     -->
+  <script src="/7-6-1/js/jquery.bez.js"></script>
+
+  <!--  toasts file     -->
+  <script src="/7-6-1/js/toastr.min.js"></script>
+
+  <!--  JQuery TweenMax file     -->
+  <script src="/7-6-1/js/TweenMax.min.js"></script>
+
+  <!--  owl carousel file     -->
+  <script src="/7-6-1/js/owl.carousel.min.js"></script>
+
+  <!--  bootstrap bundle js file     -->
+  <script src="/7-6-1/js/bootstrap.bundle.min.js"></script>
+
+  <!--  counter     -->
+  <script src="/7-6-1/js/jquery.counterup.min.js"></script>
+  <script src="/7-6-1/js/jquery.waypoints.js"></script>
+
+  <!--  main js file  -->
+  <script src="/7-6-1/js/main.js"></script>
+
+
+
+</body></html>

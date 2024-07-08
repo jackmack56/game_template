@@ -57,16 +57,16 @@
               <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/about_us.html">About Us</a>
+              <a class="nav-link" aria-current="page" href="/about_us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/privacy_policy.html">Privacy Policy</a>
+              <a class="nav-link" aria-current="page" href="/privacy_policy">Privacy Policy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/term_of_use.html">Term of Use</a>
+              <a class="nav-link" aria-current="page" href="/term_of_use">Term of Use</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/contact_us.html">Contact Us</a>
+              <a class="nav-link" aria-current="page" href="/contact_us">Contact Us</a>
             </li>
           </ul>
           
@@ -166,10 +166,10 @@
           <div class="d-flex flex-column gap-2">
             <h4>About</h4>
             <div class="d-flex flex-column gap-1">
-              <a href="/about_us.html">About Us</a>
-              <a href="/privacy_policy.html">Privacy Policy</a>
-              <a href="/term_of_use.html">Term of Use</a>
-              <a href="/contact_us.html">Contact Us</a>
+              <a href="/about_us">About Us</a>
+              <a href="/privacy_policy">Privacy Policy</a>
+              <a href="/term_of_use">Term of Use</a>
+              <a href="/contact_us">Contact Us</a>
             </div>
           </div>
         </div>
