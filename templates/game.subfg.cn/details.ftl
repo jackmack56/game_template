@@ -8,7 +8,7 @@
     <title>${service_name}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/game.subfg.cn/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/game.subfg.cn/css/bgame/bootstrap-icons.css">
     <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.carousel.min.css">
     <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.theme.default.min.css">
@@ -211,7 +211,7 @@
         </div>
     </div>
 </footer>
-<script src="/game.subfg.cn/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/game.subfg.cn/js/bootstrap.bundle.min.js"></script>
 <script src="/game.subfg.cn/js/bgame/owl.carousel.min.js"></script>
 <script src="/game.subfg.cn/js/bgame/custom.js"></script>

@@ -294,7 +294,7 @@
 </footer>
 
 <!-- JAVASCRIPT FILES -->
-<script src="/game.subfg.cn/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/game.subfg.cn/js/bootstrap.bundle.min.js"></script>
 <script src="/game.subfg.cn/js/bgame/owl.carousel.min.js"></script>
 <script src="/game.subfg.cn/js/bgame/custom.js"></script>
