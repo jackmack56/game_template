@@ -6,8 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
     <title>${service_name}</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/my/templatemo-cyborg-gaming.css">
+    <link href="/bgame.subfg.cn/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bgame.subfg.cn/css/my/templatemo-cyborg-gaming.css">
 </head>
 
 <body>
@@ -144,12 +144,12 @@
         </div>
     </div>
 </footer>
-<script src="/js/jquery.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/my/isotope.min.js"></script>
-<script src="/js/my/owl-carousel.js"></script>
-<script src="/js/my/tabs.js"></script>
-<script src="/js/my/popup.js"></script>
-<script src="/js/my/custom.js"></script>
+<script src="/bgame.subfg.cn/js/jquery.js"></script>
+<script src="/bgame.subfg.cn/js/bootstrap.min.js"></script>
+<script src="/bgame.subfg.cn/js/my/isotope.min.js"></script>
+<script src="/bgame.subfg.cn/js/my/owl-carousel.js"></script>
+<script src="/bgame.subfg.cn/js/my/tabs.js"></script>
+<script src="/bgame.subfg.cn/js/my/popup.js"></script>
+<script src="/bgame.subfg.cn/js/my/custom.js"></script>
 </body>
 </html>

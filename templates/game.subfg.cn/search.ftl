@@ -8,11 +8,11 @@
     <title>${service_name}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bgame/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/bgame/owl.carousel.min.css">
-    <link rel="stylesheet" href="/css/bgame/owl.theme.default.min.css">
-    <link href="/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/bootstrap-icons.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.carousel.min.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.theme.default.min.css">
+    <link href="/game.subfg.cn/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand me-lg-5 me-0" href="/">
-                <img src="/image/logo.png" class="logo-image img-fluid" alt="templates">
+                <img src="/game.subfg.cn/image/logo.png" class="logo-image img-fluid" alt="templates">
             </a>
 
             <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
@@ -159,9 +159,9 @@
 </footer>
 
 <!-- JAVASCRIPT FILES -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/bgame/owl.carousel.min.js"></script>
-<script src="/js/bgame/custom.js"></script>
+<script src="/game.subfg.cn/js/jquery.min.js"></script>
+<script src="/game.subfg.cn/js/bootstrap.bundle.min.js"></script>
+<script src="/game.subfg.cn/js/bgame/owl.carousel.min.js"></script>
+<script src="/game.subfg.cn/js/bgame/custom.js"></script>
 </body>
 </html>
