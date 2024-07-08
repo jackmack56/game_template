@@ -268,25 +268,21 @@
             </div>
 
             <div class="col-lg-3 col-md-6 col-12">
-                <h6 class="site-footer-title mb-3">Download Mobile</h6>
-
-
-                <h6 class="site-footer-title mb-3">Social</h6>
-                <ul class="social-icon">
-                    <li class="social-icon-item">
-                        <a href="/" class="social-icon-link bi-instagram"></a>
+                <ul class="site-footer-links">
+                    <li class="site-footer-link-item">
+                        <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
-
-                    <li class="social-icon-item">
-                        <a href="/" class="social-icon-link bi-twitter"></a>
+                    <li class="site-footer-link-item">
+                        <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
-
-                    <li class="social-icon-item">
-                        <a href="/" class="social-icon-link bi-whatsapp"></a>
+                    <li class="site-footer-link-item">
+                        <a href="/term_of_use" class="site-footer-link">Term of Use</a>
+                    </li>
+                    <li class="site-footer-link-item">
+                        <a href="/contact_us" class="site-footer-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
-
         </div>
     </div>
 

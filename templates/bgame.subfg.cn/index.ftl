@@ -32,10 +32,10 @@
           <!-- ***** Menu Start ***** -->
           <ul class="nav">
             <li><a href="/" class="active">Home</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/">Privacy Policy</a></li>
-            <li><a href="/">Terms os Use</a></li>
-            <li><a href="/">Contact Us</a></li>
+            <li><a href="/about_us">About</a></li>
+            <li><a href="/privacy_policy">Privacy Policy</a></li>
+            <li><a href="/term_of_use">Terms os Use</a></li>
+            <li><a href="/contact_us">Contact Us</a></li>
           </ul>
           <a class='menu-trigger'>
             <span>Menu</span>
@@ -217,10 +217,18 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-6">
         <p>Copyright © 2024 <a href="/">${service_name}</a> <br>
           Company. All rights reserved.
           <br><a target="_blank" href="/">${service_name}</a></p>
+      </div>
+      <div class="col-lg-4">
+        <ul class="nav">
+          <li><a href="/about_us">About</a></li> <&nbsp;> <&nbsp;>
+          <li><a href="/privacy_policy">Privacy Policy</a></li> <&nbsp;> <&nbsp;>
+          <li><a href="/term_of_use">Terms os Use</a></li><&nbsp;><&nbsp;>
+          <li><a href="/contact_us">Contact Us</a></li>
+        </ul>
       </div>
     </div>
   </div>

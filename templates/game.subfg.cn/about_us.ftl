@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>${service_name}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/bootstrap-icons.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.carousel.min.css">
+    <link rel="stylesheet" href="/game.subfg.cn/css/bgame/owl.theme.default.min.css">
+    <link href="/game.subfg.cn/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
+</head>
+
+<body>
+
+<main>
+
+
+
+    <header class="site-header d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 text-center">
+
+                    <h2 class="mb-0">About Us</h2>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="about-section section-padding" id="section_2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 mx-auto">
+                    <div class="pb-5 mb-5">
+                        <p></p>
+                        <p>We're thrilled to present Punk Games, a pioneering online gaming hub designed to connect global gamers with an
+                            array of diverse digital games. We house a broad spectrum of games on our platform, from educational to complex
+                            ones, catering to the entertainment needs of gamers of all age groups.</p>
+                        <p>At Punk Games, our games come at no cost, promoting inclusivity for all, irrespective of their financial
+                            capabilities. We're passionate about making gaming universally accessible and enjoyable.</p>
+                        <p>Our ethos at Punk Games is centered on crafting engaging gaming experiences for global audiences. We remain
+                            steadfast in our commitment to offer the pinnacle of player experiences and to let every gamer truly immerse
+                            themselves in the vast gaming universe.</p>
+                        <p>In the evolving world of gaming, the allure of complimentary online games is ever growing, offering players
+                            enticing extras and rewards. If you're yearning to amplify your gaming adventures, we welcome you to explore
+                            punkgames.top!</p>
+                        <p>Our site brings to life a universe brimming with virtual reality and action-filled AI games. Gear up for a
+                            heightened gaming journey as you discover our vast array of online flash games, defined by their innovative,
+                            creative, and engaging qualities.</p>
+                        <p>Acknowledging the variety of gamer interests, we present a unique and extensive collection of premier online
+                            games to suit an assortment of preferences. Our core ambition is to quench your gaming curiosity, offer
+                            consistent entertainment, and deliver an action-filled gaming encounter.</p>
+                        <p>Stay in touch with us and say goodbye to monotony! Our intuitive and easy-to-navigate gaming website showcases
+                            a comprehensive list of complimentary online games spread across diverse genres, including arcade, sports,
+                            adventure, racing, action, puzzle, and more. Irrespective of your location, you can access the finest games at
+                            any time, breaking the constraints of geographical borders.</p>
+                        <p>Don't hold back any longer! Stay with gameregions today to vanquish boredom and experience unparalleled gaming
+                            fun!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- JAVASCRIPT FILES -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="/game.subfg.cn/js/bootstrap.bundle.min.js"></script>
+<script src="/game.subfg.cn/js/bgame/owl.carousel.min.js"></script>
+<script src="/game.subfg.cn/js/bgame/custom.js"></script>
+</body>
+</html>
