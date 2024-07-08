@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
-  <title>Lugx Gaming Shop HTML5 Template</title>
+  <title>${service_name}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/7-6-1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -35,7 +35,7 @@
 <div class="section most-played">
   <div class="container">
     <div class="row">
-      <div data-v-362b6a26="" class="main-wrap" style="padding-top: 100px;">
+      <div data-v-362b6a26="" class="main-wrap" style="padding-top: 100px;padding-left: 20px;padding-right: 20px;">
         <h2>Terms of Use</h2>
         <p></p>
         <h3>1.ACCEPTANCE OF TERMS OF USE</h3>
@@ -168,18 +168,6 @@
   </div>
 </div>
 
-
-
-
-
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/7-6-1/js/bootstrap.min.js"></script>
-<script src="assets/7-6-1/js/isotope.min.js"></script>
-<script src="assets/7-6-1/js/owl-carousel.js"></script>
-<script src="assets/7-6-1/js/counter.js"></script>
-<script src="assets/7-6-1/js/custom.js"></script>
 
 
 </body></html>

@@ -4,10 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
-  <title>Lugx Gaming Shop HTML5 Template</title>
+  <title>${service_name}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/7-6-1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
 
 
 </head>
@@ -34,7 +34,7 @@
 <div class="section most-played">
   <div class="container">
     <div class="row">
-      <div class="content_container" style="padding-top: 100px;">
+      <div class="content_container" style="padding-top: 100px;padding-left: 20px;padding-right: 20px;">
         <h2>1. General and definitions</h2>
         <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Rendez Game. The use of the Internet pages of the Rendez Game is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
         <br>
@@ -268,16 +268,6 @@
 </div>
 
 
-
-
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/7-6-1/js/bootstrap.min.js"></script>
-<script src="assets/7-6-1/js/isotope.min.js"></script>
-<script src="assets/7-6-1/js/owl-carousel.js"></script>
-<script src="assets/7-6-1/js/counter.js"></script>
-<script src="assets/7-6-1/js/custom.js"></script>
 
 
 </body></html>

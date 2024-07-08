@@ -4,18 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 
-  <title>Lugx Gaming Shop HTML5 Template</title>
+  <title>${service_name}</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
 
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="/7-6-1/css/fontawesome.css">
-  <link rel="stylesheet" href="/7-6-1/css/templatemo-lugx-gaming.css">
-  <link rel="stylesheet" href="/7-6-1/css/owl.css">
-  <link rel="stylesheet" href="/7-6-1/css/animate.css">
-  <link rel="stylesheet" href="/7-6-1/css/swiper-bundle.min.css">
 
 </head>
 
@@ -42,7 +37,7 @@
 <div class="section most-played">
   <div class="container">
     <div class="row">
-      <div data-v-362b6a26="" class="mid_content" style="padding-top: 100px;">
+      <div data-v-362b6a26="" class="mid_content" style="padding-top: 100px;padding-left: 20px;padding-right: 20px;">
         <h2>About Us</h2>
         <p></p>
         <p>We're thrilled to present Punk Games, a pioneering online gaming hub designed to connect global gamers with an
@@ -77,14 +72,6 @@
 
 
 
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/7-6-1/js/bootstrap.min.js"></script>
-<script src="assets/7-6-1/js/isotope.min.js"></script>
-<script src="assets/7-6-1/js/owl-carousel.js"></script>
-<script src="assets/7-6-1/js/counter.js"></script>
-<script src="assets/7-6-1/js/custom.js"></script>
 
 
 </body></html>
