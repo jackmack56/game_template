@@ -1,0 +1,12 @@
+*.idea
+*.iml
+*.class
+ip2region.xdb
+static/games
+mapper
+*.yml
+*.sh
+*.jar
+*.zip
+*.tar
+*.cjs
