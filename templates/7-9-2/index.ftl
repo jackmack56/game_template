@@ -420,8 +420,7 @@
     <!-- <section> begin ============================-->
     <section>
       <div class="container">
-        <h1 class="display-6 fw-semi-bold"> Feature</h1>
-        <p class="fs-2">Our landing page template works on all devices, so you only have to set.</p>
+        <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
         <div class="row d-flex flex-wrap">
 
           
