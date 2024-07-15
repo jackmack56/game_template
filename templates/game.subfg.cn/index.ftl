@@ -73,7 +73,7 @@
                     <div class="text-center mb-5 pb-2">
                         <h1 class="text">Welcome To ${service_name}</h1>
 
-                        <p class="text">Games +6000</p>
+                        <p class="text fw-bold">Greetings, fellow gamers, and welcome to a world where imagination knows no bounds! Prepare to embark on an unforgettable gaming journey as we introduce you to the captivating realm of H5 Gaming. In this blog article, we'll give you an exclusive tour of this exceptional gaming website, where thrilling game themes and boundless entertainment await. Get ready to immerse yourself in a world of endless fun, stunning graphics, and a vibrant community of passionate gamers. Join us as we unveil the epic adventures that await you on H5 Gaming.</p>
 
                         <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Start Games</a>
                     </div>
@@ -96,7 +96,7 @@
 
                 <#assign hotGame = 0>
                 <#list all_game as game>
-                <#if hotGame < 6 && 4200 <= game.gameHot>
+                <#if hotGame < 12 && 4200 <= game.gameHot>
                 <#if game_index % 2 == 0>
                 <div class="col-lg-6 col-12 mb-4 mb-lg-2">
                     </#if>
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <#list new_game as game>
-                    <#if game_index < 8>
+                    <#if game_index < 20>
                         <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
@@ -215,7 +215,7 @@
                 </div>
                 <#assign typeNumber = 0>
                 <#list all_game as game>
-                    <#if "Action" == game.gameCategory && typeNumber < 8>
+                    <#if "Action" == game.gameCategory && typeNumber < 16>
                         <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
