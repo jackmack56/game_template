@@ -85,7 +85,7 @@
                    placeholder="Search Game" aria-label="Search">
         </div>
       </form>
-      <div class="d-flex gap-64 flex-wrap">
+      <div class="d-flex gap-2 flex-wrap">
         <#list game_types as game_type>
                 <a class="p-2" style="background-color: #1f2be3;border-radius: 10px;" aria-current="page" href="/type/${game_type}">${game_type}</a>
             </#list>
