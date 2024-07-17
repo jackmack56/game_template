@@ -66,108 +66,16 @@
 
 
     <section class="hero-section">
-        <div class="container">
-            <div class="row">
+        <div class="row">
 
-                <div class="col-lg-12 col-12">
-                    <div class="text-center mb-5 pb-2">
-                        <h1 class="text">Welcome To ${service_name}</h1>
-
-                        <p class="text fw-bold">Greetings, fellow gamers, and welcome to a world where imagination knows no bounds! Prepare to embark on an unforgettable gaming journey as we introduce you to the captivating realm of H5 Gaming. In this blog article, we'll give you an exclusive tour of this exceptional gaming website, where thrilling game themes and boundless entertainment await. Get ready to immerse yourself in a world of endless fun, stunning graphics, and a vibrant community of passionate gamers. Join us as we unveil the epic adventures that await you on H5 Gaming.</p>
-
-                        <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Start Games</a>
-                    </div>
+            <div class="col-lg-12 col-12">
+                <div class="text-center mb-5 pb-2">
+                    <h1 class="text">Welcome To ${service_name}</h1>
                 </div>
-
             </div>
         </div>
     </section>
 
-
-    <section class="latest-podcast-section section-padding pb-0" id="section_2">
-        <div class="container">
-            <div class="row justify-content-center">
-
-                <div class="col-lg-12 col-12">
-                    <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Popular Games</h4>
-                    </div>
-                </div>
-
-                <#assign hotGame = 0>
-                <#list all_game as game>
-                <#if hotGame < 12 && 4200 <= game.gameHot>
-                <#if game_index % 2 == 0>
-                <div class="col-lg-6 col-12 mb-4 mb-lg-2">
-                    </#if>
-                    <#if game_index % 2 == 1>
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-2">
-                        </#if>
-                        <div class="custom-block d-flex">
-                            <div class="">
-                                <div class="custom-block-icon-wrap">
-                                    <div class="section-overlay"></div>
-                                    <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                        <img src="${game.gameIcon}"
-                                             class="custom-block-image img-fluid" alt="">
-                                    </a>
-                                </div>
-                                <div class="mt-2">
-                                    <a href="/details/${game.id}" class="btn custom-btn">
-                                        Subscribe
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="custom-block-info">
-                                <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        ${game.createTime?string("yyyy-MM-dd")}
-                                    </small>
-                                </div>
-                                <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        ${game.gameCategory}
-                                    </small>
-                                </div>
-                                <h5 class="mb-2">
-                                    <a href="/details/${game.id}">
-                                        ${game.gameName}
-                                    </a>
-                                </h5>
-
-                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
-                                    <a href="/details/${game.id}" class="bi-heart me-1">
-                                        <span>${game.gameHot}</span>
-                                    </a>
-
-                                    <a href="/details/${game.id}" class="bi-chat me-1">
-                                        <span>16k</span>
-                                    </a>
-
-                                    <a href="/details/${game.id}" class="bi-download">
-                                        <span>62k</span>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="d-flex flex-column ms-auto">
-                                <a href="/details/${game.id}" class="badge ms-auto">
-                                    <i class="bi-heart"></i>
-                                </a>
-
-                                <a href="/details/${game.id}" class="badge ms-auto">
-                                    <i class="bi-bookmark"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <#assign  hotGame ++>
-                    </#if>
-                    </#list>
-                </div>
-            </div>
-    </section>
 
     <section class="topics-section section-padding pb-0" id="section_3">
         <div class="container">
@@ -202,7 +110,72 @@
         </div>
     </section>
 
+    <section class="latest-podcast-section section-padding pb-0" id="section_2">
+        <div class="container">
+            <div class="row justify-content-center">
 
+                <div class="col-lg-12 col-12">
+                    <div class="section-title-wrap mb-5">
+                        <h4 class="section-title">Popular Games</h4>
+                    </div>
+                </div>
+
+                <#assign hotGame = 0>
+                <#list all_game as game>
+                <#if hotGame < 6 && 4200 <= game.gameHot>
+                <#if game_index % 2 == 0>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-2">
+                    </#if>
+                    <#if game_index % 2 == 1>
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-2">
+                        </#if>
+                        <div class="custom-block d-flex">
+                            <div class="">
+                                <div class="custom-block-icon-wrap">
+                                    <div class="section-overlay"></div>
+                                    <a href="/details/${game.id}" class="custom-block-image-wrap">
+                                        <img src="${game.gamePreview}"
+                                             class="custom-block-image img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="mt-2">
+                                    <a href="/details/${game.id}" class="btn custom-btn">
+                                        Subscribe
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="custom-block-info">
+                                <div class="custom-block-top d-flex mb-1">
+                                    <small class="me-4">
+                                        ${game.createTime?string("yyyy-MM-dd")}
+                                    </small>
+                                </div>
+                                <div class="custom-block-top d-flex mb-1">
+                                    <small class="me-4">
+                                        ${game.gameCategory}
+                                    </small>
+                                </div>
+                                <h5 class="mb-2">
+                                    <a href="/details/${game.id}">
+                                        ${game.gameName}
+                                    </a>
+                                </h5>
+
+                                <div class="custom-block-bottom d-flex justify-content-between mt-3">
+                                    <a href="/details/${game.id}" class="bi-heart me-1">
+                                        <span>${game.gameHot}</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <#assign  hotGame ++>
+                    </#if>
+                    </#list>
+                </div>
+            </div>
+    </section>
 
 
     <section class="topics-section section-padding pb-0" id="section_3">
@@ -210,12 +183,11 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Action Category Gagmes</h4>
+                        <h4 class="section-title">Family Category Gagmes</h4>
                     </div>
                 </div>
-                <#assign typeNumber = 0>
                 <#list all_game as game>
-                    <#if "Action" == game.gameCategory && typeNumber < 16>
+                    <#if "Puzzle" == game.gameCategory>
                         <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
@@ -233,12 +205,82 @@
                                 </div>
                             </div>
                         </div>
-                        <#assign typeNumber++>
                     </#if>
                 </#list>
             </div>
         </div>
     </section>
+
+
+    <section class="topics-section section-padding pb-0" id="section_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="section-title-wrap mb-5">
+                        <h4 class="section-title">Action Category Gagmes</h4>
+                    </div>
+                </div>
+                <#list all_game as game>
+                    <#if "Action" == game.gameCategory>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block custom-block-overlay">
+                                <a href="/details/${game.id}" class="custom-block-image-wrap">
+                                    <img src="${game.gamePreview}"
+                                         class="custom-block-image img-fluid" alt="">
+                                </a>
+
+                                <div class="custom-block-info custom-block-overlay-info">
+                                    <h5 class="mb-1">
+                                        <a href="/details/${game.id}">
+                                            ${game.gameName}
+                                        </a>
+                                    </h5>
+                                    <p class="badge mb-0">${game.createTime?string("yyyy-MM-dd")}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </#if>
+                </#list>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="topics-section section-padding pb-0" id="section_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="section-title-wrap mb-5">
+                        <h4 class="section-title">Adventure Category Gagmes</h4>
+                    </div>
+                </div>
+                <#list all_game as game>
+                    <#if "Adventure" == game.gameCategory>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block custom-block-overlay">
+                                <a href="/details/${game.id}" class="custom-block-image-wrap">
+                                    <img src="${game.gamePreview}"
+                                         class="custom-block-image img-fluid" alt="">
+                                </a>
+
+                                <div class="custom-block-info custom-block-overlay-info">
+                                    <h5 class="mb-1">
+                                        <a href="/details/${game.id}">
+                                            ${game.gameName}
+                                        </a>
+                                    </h5>
+                                    <p class="badge mb-0">${game.createTime?string("yyyy-MM-dd")}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </#if>
+                </#list>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
 </main>
@@ -248,36 +290,37 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-6 col-12 mb-5 mb-lg-5">
+            <div class="col-lg-9 col-12 mb-5 mb-lg-5">
                 <div class="subscribe-form-wrap">
                     <h6>${service_name}</h6>
-
+                    <div class="col-lg-12 col-12">
+                        <div class="text-center mb-5 pb-2">
+                            <p class="text fw-bold">Greetings, fellow gamers, and welcome to a world where imagination knows no bounds! Prepare to embark on an unforgettable gaming journey as we introduce you to the captivating realm of H5 Gaming. In this blog article, we'll give you an exclusive tour of this exceptional gaming website, where thrilling game themes and boundless entertainment await. Get ready to immerse yourself in a world of endless fun, stunning graphics, and a vibrant community of passionate gamers. Join us as we unveil the epic adventures that await you on H5 Gaming.</p>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
                 <h6 class="site-footer-title mb-3">Contact</h6>
-
-                <p class="mb-2"><strong class="d-inline me-2">Phone:</strong> 010-020-0340</p>
-
                 <p>
                     <strong class="d-inline me-2">Email:</strong>
                     <a href="#">inquiry@pod.co</a>
                 </p>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12">
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item">
                         <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item">
                         <a href="/contact_us" class="site-footer-link">Contact Us</a>
                     </li>

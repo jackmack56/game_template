@@ -124,12 +124,12 @@
               <#if game_index < 4>
                 <div class="item">
                   <ul>
-                    <li><img src="${game.gameIcon}" alt="" class="templatemo-item"> </li>
+                    <li><img src="${game.gamePreview}" alt="" class="templatemo-item"> </li>
                     <li><h4>Game Name</h4><span>${game.gameName}</span></li>
                     <li><h4>Category</h4><span>${game.gameCategory}</span></li>
                     <li><h4>Hot Played</h4><span>${game.gameHot}</span></li>
                     <li><h4>Date Issues</h4><span>${game.createTime?string("yyyy-MM-dd")}</span></li>
-                    <li><div class="main-border-button border-no-active"><a href="/details/${game.id}">Pay Game</a></div></li>
+                    <li><div class="main-border-button border-no-active"><a href="/details/${game.id}">Start</a></div></li>
                   </ul>
                 </div>
               </#if>
@@ -185,10 +185,10 @@
             </div>
             <#assign  randomIndex = 0>
             <#list all_game as game>
-              <#if game_index % 2 == 0 && randomIndex < 6>
+              <#if game_index % 2 == 0 && randomIndex < 30>
                 <div class="item">
                   <ul>
-                    <li><img src="${game.gameIcon}" alt="" class="templatemo-item"> </li>
+                    <li><img src="${game.gamePreview}" alt="" class="templatemo-item"> </li>
                     <li><h4>Game Name</h4><span>${game.gameName}</span></li>
                     <li><h4>Category</h4><span>${game.gameCategory}</span></li>
                     <li><h4>Hot Played</h4><span>${game.gameHot}</span></li>
