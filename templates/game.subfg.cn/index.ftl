@@ -70,7 +70,7 @@
 
             <div class="col-lg-12 col-12">
                 <div class="text-center mb-5 pb-2">
-                    <h1 class="text">Welcome To ${service_name}</h1>
+                    <h1 class="text">Welcome To ${advert.serviceName}</h1>
                 </div>
             </div>
         </div>
@@ -82,12 +82,12 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">New Gagmes</h4>
+                        <h4 class="section-title">New Games</h4>
                     </div>
                 </div>
                 <#list new_game as game>
                     <#if game_index < 20>
-                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
                                     <img src="${game.gamePreview}"
@@ -188,7 +188,7 @@
                 </div>
                 <#list all_game as game>
                     <#if "Puzzle" == game.gameCategory>
-                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
                                     <img src="${game.gamePreview}"
@@ -222,7 +222,7 @@
                 </div>
                 <#list all_game as game>
                     <#if "Action" == game.gameCategory>
-                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
                                     <img src="${game.gamePreview}"
@@ -256,7 +256,7 @@
                 </div>
                 <#list all_game as game>
                     <#if "Adventure" == game.gameCategory>
-                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
                                     <img src="${game.gamePreview}"
@@ -292,10 +292,10 @@
 
             <div class="col-lg-9 col-12 mb-5 mb-lg-5">
                 <div class="subscribe-form-wrap">
-                    <h6>${service_name}</h6>
+                    <h6>${advert.serviceName}</h6>
                     <div class="col-lg-12 col-12">
                         <div class="text-center mb-5 pb-2">
-                            <p class="text fw-bold">Greetings, fellow gamers, and welcome to a world where imagination knows no bounds! Prepare to embark on an unforgettable gaming journey as we introduce you to the captivating realm of H5 Gaming. In this blog article, we'll give you an exclusive tour of this exceptional gaming website, where thrilling game themes and boundless entertainment await. Get ready to immerse yourself in a world of endless fun, stunning graphics, and a vibrant community of passionate gamers. Join us as we unveil the epic adventures that await you on H5 Gaming.</p>
+                            <p class="text fw-bold">${advert.content}</p>
                         </div>
                     </div>
 
