@@ -4,6 +4,9 @@
 ip2region.xdb
 static/games
 mapper
+bin
+conf
+logs
 *.yml
 *.sh
 *.jar
