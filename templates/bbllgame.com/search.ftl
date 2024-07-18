@@ -111,7 +111,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 col-12 mb-5 mb-lg-5">
-                <h6 class="site-footer-title mb-5">Contact</h6>
+                <h6 class="site-footer-title mb-5 ">Contact</h6>
                 <p>
                     <strong class="d-inline me-2">Email:</strong>
                     <a href="#">${advert.contactMail}</a>
@@ -119,14 +119,14 @@
             </div>
             <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
                 <ul class="site-footer-links">
-                    <li class="site-footer-link-item mb-5 ">
+                    <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
                     <li class="site-footer-link-item mb-5 ">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
                     <br>
-                    <li class="site-footer-link-item mb-5 ">
+                    <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
                     <li class="site-footer-link-item mb-5">
