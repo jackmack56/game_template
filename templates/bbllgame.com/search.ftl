@@ -111,47 +111,38 @@
 <footer class="site-footer">
     <div class="container">
         <div class="row">
-
-            <div class="col-lg-6 col-12 mb-5 mb-lg-5">
+            <div class="col-lg-5 col-12 mb-5 mb-lg-5">
                 <div class="subscribe-form-wrap">
-                    <h6>${service_name}</h6>
-
-
+                    <h6 class="site-footer-title mb-5">Contact</h6>
+                    <p>
+                        <strong class="d-inline me-2">Email:</strong>
+                        <a href="#">${advert.contactMail}</a>
+                    </p>
                 </div>
             </div>
+            <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
 
-            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
-                <h6 class="site-footer-title mb-3">Contact</h6>
-
-                <p class="mb-2"><strong class="d-inline me-2">Phone:</strong> 010-020-0340</p>
-
-                <p>
-                    <strong class="d-inline me-2">Email:</strong>
-                    <a href="#">inquiry@pod.co</a>
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
                 <ul class="site-footer-links">
-                    <li class="site-footer-link-item">
+                    <li class="site-footer-link-item mb-5 ">
                         <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
-                    <li class="site-footer-link-item">
+                    <br>
+                    <li class="site-footer-link-item mb-5 ">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
-                    <li class="site-footer-link-item">
+                    <br>
+                    <li class="site-footer-link-item mb-5 ">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
-                    <li class="site-footer-link-item">
+                    <br>
+                    <li class="site-footer-link-item mb-5">
                         <a href="/contact_us" class="site-footer-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-
-
 </footer>
-
 <!-- JAVASCRIPT FILES -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/game.subfg.cn/js/bootstrap.bundle.min.js"></script>
