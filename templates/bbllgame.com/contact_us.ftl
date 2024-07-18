@@ -38,7 +38,6 @@
     <section class="about-section section-padding" id="section_2">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-8 col-12 mx-auto">
                     <div class="pb-5 mb-5">
                         <p></p>
