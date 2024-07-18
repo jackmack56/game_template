@@ -39,20 +39,23 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="/">Home</a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="/">About</a>
+                        <a class="nav-link" href="/about_us">About</a>
                     </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarLightDropdownMenuLink" data-bs-toggle="dropdown"
                            aria-expanded="false">Category</a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+
                             <#list game_types as type>
                                 <li><a class="dropdown-item" href="/type/${type}">${type}</a></li>
                             </#list>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
+                        <a class="nav-link" href="/contact_us">Contact</a>
                     </li>
                 </ul>
             </div>

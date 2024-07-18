@@ -44,7 +44,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/">About</a>
+                        <a class="nav-link" href="/about_us">About</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -58,7 +58,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Contact</a>
+                        <a class="nav-link" href="/contact_us">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -184,7 +184,7 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Family Category Gagmes</h4>
+                        <h4 class="section-title">Family Category Games</h4>
                     </div>
                 </div>
                 <#list all_game as game>
