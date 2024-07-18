@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand me-lg-5 me-0" href="/">
-                <img src="/game.subfg.cn/image/logo.png" class="logo-image img-fluid" alt="templates">
+                <img src="" class="logo-image img-fluid" alt="${service_name}">
             </a>
             <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
                 <div class="input-group input-group-lg">
