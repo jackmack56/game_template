@@ -27,12 +27,9 @@
     <div class="row">
       <div class="col-12">
         <nav class="main-nav">
-          <!-- ***** Logo Start ***** -->
           <a href="index.html" class="logo">
             <img src="assets/images/logo.png" alt="">
           </a>
-          <!-- ***** Search End ***** -->
-          <!-- ***** Menu Start ***** -->
           <ul class="nav">
             <li><a href="/" class="active">Home</a></li>
             <li><a href="/about_us">About</a></li>
@@ -43,16 +40,12 @@
           <a class='menu-trigger'>
             <span>Menu</span>
           </a>
-          <!-- ***** Menu End ***** -->
         </nav>
       </div>
     </div>
   </div>
 </header>
-<!-- ***** Header Area End ***** -->
-
 <div class="container">
-
   <div class="row">
       <div class="page-content">
         <div class="col-lg-12">
@@ -71,9 +64,6 @@
             <a href="/type/${type}">${type}</a>
           </#list>
         </div>
-
-
-
           <div class="gaming-library">
             <div class="search-input">
               <form id="search" action="/search">
@@ -81,8 +71,6 @@
               </form>
             </div>
           </div>
-
-
           <div class="most-popular">
           <div class="row">
             <div class="col-lg-14">
@@ -116,8 +104,6 @@
             </div>
           </div>
         </div>
-
-
         <div class="gaming-library">
           <div class="col-lg-12">
             <div class="heading-section">
@@ -144,8 +130,6 @@
             </div>
           </div>
         </div>
-
-
         <div class="most-popular">
           <div class="row">
             <div class="col-lg-14">
@@ -179,8 +163,6 @@
             </div>
           </div>
         </div>
-
-
         <div class="gaming-library">
           <div class="col-lg-12">
             <div class="heading-section">
@@ -210,28 +192,23 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
 </div>
-
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <p>Copyright © 2024 <a href="/">${service_name}</a> <br>
+        <p>Copyright © 2024 <a href="/">${service_name}</a>
           Company. All rights reserved.
-          <br><a target="_blank" href="/">${service_name}</a></p>
+        </p>
       </div>
       <div class="col-lg-4">
-        <ul class="nav">
-          <li><a href="/about_us">About</a></li> <&nbsp;> <&nbsp;>
-          <li><a href="/privacy_policy">Privacy Policy</a></li> <&nbsp;> <&nbsp;>
-          <li><a href="/term_of_use">Terms os Use</a></li><&nbsp;><&nbsp;>
-          <li><a href="/contact_us">Contact Us</a></li>
-        </ul>
+          <p><a href="/about_us">About</a></p>
+          <p><a href="/privacy_policy">Privacy Policy</a></p>
+          <p><a href="/term_of_use">Terms os Use</a></p>
+          <p><a href="/contact_us">Contact Us</a></p>
       </div>
     </div>
   </div>

@@ -23,9 +23,7 @@
         </div>
     </div>
 </div>
-<!-- ***** Header Area End ***** -->
 <div class="container">
-
     <div class="row">
         <div class="page-content">
             <div class="most-popular">
