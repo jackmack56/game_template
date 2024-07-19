@@ -453,9 +453,9 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
-  padding: 8px 10px 8px 20px;
-  border-radius: 5px;
+  /*background-color: #27292a;*/
+  /*padding: 8px 10px 8px 20px;*/
+  /*border-radius: 5px;*/
 }
 
 .header-area .main-nav .nav li:last-child a img {

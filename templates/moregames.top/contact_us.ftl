@@ -40,7 +40,7 @@
                         <p>Need help with something? Send us your question, feedback, or comment.</p><br>
                         <p>Send us you suggestions, complaints and feedback. We understand and highly appreciate your time. We will respond you asap.</p><br>
                         <p>Developer/Publisher/Advitiser & Bussiness/Players.</p><br>
-<#--                        <p>Please Email US: ${contact_email ! 'account@angelmobi.com'}.</p><br>-->
+                        <p>Please Email US: ${contact_email ! 'account@angelmobi.com'}.</p><br>
                         <p>Hope for your cooperation.</p><br>
                         </p>
                     </div>

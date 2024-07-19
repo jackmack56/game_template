@@ -80,7 +80,7 @@
                 <div class="row">
                     <div class="col-lg-14">
                         <div class="heading-section">
-                            <h4><em>Recommend</em> Games</h4>
+                            <h4><em>${category ! ''}</em> Games</h4>
                         </div>
                         <div class="row">
                             <#assign hotValue = 0>
