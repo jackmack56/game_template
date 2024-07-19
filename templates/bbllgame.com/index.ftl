@@ -308,7 +308,7 @@
                     Copyright © 2024 ${service_name}. All Rights Reserved
                 </p>
                 </div>
-            <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/about_us" class="site-footer-link">About Us</a>
@@ -319,7 +319,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
