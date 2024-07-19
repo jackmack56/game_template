@@ -114,7 +114,7 @@
             <#list alikeGame as game>
 
               <div class="col-lg-6">
-                <a href="${game.gameUri}">
+                <a href="/details/${game.id}">
                 <div class="item">
                   <img src="${game.gameIcon}" alt="" class="templatemo-item">
                   <h4>Name</h4><span>${game.gameName}</span>
