@@ -12,7 +12,7 @@ https://templatemo.com/tm-584-pod-talk
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color: #0a0a0a;
   --primary-color:                #00CC99;
   --secondary-color:              #0066CC;
   --section-bg-color:             #f0f8ff;
@@ -144,6 +144,7 @@ strong {
 -----------------------------------------*/
 .section-title-wrap {
   position: relative;
+  margin-top: 6rem;
 }
 
 .section-title-wrap::after {
