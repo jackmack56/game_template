@@ -159,16 +159,6 @@
                                 </a>
                             </div>
                         </div>
-
-                        <div class="social-share d-flex flex-column ms-auto">
-                            <a href="#" class="badge ms-auto">
-                                <i class="bi-heart"></i>
-                            </a>
-
-                            <a href="#" class="badge ms-auto">
-                                <i class="bi-bookmark"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 </#list>
@@ -187,21 +177,28 @@
                     <a href="#">${advert.contactMail}</a>
                 </p>
                 <p>
-                    Copyright © 2023 GameUniverse. All Right Reserved.
+                    Copyright © 2024 ${service_name}. All Rights Reserved
                 </p>
             </div>
-            <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+                <h6 class="site-footer-title mb-5 "></h6>
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item mb-5 ">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
-                    <br>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+                <h6 class="site-footer-title mb-5 "></h6>
+                <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item mb-5">
                         <a href="/contact_us" class="site-footer-link">Contact Us</a>
                     </li>
