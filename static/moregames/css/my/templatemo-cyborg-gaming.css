@@ -826,6 +826,7 @@ Most Popular Style
   margin-top: 20px;
   margin-bottom: 0px;
   display: inline-block;
+  width: 10rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
