@@ -51,7 +51,6 @@
                         <a class="nav-link dropdown-toggle" id="navbarLightDropdownMenuLink" data-bs-toggle="dropdown"
                            aria-expanded="false">Category</a>
                         <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-
                             <#list game_types as type>
                                 <li><a class="dropdown-item" href="/type/${type}">${type}</a></li>
                             </#list>
@@ -311,6 +310,7 @@
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/about_us" class="site-footer-link">About Us</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item mb-5 ">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
@@ -318,6 +318,7 @@
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
+                    <br>
                     <li class="site-footer-link-item mb-5">
                         <a href="/contact_us" class="site-footer-link">Contact Us</a>
                     </li>

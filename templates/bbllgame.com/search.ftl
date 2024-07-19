@@ -79,7 +79,9 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Games List</h4>
+                        <h4 class="section-title">
+                            <#if category??> ${category}</#if>
+                            Games List</h4>
                     </div>
                 </div>
                 <#list all_game as game>
