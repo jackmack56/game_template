@@ -203,6 +203,8 @@
         <p>Copyright © 2024 <a href="/">${service_name}</a>
           Company. All rights reserved.
         </p>
+        <p>Email: ${advert.contactMail}</a>
+        </p>
       </div>
       <div class="col-lg-4">
           <p><a href="/about_us">About</a></p>

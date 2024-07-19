@@ -139,15 +139,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <p>Copyright © 2024 <a href="/">${service_name}</a> <br>
+                <p>Copyright © 2024 <a href="/">${service_name}</a>
                     Company. All rights reserved.
-                    <br><a target="_blank" href="/">${service_name}</a></p>
+                </p>
+                <p>Email: ${advert.contactMail}</a>
+                </p>
             </div>
             <div class="col-lg-4">
-                <a target="_blank" href="/about_us">About Us</a></p>
-                <a target="_blank" href="/privacy_policy">Privacy Policy</a></p>
-                <a target="_blank" href="/term_of_use">Term of Use</a></p>
-                <a target="_blank" href="/contact_us">Contact Us</a></p>
+                <p><a href="/about_us">About</a></p>
+                <p><a href="/privacy_policy">Privacy Policy</a></p>
+                <p><a href="/term_of_use">Terms os Use</a></p>
+                <p><a href="/contact_us">Contact Us</a></p>
             </div>
         </div>
     </div>

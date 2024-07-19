@@ -130,6 +130,26 @@
   </div>
 </div>
 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <p>Copyright © 2024 <a href="/">${service_name}</a>
+          Company. All rights reserved.
+        </p>
+        <p>Email: ${advert.contactMail}</a>
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <p><a href="/about_us">About</a></p>
+        <p><a href="/privacy_policy">Privacy Policy</a></p>
+        <p><a href="/term_of_use">Terms os Use</a></p>
+        <p><a href="/contact_us">Contact Us</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/${service_name}/js/my/isotope.min.js"></script>

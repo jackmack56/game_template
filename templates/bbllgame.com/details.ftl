@@ -67,9 +67,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-12">
-                    <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Introduce</h4>
-                    </div>
+<#--                    <div class="section-title-wrap mb-5">-->
+<#--                        <h4 class="section-title">Introduce</h4>-->
+<#--                    </div>-->
                     <div class="row">
                         <a href="${game.gameUri}">
                             <div class="col-lg-7 col-12 mx-auto">
