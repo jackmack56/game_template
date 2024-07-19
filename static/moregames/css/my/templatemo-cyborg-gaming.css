@@ -215,7 +215,7 @@ section {
 .heading-section h4 em {
   color: #fff;
   font-style: normal;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 /*
@@ -826,6 +826,9 @@ Most Popular Style
   margin-top: 20px;
   margin-bottom: 0px;
   display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .most-popular .item span {
