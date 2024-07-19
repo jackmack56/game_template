@@ -199,7 +199,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
+      <div class="col-lg-8">
         <p>Email: ${advert.contactMail}</a>
         </p>
         <p>Copyright © 2024 <a href="/">${service_name}</a>

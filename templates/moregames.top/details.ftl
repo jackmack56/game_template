@@ -137,7 +137,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-5">
+      <div class="col-lg-8">
         <p>Email: ${advert.contactMail}</a>
         </p>
         <p>Copyright © 2024 <a href="/">${service_name}</a>
@@ -155,7 +155,6 @@
     </div>
   </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/${service_name}/js/my/isotope.min.js"></script>
