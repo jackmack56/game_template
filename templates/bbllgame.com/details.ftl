@@ -65,11 +65,11 @@
 
     <header class="site-header d-flex flex-column justify-content-center align-items-center">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-12 text-center">
-                    <h2 class="mb-0">${game.gameName} Detail</h2>
-                </div>
-            </div>
+<#--            <div class="row">-->
+<#--                <div class="col-lg-12 col-12 text-center">-->
+<#--                    <h2 class="mb-0">${game.gameName} Detail</h2>-->
+<#--                </div>-->
+<#--            </div>-->
         </div>
     </header>
 
@@ -82,10 +82,9 @@
                     <div class="section-title-wrap mb-5">
                         <h4 class="section-title">Introduce</h4>
                     </div>
-
                     <div class="row">
                         <a href="${game.gameUri}">
-                        <div class="col-lg-7 col-12">
+                        <div class="col-lg-7 col-12 mx-auto">
                             <div class="custom-block-icon-wrap">
                                 <div class="custom-block-image-wrap custom-block-image-detail-page">
                                     <img src="${game.gamePreview}" class="custom-block-image img-fluid" alt="">
@@ -94,7 +93,7 @@
                         </div>
                         </a>
 
-                        <div class="col-lg-9 col-12">
+                        <div class="col-lg-9 col-12 mx-auto">
                             <div class="custom-block-info">
                                 <div class="custom-block-top d-flex mb-1">
                                     <small class="me-4">
