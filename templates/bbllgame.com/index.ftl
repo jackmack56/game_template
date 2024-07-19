@@ -184,7 +184,7 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Family Category Games</h4>
+                        <h4 class="section-title">Family Games</h4>
                     </div>
                 </div>
                 <#list all_game as game>
@@ -218,7 +218,7 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Action Category Gagmes</h4>
+                        <h4 class="section-title">Action Gagmes</h4>
                     </div>
                 </div>
                 <#list all_game as game>
@@ -252,7 +252,7 @@
             <div class="row">
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
-                        <h4 class="section-title">Adventure Category Gagmes</h4>
+                        <h4 class="section-title">Adventure  Gagmes</h4>
                     </div>
                 </div>
                 <#list all_game as game>
