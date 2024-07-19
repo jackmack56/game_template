@@ -12,7 +12,7 @@ https://templatemo.com/tm-584-pod-talk
   CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
-  --white-color: #0a0a0a;
+  --white-color: #f8f8f8;
   --primary-color:                #00CC99;
   --secondary-color:              #0066CC;
   --section-bg-color:             #f0f8ff;
@@ -259,7 +259,7 @@ main {
 }
 
 .site-header h2 {
-  color: var(--white-color);
+  color: #0a0a0a;
 }
 
 
