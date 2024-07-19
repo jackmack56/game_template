@@ -51,31 +51,34 @@
   <div class="row">
     <div class="col-lg-12">
       <div class="page-content">
-
-        <!-- ***** Featured Start ***** -->
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="feature-banner header-text">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="thumb">
-                    <img src="${game.gamePreview}" alt="" style="border-radius: 10px;">
-                     <a href="${game.gameUri}" target="_blank">Start</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+<#--        <div class="row">-->
+<#--          <div class="col-lg-12">-->
+<#--            <div class="feature-banner header-text">-->
+<#--              <div class="row">-->
+<#--                <div class="col-lg-8">-->
+<#--                  <div class="thumb">-->
+<#--                    <img src="${game.gamePreview}" alt="" style="border-radius: 10px;">-->
+<#--                     <a href="${game.gameUri}" target="_blank">Start</a>-->
+<#--                  </div>-->
+<#--                </div>-->
+<#--              </div>-->
+<#--            </div>-->
+<#--          </div>-->
+<#--        </div>-->
         <div class="game-details">
           <div class="row">
             <div class="col-lg-12">
-              <h2>FORTNITE DETAILS</h2>
-            </div>
-            <div class="col-lg-12">
               <div class="content">
                 <div class="row">
-                  <div class="col-lg-10">
+                  <div class="col-lg-10 mx-auto">
+
+                    <div class="col-lg-8">
+                      <div class="thumb">
+                        <img src="${game.gamePreview}" alt="" style="border-radius: 10px;">
+                        <a href="${game.gameUri}" target="_blank">Start</a>
+                      </div>
+                    </div>
+
                     <div class="left-info">
                       <div class="left">
                         <h4>${game.gameName}</h4>
