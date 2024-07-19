@@ -114,7 +114,7 @@
                         <#if game_index % 3 == 0 >
                             <div class="item">
                                 <ul>
-                                    <li><img src="${game.gameIcon}" alt="" class="templatemo-item"></li>
+                                    <li><img src="${game.gamePreview}" alt="" class="templatemo-item"></li>
                                     <li><h4>Game Name</h4><span>${game.gameName}</span></li>
                                     <li><h4>Category</h4><span>${game.gameCategory}</span></li>
                                     <li><h4>Hot Played</h4><span>${game.gameHot}</span></li>
