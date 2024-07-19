@@ -80,7 +80,7 @@
                 <div class="col-lg-12 col-12">
                     <div class="section-title-wrap mb-5">
                         <h4 class="section-title">
-                            <#if category??> ${category}</#if>
+                            ${category ! ''}
                             Games List</h4>
                     </div>
                 </div>
