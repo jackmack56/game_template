@@ -112,8 +112,9 @@
               </div>
             </div>
             <#list alikeGame as game>
-              <a href="${game.gameUri}">
+
               <div class="col-lg-6">
+                <a href="${game.gameUri}">
                 <div class="item">
                   <img src="${game.gameIcon}" alt="" class="templatemo-item">
                   <h4>Name</h4><span>${game.gameName}</span>
@@ -122,8 +123,9 @@
                     <li>${game.createTime?string("yyyy-MM-dd")}</li>
                   </ul>
                 </div>
+                </a>
               </div>
-              </a>
+
             </#list>
           </div>
         </div>
