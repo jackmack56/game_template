@@ -305,7 +305,7 @@
                         <a href="#">${advert.contactMail}</a>
                     </p>
                 <p>
-                    ${service_name} © 2024 GameUniverse. All Right Reserved.
+                    ${service_name} © 2024 GameUniverse. All Rights Reserved.
                 </p>
                 </div>
             <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
