@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>${advert.title}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/bgame.subfg.cn/css/my/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="/${service_name}/css/my/templatemo-cyborg-gaming.css">
 </head>
 <body>
 <div id="js-preloader" class="js-preloader">

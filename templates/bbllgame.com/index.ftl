@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand me-lg-5 me-0" href="/">
-                <img src="" class="logo-image img-fluid" alt="${service_name}">
+                <img src="/${service_name}/logo.jpg" class="logo-image img-fluid" alt="${service_name}">
             </a>
 
             <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
