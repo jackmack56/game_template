@@ -66,7 +66,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="main-border-button">
+                                        <div class="main-border-button mb-5">
                                             <a href="${game.gameUri}">Start Game Now!</a>
                                         </div>
 
