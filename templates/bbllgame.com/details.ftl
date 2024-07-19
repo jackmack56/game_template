@@ -187,6 +187,9 @@
                     <strong class="d-inline me-2">Email:</strong>
                     <a href="#">${advert.contactMail}</a>
                 </p>
+                <p>
+                    Copyright © 2023 GameUniverse. All Right Reserved.
+                </p>
             </div>
             <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
                 <ul class="site-footer-links">
