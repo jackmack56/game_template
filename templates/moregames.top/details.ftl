@@ -52,20 +52,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="page-content">
-                <#--        <div class="row">-->
-                <#--          <div class="col-lg-12">-->
-                <#--            <div class="feature-banner header-text">-->
-                <#--              <div class="row">-->
-                <#--                <div class="col-lg-8">-->
-                <#--                  <div class="thumb">-->
-                <#--                    <img src="${game.gamePreview}" alt="" style="border-radius: 10px;">-->
-                <#--                     <a href="${game.gameUri}" target="_blank">Start</a>-->
-                <#--                  </div>-->
-                <#--                </div>-->
-                <#--              </div>-->
-                <#--            </div>-->
-                <#--          </div>-->
-                <#--        </div>-->
+
                 <div class="game-details">
                     <div class="row">
                         <div class="col-lg-12">
@@ -73,10 +60,14 @@
                                 <div class="row">
                                     <div class="col-lg-10 mx-auto">
 
-                                        <div class="col-lg-8 mx-auto">
+                                        <div class="col-lg-8 mx-auto mb-5">
                                             <div class="thumb">
                                                 <img src="${game.gamePreview}" alt="" style="border-radius: 10px;">
                                             </div>
+                                        </div>
+
+                                        <div class="main-border-button">
+                                            <a href="${game.gameUri}">Start Game Now!</a>
                                         </div>
 
                                         <div class="left-info">
@@ -92,9 +83,7 @@
 
                                         <p>${game.gameDesc}</p>
 
-                                      <div class="main-border-button">
-                                        <a href="${game.gameUri}">Start Game Now!</a>
-                                      </div>
+
                                     </div>
                                 </div>
                             </div>
