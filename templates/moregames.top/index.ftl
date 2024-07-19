@@ -54,7 +54,7 @@
             <div class="col-lg-10">
               <div class="header-text">
                 <h4>Welcome To<em> ${service_name}</em></h4>
-                <h4><em>Browse</em> Our Popular Games Category</h4>
+                <h4><em>Browse</em> Our Popular Games</h4>
               </div>
             </div>
           </div>
@@ -199,18 +199,20 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-5">
+        <p>Email: ${advert.contactMail}</a>
+        </p>
         <p>Copyright © 2024 <a href="/">${service_name}</a>
           Company. All rights reserved.
         </p>
-        <p>Email: ${advert.contactMail}</a>
-        </p>
       </div>
-      <div class="col-lg-4">
-          <p><a href="/about_us">About</a></p>
-          <p><a href="/privacy_policy">Privacy Policy</a></p>
-          <p><a href="/term_of_use">Terms os Use</a></p>
-          <p><a href="/contact_us">Contact Us</a></p>
+      <div class="col-lg-2">
+        <p><a href="/about_us">About</a></p>
+        <p><a href="/privacy_policy">Privacy Policy</a></p>
+      </div>
+      <div class="col-lg-2">
+        <p><a href="/term_of_use">Terms os Use</a></p>
+        <p><a href="/contact_us">Contact Us</a></p>
       </div>
     </div>
   </div>

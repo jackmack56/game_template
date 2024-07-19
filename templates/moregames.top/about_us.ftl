@@ -28,6 +28,9 @@
         <div class="page-content">
             <div class="most-popular">
                 <div class="col-lg-8 col-12 mx-auto">
+                    <div class="heading-section">
+                        <h4><em>About</em> Us</h4>
+                    </div>
                     <div class="pb-5 mb-5">
                         <p></p>
                         <p>We're thrilled to present ${service_name}, a pioneering online gaming hub designed to connect global gamers with an array of diverse digital games. We house a broad spectrum of games on our platform, from educational to complex ones, catering to the entertainment needs of gamers of all age groups.</p>
