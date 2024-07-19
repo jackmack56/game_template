@@ -317,7 +317,10 @@
                     <li class="site-footer-link-item mb-5 ">
                         <a href="/privacy_policy" class="site-footer-link">Privacy Policy</a>
                     </li>
-                    <br>
+                </ul>
+            </div>
+            <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
+                <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
                         <a href="/term_of_use" class="site-footer-link">Term of Use</a>
                     </li>
