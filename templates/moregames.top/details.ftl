@@ -62,7 +62,7 @@
 
                                         <div class="col-lg-8 mx-auto mb-5">
                                             <div class="thumb">
-                                                <img class="mx-auto" src="${game.gamePreview}" alt="" style="border-radius: 10px;">
+                                                <img src="${game.gamePreview}" alt="" style="border-radius: 10px; margin-left: 3rem">
                                             </div>
                                         </div>
 
