@@ -112,6 +112,7 @@
               </div>
             </div>
             <#list alikeGame as game>
+              <a href="${game.gameUri}">
               <div class="col-lg-6">
                 <div class="item">
                   <img src="${game.gameIcon}" alt="" class="templatemo-item">
@@ -122,6 +123,7 @@
                   </ul>
                 </div>
               </div>
+              </a>
             </#list>
           </div>
         </div>

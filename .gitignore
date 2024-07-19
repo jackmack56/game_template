@@ -13,3 +13,4 @@ logs
 *.zip
 *.tar
 *.cjs
+*.tar.gz
