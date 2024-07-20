@@ -158,14 +158,29 @@
 
   <footer>
     <div class="container">
-      <div class="col-lg-12">
-        <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-          <a style="color: white !important;" href="/about_us.html">About Us</a>
-          <a style="color: white !important;" href="/privacy_policy.html">Privacy Policy</a>
-          <a style="color: white !important;" href="/term_of_use.html">Term of Use</a>
-          <a style="color: white !important;" href="/contact_us.html">Contact Us</a>
+      <div class="row">
+        <div class="col-lg-6">
+          <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
+            <p>Email: ${advert.contactMail}</a>
+            </p>
+            <p>Copyright © 2024 <a href="/">${service_name}</a>
+              Company. All rights reserved.
+            </p>
+          </div>
         </div>
-        <p>Copyright © 2024.Company ${service_name} All rights reserved.</p>
+        <div class="col-lg-3">
+          <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
+            <p><a style="color: white !important;" href="/about_us">About Us</a></p>
+            <p><a style="color: white !important;" href="/privacy_policy">Privacy Policy</a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
+            <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
+            <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

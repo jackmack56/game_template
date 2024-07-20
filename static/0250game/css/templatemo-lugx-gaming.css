@@ -20,17 +20,13 @@ Table of contents
 09. footer
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -109,10 +105,10 @@ img {
   overflow: hidden;
 }
 
-/* 
+/*
 ---------------------------------------------
 Global Styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -839,8 +835,9 @@ Trending Style
 
 .trending .item .thumb {
   position: relative;
-  border-radius: 25px;
+  border-radius: 1rem;
   overflow: hidden;
+  height: 15rem;
 }
 
 .trending .item span.price em {
@@ -933,8 +930,11 @@ Most Played Style
 
 .most-played .item .thumb {
   position: relative;
-  border-radius: 25px;
+  border-radius: 5px;
   overflow: hidden;
+  height: 9rem;
+  border: 1px solid;
+
 }
 
 .most-played .item .down-content {
@@ -952,6 +952,11 @@ Most Played Style
   font-size: 17px;
   font-weight: 600;
   transition: all .3s;
+  width: 9rem;
+  height: 1rem;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .most-played .item .down-content a {
