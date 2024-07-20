@@ -79,8 +79,9 @@
             <a href="/type/Action">View All</a>
           </div>
         </div>
+        <#assign newValue = 0>
         <#list new_game as game>
-          <#if index < 8>
+          <#if newValue < 8>
             <div class="col-lg-3 col-md-6">
               <div class="item">
                 <div class="thumb">
@@ -94,6 +95,7 @@
               </div>
             </div>
           </#if>
+          <#assign newValue ++>
         </#list>
       </div>
     </div>
