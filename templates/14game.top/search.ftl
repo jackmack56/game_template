@@ -89,24 +89,23 @@
 </section>
 <br>
 <div class="footer__nav">
-  <p>
-    Email: ${advert.contactMail}
-  </p>
-  <p>Copyright © 2024 <a href="/">${service_name}</a>
-    Company. All rights reserved.
-  </p>
-</div>
-<div class="footer__nav">
-  <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
-    <p>
-    <li><a href="/about_us">About Us</a></li>
-    <li><a href="/privacy_policy">Privacy Policy</a></li>
-    </p>
-    <p>
-    <li><a href="/term_of_use">Term of Use</a></li>
-    <li><a href="/contact_us">Contact Us</a></li>
-    </p>
-  </ul>
+    <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
+        <p>
+        <li>
+            Email: ${advert.contactMail}   <br>
+            Copyright © 2024 ${service_name}
+            Company. All rights reserved.
+        </li>
+        </p>
+        <p>
+        <li><a href="/about_us">About Us</a></li>
+        <li><a href="/privacy_policy">Privacy Policy</a></li>
+        </p>
+        <p>
+        <li><a href="/term_of_use">Term of Use</a></li>
+        <li><a href="/contact_us">Contact Us</a></li>
+        </p>
+    </ul>
 </div>
 <style>
     ul {

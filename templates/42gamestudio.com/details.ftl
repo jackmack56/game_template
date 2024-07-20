@@ -445,12 +445,14 @@
         </div>
     </section>
     <div class="footer__nav">
-        <p>
-            Email: ${advert.contactMail}
-        </p>
-        <p>Copyright © 2024 <a href="/">${service_name}</a>
-            Company. All rights reserved.
-        </p>
+        <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
+            <p>
+                Email: ${advert.contactMail}
+            </p>
+            <p>Copyright © 2024 <a href="/">${service_name}</a>
+                Company. All rights reserved.
+            </p>
+        </ul>
     </div>
     <div class="footer__nav">
         <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
