@@ -832,7 +832,6 @@ Trending Style
   border-radius: 25px;
   margin-bottom: 30px;
   height: 21rem;
-  border: 1px solid;
 }
 
 .trending .item .thumb {
@@ -840,6 +839,7 @@ Trending Style
   border-radius: 1rem;
   overflow: hidden;
   height: 15rem;
+  border: 1px solid;
 }
 
 .trending .item span.price em {
