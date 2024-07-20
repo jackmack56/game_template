@@ -1,29 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr" class="chrome windows">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- ===============================================-->
-  <!--    Document Title-->
-  <!-- ===============================================-->
-  <title>${service_name}</title>
-
-  <!-- ===============================================-->
-  <!--    Favicons-->
-  <!-- ===============================================-->
   <link rel="shortcut icon" type="image/x-icon" href="/7-9-2/assets/img/favicons/favicon.png">
-
-  <!-- ===============================================-->
-  <!--    Stylesheets-->
-  <!-- ===============================================-->
   <link rel="stylesheet" crossorigin="anonymous"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==">
-  <link href="/7-9-2/assets/css/theme.min.css" rel="stylesheet">
-  <link href="/7-9-2/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==">
+  <meta name="description" content="${advert.content}" />
+  <meta name="keywords" content="${advert.keywords}" />
+  <title>${advert.title}</title>
+  <link href="/${service_name}/assets/css/theme.min.css" rel="stylesheet">
+  <link href="/${service_name}/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
   <script src="chrome-extension://amkbmndfnliijdhojkpoglbnaaahippg/image/inject.js" id="imt-image-inject"></script>
   <style data-id="immersive-translate-input-injected-css">
     .immersive-translate-input {
@@ -373,9 +362,6 @@
 </head>
 
 <body>
-  <!-- ===============================================-->
-  <!--    Main Content-->
-  <!-- ===============================================-->
   <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
       style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
@@ -383,52 +369,41 @@
 
       </div>
     </nav>
-
-    <section class="mt-5">
+    <section>
       <div class="container">
-        <div class="text-center">
-          <div class="p-5 bg-primary rounded-3">
-            <div class="py-3">
-              <h4 class="opacity-50 ls-2 lh-base fw-medium">DETAIL</h4>
-              <h2 class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold">${game.gameName}</h2>
+
+        <div class="px-xl-8 px-md-7">
+          <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
+            <div class="input-group input-group-lg">
+              <input name="s" value="" type="search" class="form-control" id="search" placeholder="Search Game"
+                aria-label="Search" style="background-color: #0e1738;">
             </div>
-            <div class="py-3">
-              <img src="${game.gamePreview}" class="rounded-3" style="max-width: 100%; aspect-ratio: 2/1;object-fit: cover;" alt="">
-            </div>
-            <div class="py-3 d-flex gap-10" style="justify-content: center;color: white;">
-              <div>type: ${game.gameCategory}</div>
-              <div>${game.gameHot} ❤</div>
-            </div>
-            <div class="flex-center d-flex"><a href="${game.gameUri}" class="btn btn-info">PLAY <span class="fas fa-arrow-right"></span></a></div>
-          </div>
+          </form>
+        </div>
+        <div class="px-xl-8 px-md-7 mt-4 d-flex flex-wrap gap-4">
+          <#list game_types as game_type>
+            <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white" style="cursor: pointer;">${game_type}</span></a>
+          </#list>
         </div>
       </div><!-- end of .container-->
     </section>
 
-    <section>
-      <div class="container">
-        <h1 class="display-6 fw-semi-bold">Description</h1>
-        <p class="fs-2" style="max-height: 200px;overflow: auto;">
-          ${game.gameDesc}
-        </p>
-        <div class="px-xl-8 px-md-7">
-          <hr class="mt-7 text-1000">
-        </div>
-      </div>
-    </section>
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-      <section>
-        <div class="container">
-          <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
-          <div class="row d-flex flex-wrap">
-  
-            
-            <#list alikeGame as game>
+    <section>
+      <div class="container">
+        <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
+        <div class="row d-flex flex-wrap">
+
+          
+          <#assign hotValue=0>
+        <#list all_game as game>
+          <#if 4000 <=game.gameHot>
+
             <div class="col-md-6 mb-4">
-              <a href="/details/${game.id}" style="text-decoration: none;display: block;">
-                <div class="p-2 border rounded border-700 features-items" style="background-image: url(${game.gamePreview});background-size: cover;">
+              <a href="/details/${game.id}" class="border rounded-1 border-700 features-items" style="text-decoration: none;display: block;">
+                <div class="p-2" style="background-image: url(${game.gamePreview});background-size: cover;">
                   <div class=" rounded p-1" style="background-color: #0b153ccc;">
                     <div class="d-flex gap-2">
                       <img src="${game.gameIcon}" class="rounded border" alt="Folders" style="width:48px;height:48px;">
@@ -443,52 +418,34 @@
                 </div>
               </a>
             </div>
-          </#list>
-            
-  
-          </div>
-          <div class="px-xl-8 px-md-7">
-            <hr class="mt-7 text-1000">
-          </div>
+            <#assign hotValue++>
+          </#if>
+        </#list>
         </div>
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
-    
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-    <div class="footer__nav">
-      <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
-          <li class="active"><a href="/">Homepage</a></li>
-          <li><a href="/about_us">About Us</a></li>
-          <li><a href="/privacy_policy">Privacy Policy</a></li>
-          <li><a href="/term_of_use">Term of Use</a></li>
-          <li><a href="/contact_us">Contact Us</a></li>
-      </ul>
-  </div>
-  </main><!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
-
-
-
-  <!-- ===============================================-->
-  <!--    JavaScripts-->
-  <!-- ===============================================-->
-  <script src="/7-9-2/vendors/@popperjs/popper.min.js"></script>
-  <script src="/7-9-2/vendors/bootstrap/bootstrap.min.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+        <div class="px-xl-8 px-md-7">
+          <hr class="mt-7 text-1000">
+        </div>
+      </div>
+    </section>
+      <div class="footer__nav">
+        <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
+            <li class="active"><a href="/">Homepage</a></li>
+            <li><a href="/about_us">About Us</a></li>
+            <li><a href="/privacy_policy">Privacy Policy</a></li>
+            <li><a href="/term_of_use">Term of Use</a></li>
+            <li><a href="/contact_us">Contact Us</a></li>
+        </ul>
+    </div>
+  </main>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
-    rel="stylesheet">
-  <script src="/7-9-2/assets/js/theme.js"></script>
+        rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
-    rel="stylesheet">
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
+          rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="/${service_name}/vendors/@popperjs/popper.min.js"></script>
+  <script src="/${service_name}/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="/${service_name}/assets/js/theme.js"></script>
 </body>
 <div id="immersive-translate-popup" style="all: initial"></div>
 

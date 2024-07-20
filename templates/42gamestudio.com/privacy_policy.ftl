@@ -25,12 +25,6 @@
     </div>
   </div>
 </div>
-<!-- ***** Preloader End ***** -->
-
-<!-- ***** Header Area End ***** -->
-
-
-
 <div class="section most-played">
   <div class="container">
     <div class="row">

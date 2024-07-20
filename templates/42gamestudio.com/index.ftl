@@ -5,25 +5,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- ===============================================-->
-  <!--    Document Title-->
-  <!-- ===============================================-->
-  <title>${service_name}</title>
-
-  <!-- ===============================================-->
-  <!--    Favicons-->
-  <!-- ===============================================-->
   <link rel="shortcut icon" type="image/x-icon" href="/7-9-2/assets/img/favicons/favicon.png">
-
-  <!-- ===============================================-->
-  <!--    Stylesheets-->
-  <!-- ===============================================-->
   <link rel="stylesheet" crossorigin="anonymous"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==">
-  <link href="/7-9-2/assets/css/theme.min.css" rel="stylesheet">
-  <link href="/7-9-2/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <meta name="description" content="${advert.content}" />
+  <meta name="keywords" content="${advert.keywords}" />
+  <title>${advert.title}</title>
+  <link href="/${service_name}/assets/css/theme.min.css" rel="stylesheet">
+  <link href="/${service_name}/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
   <script src="chrome-extension://amkbmndfnliijdhojkpoglbnaaahippg/image/inject.js" id="imt-image-inject"></script>
   <style data-id="immersive-translate-input-injected-css">
     .immersive-translate-input {
@@ -373,29 +363,12 @@
 </head>
 
 <body>
-  <!-- ===============================================-->
-  <!--    Main Content-->
-  <!-- ===============================================-->
   <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
       style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
       <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">${service_name}</a>
-
       </div>
     </nav>
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
-    <!-- <section> close ============================-->
-    <!-- ============================================-->
-
     <section>
       <div class="container">
 
@@ -412,18 +385,12 @@
             <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white" style="cursor: pointer;">${game_type}</span></a>
           </#list>
         </div>
-      </div><!-- end of .container-->
+      </div>
     </section>
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
     <section>
       <div class="container">
         <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
         <div class="row d-flex flex-wrap">
-
-          
           <#assign hotValue=0>
         <#list all_game as game>
           <#if 4000 <=game.gameHot>
@@ -455,12 +422,7 @@
           <hr class="mt-7 text-1000">
         </div>
       </div>
-    </section><!-- <section> close ============================-->
-    <!-- ============================================-->
-
-
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
+    </section>
       <div class="footer__nav">
         <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
             <li class="active"><a href="/">Homepage</a></li>
@@ -470,24 +432,16 @@
             <li><a href="/contact_us">Contact Us</a></li>
         </ul>
     </div>
-  </main><!-- ===============================================-->
-  <!--    End of Main Content-->
-  <!-- ===============================================-->
-
-
-
-  <!-- ===============================================-->
-  <!--    JavaScripts-->
-  <!-- ===============================================-->
-  <script src="/7-9-2/vendors/@popperjs/popper.min.js"></script>
-  <script src="/7-9-2/vendors/bootstrap/bootstrap.min.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  </main>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap"
-    rel="stylesheet">
-  <script src="/7-9-2/assets/js/theme.js"></script>
+        rel="stylesheet">
   <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
-    rel="stylesheet">
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
+          rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <script src="/${service_name}/vendors/@popperjs/popper.min.js"></script>
+  <script src="/${service_name}/vendors/bootstrap/bootstrap.min.js"></script>
+  <script src="/${service_name}/assets/js/theme.js"></script>
 </body>
 <div id="immersive-translate-popup" style="all: initial"></div>
 
