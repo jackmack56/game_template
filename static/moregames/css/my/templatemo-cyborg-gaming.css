@@ -936,7 +936,7 @@ Footer Style
 */
 
 footer p {
-  text-align: center;
+  /*text-align: center;*/
   padding: 15px 0px;
   color: #fff;
   font-weight: 300;

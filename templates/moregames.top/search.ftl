@@ -150,7 +150,7 @@
                 <p><a href="/privacy_policy">Privacy Policy</a></p>
             </div>
             <div class="col-lg-2">
-                <p><a href="/term_of_use">Terms os Use</a></p>
+                <p><a href="/term_of_use">Terms of Use</a></p>
                 <p><a href="/contact_us">Contact Us</a></p>
             </div>
         </div>

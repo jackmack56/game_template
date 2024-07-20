@@ -393,10 +393,8 @@
     </section>
     <section>
         <div class="container">
-            <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
+            <h1 class="display-6 fw-semi-bold"> ${category ! ''} Games</h1>
             <div class="row d-flex flex-wrap">
-
-
                 <#assign hotValue=0>
                 <#list all_game as game>
                     <#if 4000 <=game.gameHot>

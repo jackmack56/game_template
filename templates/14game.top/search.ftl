@@ -65,6 +65,7 @@
 </section>
 <section class="section">
     <div class="columns">
+        <h2>${category ! ''} Games</h2>
         <#list all_game as game>
                 <div class="column is-4">
                     <a href="/details/${game.id}">
