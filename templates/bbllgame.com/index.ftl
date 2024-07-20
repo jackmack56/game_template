@@ -324,7 +324,7 @@
                 <h6 class="site-footer-title mb-5 "></h6>
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item mb-5 ml-5">
-                        <a href="/term_of_use" class="site-footer-link">Term of Use</a>
+                        <a href="/term_of_use" class="site-footer-link">Terms of Use</a>
                     </li>
                     <br>
                     <li class="site-footer-link-item mb-5">
