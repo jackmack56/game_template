@@ -70,8 +70,7 @@
       </form>
         <div class="col-lg-6">
           <div class="section-heading">
-            <h6>Trending</h6>
-            <h2>Trending Games</h2>
+            <h2>News Games</h2>
           </div>
         </div>
         <div class="col-lg-6">
@@ -106,7 +105,6 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="section-heading">
-            <h6>TOP GAMES</h6>
             <h2>Puzzle Played</h2>
           </div>
         </div>
