@@ -37,7 +37,7 @@
                         <li><a href="/" class="active">Home</a></li>
                         <li><a href="/about_us">About</a></li>
                         <li><a href="/privacy_policy">Privacy Policy</a></li>
-                        <li><a href="/term_of_use">Terms os Use</a></li>
+                        <li><a href="/term_of_use">Terms of Use</a></li>
                         <li><a href="/contact_us">Contact Us</a></li>
                     </ul>
                     <a class='menu-trigger'>
