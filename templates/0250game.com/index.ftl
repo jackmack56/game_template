@@ -144,21 +144,21 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-6">
           <p>Email: ${advert.contactMail}</a>
           </p>
           <p>Copyright © 2024 <a href="/">${service_name}</a>
             Company. All rights reserved.
           </p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
             <p><a style="color: white !important;" href="/about_us">About Us</a></p>
             <p><a style="color: white !important;" href="/privacy_policy">Privacy Policy</a></p>
           </div>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-lg-3">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
             <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
             <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
