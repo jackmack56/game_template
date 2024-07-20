@@ -80,18 +80,20 @@
           </div>
         </div>
         <#list new_game as game>
-          <div class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="thumb">
-                <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""></a>
-              </div>
-              <div class="down-content">
-                <span class="category">${game.gameCategory}</span>
-                <h4>${game.gameName}</h4>
-                <a href="/details/${game.id}"><i class="fa fa-play"></i></a>
+          <#if index < 8>
+            <div class="col-lg-3 col-md-6">
+              <div class="item">
+                <div class="thumb">
+                  <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <span class="category">${game.gameCategory}</span>
+                  <h4>${game.gameName}</h4>
+                  <a href="/details/${game.id}"><i class="fa fa-play"></i></a>
+                </div>
               </div>
             </div>
-          </div>
+          </#if>
         </#list>
       </div>
     </div>
