@@ -109,9 +109,8 @@
       <div class="row">
         <div class="col-lg-6">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-            <p>Email: ${advert.contactMail}</a>
-            </p>
-            <p>Copyright © 2024 <a href="/">${service_name}</a>
+            <p>Email: ${advert.contactMail}</a> <br>
+              Copyright © 2024 <a href="/">${service_name}</a>
               Company. All rights reserved.
             </p>
           </div>

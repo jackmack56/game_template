@@ -48,7 +48,7 @@
         <p>Our site brings to life a universe brimming with virtual reality and action-filled AI games. Gear up for a heightened gaming journey as you discover our vast array of online flash games, defined by their innovative, creative, and engaging qualities.</p>
         <p>Acknowledging the variety of gamer interests, we present a unique and extensive collection of premier online games to suit an assortment of preferences. Our core ambition is to quench your gaming curiosity, offer consistent entertainment, and deliver an action-filled gaming encounter.</p>
         <p>Stay in touch with us and say goodbye to monotony! Our intuitive and easy-to-navigate gaming website showcases a comprehensive list of complimentary online games spread across diverse genres, including arcade, sports, adventure, racing, action, puzzle, and more. Irrespective of your location, you can access the finest games at any time, breaking the constraints of geographical borders.</p>
-        <p>Don't hold back any longer! Stay with gameregions today to vanquish boredom and experience unparalleled gaming fun!</p>
+        <p>Don't hold back any longer! Stay with ${service_name} today to vanquish boredom and experience unparalleled gaming fun!</p>
       </div>
     </div>
   </div>
