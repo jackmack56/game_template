@@ -81,7 +81,6 @@
         </div>
         <div class="col-lg-6">
         </div>
-        <!-- list -->
         <#list all_game as game>
           <div class="col-lg-3 col-md-6">
             <div class="item">

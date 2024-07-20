@@ -79,10 +79,7 @@
             <a href="/type/Action">View All</a>
           </div>
         </div>
-        <!-- list -->
-        <#assign hotValue = 0>
-        <#list all_game as game>
-          <#if 4000 <= game.gameHot && hotValue < 8>
+        <#list new_game as game>
           <div class="col-lg-3 col-md-6">
             <div class="item">
               <div class="thumb">
@@ -95,8 +92,6 @@
               </div>
             </div>
           </div>
-            <#assign hotValue++>
-          </#if>
         </#list>
       </div>
     </div>
@@ -108,7 +103,7 @@
         <div class="col-lg-6">
           <div class="section-heading">
             <h6>TOP GAMES</h6>
-            <h2>Most Played</h2>
+            <h2>Puzzle Played</h2>
           </div>
         </div>
         <div class="col-lg-6">
@@ -116,10 +111,9 @@
             <a href="/type/Puzzle">View All</a>
           </div>
         </div>
-        <!-- list -->
         <#assign hotValue = 0>
         <#list all_game as game>
-          <#if 4000 <= game.gameHot && hotValue < 12>
+          <#if "Puzzle" == game.gameCategory && hotValue < 12>
           <div class="col-lg-2 col-md-6 col-sm-6">
             <div class="item">
               <div class="thumb">
@@ -140,6 +134,52 @@
   </div>
 
 
+  <div class="section most-played">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h2>Action Played</h2>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="main-button">
+            <a href="/type/Action">View All</a>
+          </div>
+        </div>
+        <#assign actionValue = 0>
+        <#list all_game as game>
+          <#if "Action" == game.gameCategory && actionValue < 12>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="item">
+                <div class="thumb">
+                  <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <span class="category">${game.gameCategory}</span>
+                  <h4>${game.gameName}</h4>
+                  <a href="/details/${game.id}">Explore</a>
+                </div>
+              </div>
+            </div>
+            <#assign actionValue++>
+          </#if>
+        </#list>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section most-played">
+    <div class="container">
+      <h4>${advert.serviceName} Describing</h4>
+      <p>
+        ${advert.content}
+      </p>
+    </div>
+  </div>
+
+
 
   <footer>
     <div class="container">
@@ -153,17 +193,13 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
             <p><a style="color: white !important;" href="/about_us">About Us</a></p>
             <p><a style="color: white !important;" href="/privacy_policy">Privacy Policy</a></p>
-          </div>
         </div>
 
         <div class="col-lg-3">
-          <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
             <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
             <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
-          </div>
         </div>
       </div>
     </div>
