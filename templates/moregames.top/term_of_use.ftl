@@ -32,7 +32,7 @@
                         <div class="heading-section">
                             <h4><em>Terms of Use</em></h4>
                         </div>
-                        <p></p>
+                        <p></p><br>
                         <h3>1.ACCEPTANCE OF TERMS OF USE</h3>
                         <p>By using or accessing the Websites and Services, you are accepting the Terms of Use. ${service_name} reserves the right to update the Terms of Use at any time without notice to you. The most current version of the Terms of Use can be reviewed by clicking on the "Terms of Use" hypertext link located at the bottom of the pages of the Websites.</p>
                         <h3>2. LINKS TO THIRD PARTY SITES AND THIRD PARTY ADVERTISERS</h3>
