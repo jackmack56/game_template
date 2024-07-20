@@ -1,7 +1,5 @@
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link
@@ -18,7 +16,6 @@
   <link rel="stylesheet" href="/${service_name}/css/animate.css">
   <link rel="stylesheet" href="/${service_name}/css/swiper-bundle.min.css">
 </head>
-
 <body>
   <div id="js-preloader" class="js-preloader loaded">
     <div class="preloader-inner">
@@ -156,15 +153,15 @@
         </div>
         <div class="col-lg-2">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-            <a style="color: white !important;" href="/about_us">About Us</a>
-            <a style="color: white !important;" href="/privacy_policy">Privacy Policy</a>
+            <p><a style="color: white !important;" href="/about_us">About Us</a></p>
+            <p><a style="color: white !important;" href="/privacy_policy">Privacy Policy</a></p>
           </div>
         </div>
 
         <div class="col-lg-2">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-            <a style="color: white !important;" href="/term_of_use">Term of Use</a>
-            <a style="color: white !important;" href="/contact_us">Contact Us</a>
+            <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
+            <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
           </div>
         </div>
       </div>
