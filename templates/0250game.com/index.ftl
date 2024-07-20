@@ -194,12 +194,12 @@
           </p>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mt-5">
             <p><a style="color: white !important;" href="/about_us">About Us</a></p>
             <p><a style="color: white !important;" href="/privacy_policy">Privacy Policy</a></p>
         </div>
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 mt-5">
             <p><a style="color: white !important;" href="/term_of_use">Terms of Use</a></p>
             <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
         </div>
