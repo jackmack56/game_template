@@ -200,7 +200,7 @@
         </div>
 
         <div class="col-lg-3">
-            <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
+            <p><a style="color: white !important;" href="/term_of_use">Terms of Use</a></p>
             <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
         </div>
       </div>

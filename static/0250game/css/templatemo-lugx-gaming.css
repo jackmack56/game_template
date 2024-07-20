@@ -1116,14 +1116,6 @@ CTA Style
 .cta .subscribe form button:hover {
   background-color: #0071f8;
 }
-
-
-/* 
----------------------------------------------
-Footer Style
---------------------------------------------- 
-*/
-
 footer {
   margin-top: 200px;
   background-color: #0071f8;
@@ -1133,7 +1125,6 @@ footer {
   min-height: 150px;
   border-radius: 150px 150px 0px 0px;
 }
-
 footer p {
   text-align: center;
   line-height: 40px;
@@ -1153,12 +1144,6 @@ footer p a:hover {
   opacity: 0.75;
 }
 
-
-/* 
----------------------------------------------
-Page Header Style
---------------------------------------------- 
-*/
 
 .page-heading {
   background-image: url(../images/page-heading-bg.jpg);

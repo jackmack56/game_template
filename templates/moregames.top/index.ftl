@@ -134,7 +134,7 @@
           <div class="row">
             <div class="col-lg-14">
               <div class="heading-section">
-                <h4><em>Action Category</em> Games</h4>
+                <h4><em>Action</em> Games</h4>
               </div>
               <div class="row">
                 <#assign typeNumber = 0>

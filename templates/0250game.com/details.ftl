@@ -176,7 +176,7 @@
 
         <div class="col-lg-3">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
-            <p><a style="color: white !important;" href="/term_of_use">Term of Use</a></p>
+            <p><a style="color: white !important;" href="/term_of_use">Terms of Use</a></p>
             <p><a style="color: white !important;" href="/contact_us">Contact Us</a></p>
           </div>
         </div>
