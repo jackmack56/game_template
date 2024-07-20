@@ -831,6 +831,8 @@ Trending Style
   overflow: hidden;
   border-radius: 25px;
   margin-bottom: 30px;
+  height: 21rem;
+  border: 1px solid;
 }
 
 .trending .item .thumb {
