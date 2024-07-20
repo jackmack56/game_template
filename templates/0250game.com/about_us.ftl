@@ -40,7 +40,7 @@
   <div class="container">
     <div class="row">
       <div data-v-362b6a26="" class="mid_content">
-        <h2>About Us</h2>
+        <h1>About Us</h1>
         <p>We're thrilled to present ${service_name}, a pioneering online gaming hub designed to connect global gamers with an array of diverse digital games. We house a broad spectrum of games on our platform, from educational to complex ones, catering to the entertainment needs of gamers of all age groups.</p>
         <p>At ${service_name}, our games come at no cost, promoting inclusivity for all, irrespective of their financial capabilities. We're passionate about making gaming universally accessible and enjoyable.</p>
         <p>Our ethos at ${service_name} is centered on crafting engaging gaming experiences for global audiences. We remain steadfast in our commitment to offer the pinnacle of player experiences and to let every gamer truly immerse themselves in the vast gaming universe.</p>

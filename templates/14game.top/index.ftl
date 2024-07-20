@@ -82,10 +82,18 @@
         </#list>
     </div>
 </section>
-<br>
-<div class="footer__nav">
 
-</div>
+<section class="section">
+    <div class="columns">
+        <h4>${advert.serviceName} Describing</h4>
+        <p>
+            ${advert.content}
+        </p>
+    </div>
+</section>
+
+<br>
+
 <div class="footer__nav">
     <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
         <p>

@@ -422,14 +422,21 @@
                         <#assign hotValue++>
                     </#if>
                 </#list>
-
-
             </div>
-            <div class="px-xl-8 px-md-7">
-                <hr class="mt-7 text-1000">
-            </div>
+
         </div>
     </section>
+
+    <section>
+        <div class="container">
+            <h4>${advert.serviceName} Describing</h4>
+            <p>
+                ${advert.content}
+            </p>
+        </div>
+    </section>
+
+
     <div class="footer__nav">
         <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
             <p>

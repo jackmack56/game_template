@@ -39,6 +39,7 @@
   <div class="container">
     <div class="row">
       <div class="content_container">
+        <h1>Privacy Policy</h1>
         <h2>1. General and definitions</h2>
         <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the ${service_name}. The use of the Internet pages of the ${service_name} is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
         <br>
