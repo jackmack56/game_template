@@ -195,7 +195,6 @@
 
         <div class="gaming-library">
           <div class="col-lg-12">
-            <h4>${advert.serviceName} Describing</h4>
             <p>
               ${advert.content}
             </p>

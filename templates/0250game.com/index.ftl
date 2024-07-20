@@ -174,7 +174,6 @@
 
   <div class="section most-played">
     <div class="container">
-      <h4>${advert.serviceName} Describing</h4>
       <p>
         ${advert.content}
       </p>

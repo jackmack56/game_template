@@ -340,7 +340,7 @@ Header Style
 }
 
 .header-area .main-nav ul.nav {
-  border-radius: 0px 0px 25px 25px;
+  border-radius: 0px 0px 30px 30px;
   /* flex-basis: 100%; */
   flex: 1 1 auto;
   margin-top: 10px;
@@ -654,7 +654,7 @@ Banner Style
 
 .main-banner {
   background-image: url(/image/banner-bg.jpg);
-  border-radius: 0px 0px 150px 150px;
+  border-radius: 0px 0px 25px 25px;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -758,7 +758,7 @@ Banner Style
   position: absolute;
   left: -25px;
   bottom: -25px;
-  border-radius: 50%;
+  border-radius: 25px;
   background-color: #ee626b;
   font-size: 28px;
   text-transform: uppercase;
@@ -914,7 +914,7 @@ Most Played Style
 .most-played {
   background-color: #f7f7f7;
   padding: 100px 0px;
-  border-radius: 150px;
+  border-radius: 25px;
 }
 
 .most-played .main-button {
@@ -1123,7 +1123,7 @@ footer {
   background-size: cover;
   background-image: url(/image/footer-bg.jpg);
   min-height: 150px;
-  border-radius: 150px 150px 0px 0px;
+  border-radius: 25px 25px 0px 0px;
 }
 footer p {
   text-align: center;

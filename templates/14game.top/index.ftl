@@ -85,7 +85,6 @@
 
 <section class="section">
     <div class="columns">
-        <h4>${advert.serviceName} Describing</h4>
         <p>
             ${advert.content}
         </p>
