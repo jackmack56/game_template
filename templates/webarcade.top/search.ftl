@@ -204,7 +204,6 @@
             <div class="col-lg-6">
                 <div class="footer__nav">
                     <ul>
-                        <li class="active"><a href="/">Homepage</a></li>
                         <li><a href="/about_us">About Us</a></li>
                         <li><a href="/privacy_policy">Privacy Policy</a></li>
                         <li><a href="/term_of_use">Terms of Use</a></li>

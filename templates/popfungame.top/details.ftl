@@ -1,24 +1,16 @@
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Inkognito - private investigator HTML website template">
-  <!-- fav icon -->
-  
-
-  <!-- bootstarp css file -->
-  <link rel="stylesheet" href="/7-6-1/css/bootstrap.min.css">
-
-  <!--  toasts file     -->
-  <link rel="stylesheet" href="/7-6-1/css/toastr.min.css">
-
-  <!-- fontawesome icons -->
-  <link rel="stylesheet" href="/7-6-1/css/all.min.css">
-  <link rel="stylesheet" href="/7-6-1/css/all.min1.css">
-
-  <!-- main css file -->
-  <link rel="stylesheet" href="/7-6-1/css/styles.css">
-  <title>agentic - creative digital agency website template</title>
+  <meta name="description" content="${advert.content}"/>
+  <meta name="keywords" content="${advert.keywords}"/>
+  <title>${service_name}</title>
+  <link rel="stylesheet" href="/${service_name}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/${service_name}/css/toastr.min.css">
+  <link rel="stylesheet" href="/${service_name}/css/all.min.css">
+  <link rel="stylesheet" href="/${service_name}/css/all.min1.css">
+  <link rel="stylesheet" href="/${service_name}/css/styles.css">
 </head>
 
 <body class="body      pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
@@ -192,37 +184,15 @@
       </div>
     </div>
   </section>
-  
 
-
-  <!--  JQuery file     -->
-  <script src="/7-6-1/js/jquery-3.6.1.min.js"></script>
-
-  <!--  JQuery pace file     -->
-  <script src="/7-6-1/js/pace.js"></script>
-
-  <!--  JQuery bez file     -->
-  <script src="/7-6-1/js/jquery.bez.js"></script>
-
-  <!--  toasts file     -->
-  <script src="/7-6-1/js/toastr.min.js"></script>
-
-  <!--  JQuery TweenMax file     -->
-  <script src="/7-6-1/js/TweenMax.min.js"></script>
-
-  <!--  owl carousel file     -->
-  <script src="/7-6-1/js/owl.carousel.min.js"></script>
-
-  <!--  bootstrap bundle js file     -->
-  <script src="/7-6-1/js/bootstrap.bundle.min.js"></script>
-
-  <!--  counter     -->
-  <script src="/7-6-1/js/jquery.counterup.min.js"></script>
-  <script src="/7-6-1/js/jquery.waypoints.js"></script>
-
-  <!--  main js file  -->
-  <script src="/7-6-1/js/main.js"></script>
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="/${service_name}/js/pace.js"></script>
+<script src="/${service_name}/js/jquery.bez.js"></script>
+<script src="/${service_name}/js/toastr.min.js"></script>
+<script src="/${service_name}/js/TweenMax.min.js"></script>
+<script src="/${service_name}/js/owl.carousel.min.js"></script>
+<script src="/${service_name}/js/bootstrap.bundle.min.js"></script>
+<script src="/${service_name}/js/jquery.counterup.min.js"></script>
+<script src="/${service_name}/js/jquery.waypoints.js"></script>
+<script src="/${service_name}/js/main.js"></script>
 </body></html>
