@@ -28,12 +28,9 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
                     <a href="/" class="logo">
-                        <img src="assets/images/logo.png" alt="">
+                        <img src="/${service_name}/logo.png" alt="" style="width: 80px; margin-top: -20px;">
                     </a>
-                    <!-- ***** Search End ***** -->
-                    <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li><a href="/" class="active">Home</a></li>
                         <li><a href="/about_us">About</a></li>
@@ -44,13 +41,11 @@
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>
-                    <!-- ***** Menu End ***** -->
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<!-- ***** Header Area End ***** -->
 
 <div class="container">
 
@@ -65,9 +60,6 @@
                 </div>
             </div>
             <div class="gaming-library">
-                <div class="heading-section">
-                    <h4><em>Category</em> Games</h4>
-                </div>
                 <div class="main-button">
                     <#list game_types as type>
                         <a href="/type/${type}">${type}</a>

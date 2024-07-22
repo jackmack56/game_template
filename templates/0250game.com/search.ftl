@@ -30,22 +30,14 @@
       </div>
     </div>
   </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
             <a href="/" class="logo">
-              <h1>
-                ${service_name}
-              </h1>
+              <img src="/${service_name}/logo.png" alt="" style="width: 30%">
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
             <div style="overflow: auto;">
               <ul class="nav">
                 <#list game_types as game_type>
@@ -56,13 +48,11 @@
             <a class="menu-trigger">
               <span>Menu</span>
             </a>
-            <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
     </div>
   </header>
-  <!-- ***** Header Area End ***** -->
 
   <div class="main-banner">
 

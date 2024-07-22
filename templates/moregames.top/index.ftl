@@ -27,7 +27,7 @@
     <div class="row">
       <div class="col-12">
         <nav class="main-nav">
-          <a href="index.html" class="logo">
+          <a href="/" class="logo">
             <img src="/${service_name}/logo.png" alt="" style="width: 80px; margin-top: -20px;">
           </a>
           <ul class="nav">

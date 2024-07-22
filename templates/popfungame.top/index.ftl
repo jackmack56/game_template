@@ -94,7 +94,7 @@
         <div class="row g-4">
             <#assign hotValue = 0>
             <#list all_game as game>
-                <#if 4000 <= game.gameHot && hotValue < 20>
+                <#if hotValue < 80>
 
                     <div class="col-lg-4 col-12">
                         <a href="/details/${game.id}" class="d-flex flex-column padding-16 gap-32 bg-box">

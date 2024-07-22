@@ -367,8 +367,8 @@
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
-        <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">${service_name}</a>
-
+        <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
+                <img src="/${service_name}/logo.png" alt="" style="height: 67px"></a>
         </div>
     </nav>
 

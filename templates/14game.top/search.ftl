@@ -20,17 +20,17 @@
 
 <body>
 <nav class="navbar is-info" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-      <h1 class="is-size-4">${service_name}</h1>
-    </a>
-    <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false"
-       data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/${service_name}/logo.png" alt="" style="max-height: 3.75rem;">
+        </a>
+        <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false"
+           data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
 </nav>
 <script>
     $(document).ready(function () {
