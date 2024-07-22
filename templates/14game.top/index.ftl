@@ -98,8 +98,7 @@
         <p>
             <li>
             Email: ${advert.contactMail}   <br>
-            Copyright © 2024 ${service_name}
-            Company. All rights reserved.
+            Copyright © 2024 ${service_name}. All Rights Reserved.
             </li>
         </p>
         <p>
