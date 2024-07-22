@@ -33,7 +33,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <a href="/" class="logo">
-              <img src="/${service_name}/logo.png" alt="">
+              <img src="/${service_name}/logo.png" alt="" style="width: 30%">
             </a>
             <div style="overflow: auto;">
               <ul class="nav">
