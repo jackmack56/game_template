@@ -33,9 +33,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <a href="/" class="logo">
-              <h1>
-                ${service_name}
-              </h1>
+              <img src="/${service_name}/logo.png" alt="">
             </a>
             <div style="overflow: auto;">
               <ul class="nav">

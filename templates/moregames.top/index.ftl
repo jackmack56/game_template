@@ -28,7 +28,7 @@
       <div class="col-12">
         <nav class="main-nav">
           <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="">
+            <img src="/${service_name}/logo.png" alt="">
           </a>
           <ul class="nav">
             <li><a href="/" class="active">Home</a></li>

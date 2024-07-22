@@ -22,7 +22,7 @@
 <nav class="navbar is-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <h1 class="is-size-4">${service_name}</h1>
+            <img src="/${service_name}/logo.png" alt="">
         </a>
         <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false"
            data-target="navbarBasicExample">
