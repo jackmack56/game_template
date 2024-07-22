@@ -180,7 +180,7 @@
                         <li class="active"><a href="/">Homepage</a></li>
                         <li><a href="/about_us">About Us</a></li>
                         <li><a href="/privacy_policy">Privacy Policy</a></li>
-                        <li><a href="/term_of_use">Term of Use</a></li>
+                        <li><a href="/term_of_use">Terms of Use</a></li>
                         <li><a href="/contact_us">Contact Us</a></li>
                     </ul>
                 </div>
@@ -190,8 +190,6 @@
                 </p>
                 <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.
                 </p>
-
-
             </div>
         </div>
     </div>

@@ -45,7 +45,6 @@
                             <li class="active"><a href="/">Homepage</a></li>
                             <li><a style="pointer-events: none;">Categories</a>
                                 <ul class="dropdown">
-                                    <!-- type list -->
                                     <#list game_types as game_type>
                                         <li><a href="/type/${game_type}">${game_type}</a></li>
                                     </#list>
@@ -208,7 +207,7 @@
                         <li class="active"><a href="/">Homepage</a></li>
                         <li><a href="/about_us">About Us</a></li>
                         <li><a href="/privacy_policy">Privacy Policy</a></li>
-                        <li><a href="/term_of_use">Term of Use</a></li>
+                        <li><a href="/term_of_use">Terms of Use</a></li>
                         <li><a href="/contact_us">Contact Us</a></li>
                     </ul>
                 </div>
