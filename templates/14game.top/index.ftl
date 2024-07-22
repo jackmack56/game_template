@@ -107,9 +107,7 @@
         <p>
         <li><a href="/about_us">About Us</a></li>
         <li><a href="/privacy_policy">Privacy Policy</a></li>
-        </p>
         <br>
-        <p>
         <li><a href="/term_of_use">Terms of Use</a></li>
         <li><a href="/contact_us">Contact Us</a></li>
         </p>
