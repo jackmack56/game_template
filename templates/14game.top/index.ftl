@@ -86,7 +86,7 @@
 <hr>
 <section class="section" style="margin-top: 20px;">
     <div class="columns"  >
-        <p style="text-align: center; word-spacing: 1px; font-size: 25px; ">
+        <p style="font-size: 15px; ">
             ${advert.content}
         </p>
     </div>
@@ -94,12 +94,12 @@
 <br>
 
 <hr>
-<div class="footer__nav" style="margin-top: 20px">
+<div class="footer__nav" style="margin-top: 20px; font-size: 20px; font-weight: bolder">
     <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center;
     padding-top: 20px;
      padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
         <p>
-            <li style="font-size: 20px; font-weight: bolder">
+            <li >
             Email: ${advert.contactMail}   <br>
             Copyright © 2024 ${service_name}. All Rights Reserved.
             </li>
