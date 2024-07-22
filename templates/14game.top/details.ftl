@@ -45,10 +45,6 @@
     });
 </script>
 <section class="section">
-    <h1 class="title">${game.gameName}</h1>
-
-</section>
-<section class="section">
     <div class="columns">
         <div class="column">
             <div class="card">

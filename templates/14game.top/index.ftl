@@ -83,9 +83,10 @@
     </div>
 </section>
 
-<section class="section">
-    <div class="columns">
-        <p>
+<hr>
+<section class="section" style="margin-top: 20px;">
+    <div class="columns"  >
+        <p style="text-align: center; word-spacing: 5px; font-size: 25px; ">
             ${advert.content}
         </p>
     </div>
@@ -96,7 +97,7 @@
 <div class="footer__nav">
     <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
         <p>
-            <li>
+            <li style="font-size: 20px; font-weight: bolder">
             Email: ${advert.contactMail}   <br>
             Copyright © 2024 ${service_name}. All Rights Reserved.
             </li>
