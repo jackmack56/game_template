@@ -121,7 +121,8 @@
                         <div class="row">
                                 <#assign hotValue=0>
                                 <#list all_game as game>
-                                    <#if  hotValue < 10>
+                                    <#if 4000 <=game.gameHot && hotValue < 20>
+
                                         <div class="col-lg-4 col-md-6 col-sm-6">
                                             <a href="/details/${game.id}" class="product__item">
                                                 <div class="product__item__pic set-bg" data-setbg="${game.gamePreview}">
@@ -151,7 +152,7 @@
                         <div class="row">
                             <#assign hotValue=0>
                             <#list all_game as game>
-                                <#if  10 <  hotValue && hotValue < 30 >
+                                <#if hotValue < 20>
                                     <div class="col-lg-4 col-md-6 col-sm-6">
                                         <a href="/details/${game.id}" class="product__item">
                                             <div class="product__item__pic set-bg" data-setbg="${game.gamePreview}">
@@ -180,7 +181,7 @@
                             <div class="filter__gallery">
                                 <#assign hotValue=0>
                                 <#list all_game as game>
-                                <#if  30 <  hotValue && hotValue < 50 >
+                                <#if game.featured == true && hotValue < 20>
                                 <div class="product__sidebar__view__item set-bg mix day years"
                                 data-setbg="${game.gamePreview}">
                                     <div class="view"><i class="fa fa-eye"></i> ${game.gameHot}</div>
@@ -197,9 +198,11 @@
                             <div class="section-title">
                                 <h5>New Comment</h5>
                             </div>
+
                             <#assign hotValue=0>
                             <#list all_game?sort_by("createTime", "desc") as game>
-                                <#if  50 <  hotValue && hotValue < 80 >
+                            <#if game.featured == true && hotValue < 10>
+
                                 <div class="product__sidebar__comment__item">
                                     <div style="width: 30%;" class="product__sidebar__comment__item__pic">
                                         <img style="object-fit: cover;" src="${game.gamePreview}" alt="">
