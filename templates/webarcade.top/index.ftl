@@ -178,6 +178,7 @@
                                 <h5>Top Views</h5>
                             </div>
                             <div class="filter__gallery">
+                                <#assign hotValue=0>
                                 <#list all_game as game>
                                 <#if  30 <  hotValue && hotValue < 50 >
                                 <div class="product__sidebar__view__item set-bg mix day years"
@@ -196,6 +197,7 @@
                             <div class="section-title">
                                 <h5>New Comment</h5>
                             </div>
+                            <#assign hotValue=0>
                             <#list all_game?sort_by("createTime", "desc") as game>
                                 <#if  50 <  hotValue && hotValue < 80 >
                                 <div class="product__sidebar__comment__item">
