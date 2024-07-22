@@ -44,18 +44,6 @@
         });
     });
 </script>
-<section class="section intro">
-    <h1 class="title is-size-1 text-blue">H5 Games</h1>
-    <style>
-        .block {
-            margin-bottom: 0.5em !important;
-        }
-
-        .is-large-font {
-            font-size: 2em !important;
-        }
-    </style>
-</section>
 <section class="section">
     <div class="buttons">
         <#list game_types as game_type>
