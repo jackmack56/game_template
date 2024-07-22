@@ -105,20 +105,21 @@
     </div>
 </section>
 <br>
-<div class="footer__nav">
-    <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
+<hr>
+<div class="footer__nav" style="margin-top: 20px; font-size: 20px; font-weight: bolder">
+    <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center;
+    padding-top: 20px;
+     padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
         <p>
-        <li>
+        <li >
             Email: ${advert.contactMail}   <br>
-            Copyright © 2024 ${service_name}
-            Company. All rights reserved.
+            Copyright © 2024 ${service_name}. All Rights Reserved.
         </li>
         </p>
         <p>
         <li><a href="/about_us">About Us</a></li>
         <li><a href="/privacy_policy">Privacy Policy</a></li>
-        </p>
-        <p>
+        <br>
         <li><a href="/term_of_use">Terms of Use</a></li>
         <li><a href="/contact_us">Contact Us</a></li>
         </p>
