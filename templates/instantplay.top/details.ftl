@@ -108,7 +108,7 @@
             </a>
             <p>${advert.content}</p>
         </div>
-        <div class="footer-item">
+        <div class="footer-item" style="color: white">
             <p> <a href="/about_us">About Us</a></p>
             <p> <a href="/privacy_policy">Privacy Policy</a></p>
             <p> <a href="/term_of_use">Terms of Use</a> </p>

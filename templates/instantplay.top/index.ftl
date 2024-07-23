@@ -41,7 +41,7 @@
                 <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div>
                 <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
             </div>
-            <form class="search-container">
+            <form class="search-container" action="/search" method="get">
                 <input type="search" id="search-bar" placeholder="Search Podcast" name="s" value="">
             </form>
         </div>
@@ -163,7 +163,7 @@
             </a>
             <p>${advert.content}</p>
         </div>
-        <div class="footer-item">
+        <div class="footer-item" style="color: white">
             <p> <a href="/about_us">About Us</a></p>
             <p> <a href="/privacy_policy">Privacy Policy</a></p>
             <p> <a href="/term_of_use">Terms of Use</a> </p>
