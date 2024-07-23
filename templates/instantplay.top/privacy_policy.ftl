@@ -1,41 +1,25 @@
-<html lang="en"><head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-
-  <title>Lugx Gaming Shop HTML5 Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="/7-6-1/css/bootstrap.min.css" rel="stylesheet">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="${advert.content}" />
+    <meta name="keywords" content="${advert.keywords}" />
+    <meta name="author" content="">
+    <title>${advert.title}</title>
+    <link rel="stylesheet" href="/${service_name}/css/all.min.css">
+    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
+    <link rel="stylesheet" href="/${service_name}/css/main.css">
+    <link rel="stylesheet" href="/${service_name}/css/responsive.css">
 
 </head>
+<body>
 
-<body style="color: white;background-color: black;">
-
-<!-- ***** Preloader Start ***** -->
-<div id="js-preloader" class="js-preloader loaded">
-  <div class="preloader-inner">
-    <span class="dot"></span>
-    <div class="dots">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-</div>
-<!-- ***** Preloader End ***** -->
-
-<!-- ***** Header Area End ***** -->
-
-
-
-<div class="section most-played">
-  <div class="container">
-    <div class="row">
-      <div class="content_container" style="padding-top: 100px;">
-        <h1>Privacy Policy</h1>
+<section class="portfolio-single page-single" style="margin-top: 10rem;">
+    <div class="content" style="padding: 7rem">
+        <h1 class="main-heading">Privacy Policy</h1>
+        <p></p>
         <h2>1. General and definitions</h2>
         <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the ${service_name}. The use of the Internet pages of the ${service_name} is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
         <br>
@@ -262,22 +246,10 @@
         <p>Provision of personal data as statutory or contractual requirement; Requirement necessary to enter into a contract; Obligation of the data subject to provide the personal data; possible consequences of failure to provide such data, We clarify that the provision of personal data is partly required by law (e.g. tax regulations) or can also result from contractual provisions (e.g. information on the contractual partner). Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded. Before personal data is provided by the data subject, the data subject must contact our Data Protection Officer. Our Data Protection Officer clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.</p>
         <br>
         <p>Last updated: Feb 23 2023</p>
-        <p></div>
+        <p>
     </div>
-  </div>
-</div>
-
-
-
-
-<!-- Scripts -->
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/7-6-1/js/bootstrap.min.js"></script>
-<script src="assets/7-6-1/js/isotope.min.js"></script>
-<script src="assets/7-6-1/js/owl-carousel.js"></script>
-<script src="assets/7-6-1/js/counter.js"></script>
-<script src="assets/7-6-1/js/custom.js"></script>
-
-
-</body></html>
+    </div>
+    </div>
+</section>
+</body>
+</html>

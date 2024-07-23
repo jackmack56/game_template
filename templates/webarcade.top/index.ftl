@@ -261,7 +261,6 @@
                     </p>
                     <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.
                     </p>
-
                 </div>
             </div>
         </div>

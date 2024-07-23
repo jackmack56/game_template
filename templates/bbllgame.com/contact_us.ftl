@@ -28,7 +28,7 @@
 
                 <div class="col-lg-12 col-12 text-center">
 
-                    <h2 class="mb-0">Contact us</h2>
+                    <h2 class="mb-0">Contact Us</h2>
                 </div>
 
             </div>

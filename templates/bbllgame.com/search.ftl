@@ -70,10 +70,6 @@
         </div>
     </section>
 
-
-
-
-
     <section class="topics-section section-padding pb-0" id="section_3">
         <div class="container">
             <div class="row">
@@ -106,8 +102,6 @@
             </div>
         </div>
     </section>
-
-
 </main>
 
 <footer class="site-footer">
@@ -150,7 +144,6 @@
         </div>
     </div>
 </footer>
-<!-- JAVASCRIPT FILES -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/${service_name}/js/bootstrap.bundle.min.js"></script>
 <script src="/${service_name}/js/bgame/owl.carousel.min.js"></script>
