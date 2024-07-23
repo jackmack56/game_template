@@ -8,11 +8,11 @@
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/basic/css/all.min.css">
-    <link rel="stylesheet" href="/basic/css/magnific-popup.css">
-    <link rel="stylesheet" href="/basic/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/basic/css/main.css">
-    <link rel="stylesheet" href="/basic/css/responsive.css">
+    <link rel="stylesheet" href="/${service_name}/css/all.min.css">
+    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
+    <link rel="stylesheet" href="/${service_name}/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/${service_name}/css/main.css">
+    <link rel="stylesheet" href="/${service_name}/css/responsive.css">
 </head>
 <style>
     :root {
@@ -38,7 +38,7 @@
 <header class="header">
     <div class="header-2" style="background: #409EFF;">
         <a class="logo" href="/">
-            <img src="/basic/Logo.png" alt="logo">
+            <img src="/${service_name}/Logo.png" alt="logo">
         </a>
         <div class="container">
             <nav class="navbar">
@@ -148,7 +148,7 @@
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
-                <img src="/basic/Logo.png" alt="logo">
+                <img src="/${service_name}/Logo.png" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>
@@ -167,20 +167,20 @@
         </div>
     </div>
     <div class="content" style="background: #409EFF">
-        <p>Copyright © 2024 basic. All Rights Reserved</p>
+        <p>Copyright © 2024 ${service_name}. All Rights Reserved</p>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/basic/js/swiper-bundle.min.js"></script>
-<script src="/basic/js/jquery.magnific-popup.min.js"></script>
-<script src="/basic/js/isotope.pkgd.min.js"></script>
-<script src="/basic/js/script.js"></script>
-<script src="/basic/js/nav-link-toggler.js"></script>
-<script src="/basic/js/home-slider.js"></script>
-<script src="/basic/js/counter-up.js"></script>
-<script src="/basic/js/service-slider.js"></script>
-<script src="/basic/js/portfolio.js"></script>
-<script src="/basic/js/testi-slider.js"></script>
-<script src="/basic/js/sponsor-slider.js"></script>
+<script src="/${service_name}/js/swiper-bundle.min.js"></script>
+<script src="/${service_name}/js/jquery.magnific-popup.min.js"></script>
+<script src="/${service_name}/js/isotope.pkgd.min.js"></script>
+<script src="/${service_name}/js/script.js"></script>
+<script src="/${service_name}/js/nav-link-toggler.js"></script>
+<script src="/${service_name}/js/home-slider.js"></script>
+<script src="/${service_name}/js/counter-up.js"></script>
+<script src="/${service_name}/js/service-slider.js"></script>
+<script src="/${service_name}/js/portfolio.js"></script>
+<script src="/${service_name}/js/testi-slider.js"></script>
+<script src="/${service_name}/js/sponsor-slider.js"></script>
 </body>
 </html>
