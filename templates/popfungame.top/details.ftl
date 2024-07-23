@@ -162,11 +162,11 @@
 ">
         <div class="col-lg-6 col-md-6 col-12">
           <div class="d-flex flex-column gap-8">
-            
-            <h4 class="m-0 p-0">Copyright © 2024.Company name All rights reserved.
-            
-            <p></p>
-          </h4></div>
+
+            <h4 class="m-0 p-0">
+              <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</p>
+              <p></p>
+            </h4>
         </div>
         <div class="col-lg-2 col-md-6 col-12">
           <div class="d-flex flex-column gap-2">
@@ -174,7 +174,7 @@
             <div class="d-flex flex-column gap-1">
               <a href="/about_us">About Us</a>
               <a href="/privacy_policy">Privacy Policy</a>
-              <a href="/term_of_use">Term of Use</a>
+              <a href="/term_of_use">Terms of Use</a>
               <a href="/contact_us">Contact Us</a>
             </div>
           </div>

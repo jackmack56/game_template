@@ -127,8 +127,8 @@
             <div class="col-lg-6 col-md-6 col-12">
                 <div class="d-flex flex-column gap-8">
 
-                    <h4 class="m-0 p-0">Copyright © 2024.Company ${service_name} All rights reserved.
-
+                    <h4 class="m-0 p-0">
+                        <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</p>
                         <p></p>
                     </h4>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="d-flex flex-column gap-1">
                         <a href="/about_us">About Us</a>
                         <a href="/privacy_policy">Privacy Policy</a>
-                        <a href="/term_of_use">Termf of Use</a>
+                        <a href="/term_of_use">Terms of Use</a>
                         <a href="/contact_us">Contact Us</a>
                     </div>
                 </div>

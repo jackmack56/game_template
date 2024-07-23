@@ -133,8 +133,7 @@
             <div class="col-lg-8">
                 <p>Email: ${advert.contactMail}</a>
                 </p>
-                <p>Copyright © 2024 <a href="/">${service_name}</a>
-                    Company. All rights reserved.
+                <p>Copyright © 2024 <a href="/">${service_name}</a>. All rights reserved.
                 </p>
             </div>
             <div class="col-lg-2">
