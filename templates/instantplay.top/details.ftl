@@ -56,7 +56,7 @@
                 <div class="main-nav-link"> <a class="nav-btn" href="/">About</a> </div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link"> <div class="nav-btn">about</div> <i class="fas fa-plus"></i> </div>
+                <div class="main-nav-link"> <div class="nav-btn">Category</div> <i class="fas fa-plus"></i> </div>
                 <div class="sub-nav-link">
                     <#list game_types as type>
                         <a href="/type/${type}">${type}</a>

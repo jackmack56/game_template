@@ -55,7 +55,7 @@
                 <div class="main-nav-link"> <a class="nav-btn" href="/">About</a> </div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link"> <div class="nav-btn">about</div> <i class="fas fa-plus"></i> </div>
+                <div class="main-nav-link"> <div class="nav-btn">Category</div> <i class="fas fa-plus"></i> </div>
                 <div class="sub-nav-link">
                     <#list game_types as type>
                         <a href="/type/${type}">${type}</a>
@@ -77,7 +77,7 @@
     <div class="swiper-container service-slider">
         <div class="swiper-wrapper">
             <#list new_game as game>
-            <#if game_index < 3>
+            <#if game_index < 6>
                 <div class="service-item swiper-slide">
                     <img src="${game.gamePreview}" alt="Guided Tours">
                     <div class="content">

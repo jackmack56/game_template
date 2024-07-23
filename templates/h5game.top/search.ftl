@@ -8,20 +8,37 @@
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/${service_name}/css/all.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/${service_name}/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/main.css">
-    <link rel="stylesheet" href="/${service_name}/css/responsive.css">
+    <link rel="stylesheet" href="/basic/css/all.min.css">
+    <link rel="stylesheet" href="/basic/css/magnific-popup.css">
+    <link rel="stylesheet" href="/basic/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/basic/css/main.css">
+    <link rel="stylesheet" href="/basic/css/responsive.css">
 </head>
+<style>
+    :root {
+        --main-color: white;
+    }
+    .nav-link {
+        border-radius: 15px;
+    }
+    .nav-btn {
+        color: #409EFF;
+    }
+    .mobile-navbar .main-nav-link {
+        color: #409EFF;
+    }
+    .mobile-navbar .main-nav-link a {
+        color: #409EFF;
+    }
+</style>
 <body>
-<a href="#" class="scroll-top">
+<a href="#" class="scroll-top" style="background: #409EFF;">
     <i class="fa-solid fa-arrow-up-long"></i>
 </a>
 <header class="header">
-    <div class="header-2" style="background: black;">
+    <div class="header-2" style="background: #409EFF;">
         <a class="logo" href="/">
-            <img src="/${service_name}/Logo.png" alt="logo">
+            <img src="/basic/Logo.png" alt="logo">
         </a>
         <div class="container">
             <nav class="navbar">
@@ -41,23 +58,21 @@
                 <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div>
                 <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
             </div>
-            <form class="search-container">
+            <form class="search-container" action="/search" method="get">
                 <input type="search" id="search-bar" placeholder="Search Podcast" name="s" value="">
             </form>
         </div>
     </div>
-    <div class="mobile-menu">
+    <div class="mobile-menu" style="background: #409EFF">
         <nav class="mobile-navbar">
             <div class="nav-link">
-                <div class="main-nav-link"><a class="nav-btn" href="/">Home</a></div>
+                <div class="main-nav-link"> <a class="nav-btn" href="/">Home</a> </div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link"><a class="nav-btn" href="/">About</a></div>
+                <div class="main-nav-link"> <a class="nav-btn" href="/">About</a> </div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link">
-                    <div class="nav-btn">Category</div>
-                    <i class="fas fa-plus"></i></div>
+                <div class="main-nav-link"> <div class="nav-btn">Category</div> <i class="fas fa-plus"></i> </div>
                 <div class="sub-nav-link">
                     <#list game_types as type>
                         <a href="/type/${type}">${type}</a>
@@ -66,48 +81,49 @@
             </div>
 
             <div class="nav-link">
-                <div class="main-nav-link"><a class="nav-btn" href="/contact_usl">Contact</a></div>
+                <div class="main-nav-link"> <a class="nav-btn" href="/contact_usl">Contact</a> </div>
             </div>
         </nav>
     </div>
 </header>
 
-<section class="home-shop" >
-    <div class="heading" style="margin-top: 17rem">
-        <h2>${category ! ''} <span>Games</span></h2>
+<section class="team">
+    <div class="heading">
+        <h2 style="color: #409EFF;">${category ! ''} <span>Games</span></h2>
     </div>
     <div class="box-container">
         <#list all_game as game>
-            <div class="product-item">
-                <a href="/details/${game.id}">
-                    <div class="image">
-                        <img src="${game.gamePreview}" alt="Product-Image">
+
+                <div class="team-item" style="border-radius: 15px; height: 30rem">
+                    <div class="team-image">
+                        <img src="${game.gamePreview}" alt="Member-Pic"  >
                     </div>
-                    <div class="content">
-                        <div class="rating">
-                            <i class="fa-solid fa-star"></i>
-                            <span style="margin-left: 3rem; font-weight: bold">${game.gameHot}</span>
-                            <span style="margin-left: 3rem;">${game.createTime?string("yyyy-MM-dd")}</span>
+                    <div class="team-content" style="background: rgba(64,158,255, 0.9)">
+                        <a href="/details/${game.id}"><h3
+                                    style="width: 15rem; height: 3rem; white-space: normal;
+                            overflow: hidden;text-overflow: ellipsis;">
+                                ${game.gameName}</h3></a>
+                        <p>${game.gameCategory}</p>
+                        <div class="icon-container" style="color: white">
+                            <span >${game.gameHot}</span>
+                            <span >${game.createTime?string("yyyy-MM-dd")}</span>
                         </div>
-                        <a href="/details/${game.id}"><h3 style="width: 26rem;
-                            height: 3rem;
-                            white-space: normal; overflow: hidden; text-overflow: ellipsis;">${game.gameName}</h3></a>
-                        <div class="price">${game.gameCategory}</div>
                     </div>
-                </a>
-            </div>
+                </div>
         </#list>
     </div>
 </section>
-<footer class="footer">
+
+
+<footer class="footer" style="background: rgba(64,158,255, 0.9);">
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
-                <img src="/${service_name}/picture/Logo.png" alt="logo">
+                <img src="/basic/Logo.png" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>
-        <div class="footer-item" style="color: white">
+        <div class="footer-item" >
             <p> <a href="/about_us" style="color: white">About Us</a></p>
             <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
             <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
@@ -117,24 +133,17 @@
             <h2>Contact Info</h2>
             <div class="info connect">
                 <p><span>${advert.contactMail}</span></p>
+                <p></p>
             </div>
         </div>
     </div>
-    <div class="content">
-        <p>Copyright © 2024 ${service_name}. All Rights Reserved</p>
+    <div class="content" style="background: #409EFF">
+        <p>Copyright © 2024 basic. All Rights Reserved</p>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/${service_name}/js/swiper-bundle.min.js"></script>
 <script src="/${service_name}/js/jquery.magnific-popup.min.js"></script>
-<script src="/${service_name}/js/isotope.pkgd.min.js"></script>
 <script src="/${service_name}/js/script.js"></script>
 <script src="/${service_name}/js/nav-link-toggler.js"></script>
-<script src="/${service_name}/js/home-slider.js"></script>
-<script src="/${service_name}/js/counter-up.js"></script>
-<script src="/${service_name}/js/service-slider.js"></script>
-<script src="/${service_name}/js/portfolio.js"></script>
-<script src="/${service_name}/js/testi-slider.js"></script>
-<script src="/${service_name}/js/sponsor-slider.js"></script>
 </body>
 </html>

@@ -67,9 +67,6 @@
         <div class="container mt-5">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-10 col-12">
-<#--                    <div class="section-title-wrap mb-5">-->
-<#--                        <h4 class="section-title">Introduce</h4>-->
-<#--                    </div>-->
                     <div class="row">
                         <a href="${game.gameUri}">
                             <div class="col-lg-7 col-12 mx-auto">
@@ -84,17 +81,20 @@
                         <div class="col-lg-9 col-12 mx-auto">
                             <div class="custom-block-info">
                                 <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        <a href="${game.gameUri}">
-                                            <i class="bi-play"></i>
-                                            Play now
-                                        </a>
-                                    </small>
 
                                     <small>
                                         <i class="bi-clock-fill custom-icon"></i>
                                         ${game.createTime?string("yyyy-MM-dd")}
                                     </small>
+
+                                    <small class="me-4">
+                                        <a href="${game.gameUri}" style="width: 20rem; height: 100%; background: #B60EE5;
+text-align: center; border-radius: 25px; line-height: 100%; margin-left: 5rem;">
+                                            <i class="bi-play"></i>
+                                            Play now
+                                        </a>
+                                    </small>
+
 
                                     <small class="ms-auto">Episode <span class="badge">${game.gameHot}</span></small>
                                 </div>
