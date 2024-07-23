@@ -108,10 +108,10 @@
             <p>${advert.content}</p>
         </div>
         <div class="footer-item" style="color: white">
-            <p> <a href="/about_us"><span>About Us</span></a></p>
-            <p> <a href="/privacy_policy"><span>Privacy Policy</span></a></p>
-            <p> <a href="/term_of_use"><span>Terms of Use</span></a> </p>
-            <p> <a href="/contact_us"><span>Contact Us</span></a> </p>
+            <p> <a href="/about_us" style="color: white">About Us</a></p>
+            <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
+            <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
+            <p> <a href="/contact_us" style="color: white">Contact Us</a> </p>
         </div>
         <div class="footer-item">
             <h2>Contact Info</h2>

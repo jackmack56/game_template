@@ -108,11 +108,11 @@
             </a>
             <p>${advert.content}</p>
         </div>
-        <div class="footer-item" style="color: white">
-            <p> <a href="/about_us">About Us</a></p>
-            <p> <a href="/privacy_policy">Privacy Policy</a></p>
-            <p> <a href="/term_of_use">Terms of Use</a> </p>
-            <p> <a href="/contact_us">Contact Us</a> </p>
+        <div class="footer-item" >
+            <p> <a href="/about_us" style="color: white">About Us</a></p>
+            <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
+            <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
+            <p> <a href="/contact_us" style="color: white">Contact Us</a> </p>
         </div>
         <div class="footer-item">
             <h2>Contact Info</h2>
