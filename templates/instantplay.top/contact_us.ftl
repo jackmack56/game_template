@@ -12,10 +12,17 @@
     <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
     <link rel="stylesheet" href="/${service_name}/css/main.css">
     <link rel="stylesheet" href="/${service_name}/css/responsive.css">
-
 </head>
+<style>
+    .main-heading  {
+        font-size: 43px;
+    }
+    .content p {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+</style>
 <body>
-
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="content" style="padding: 7rem">
         <h1 class="main-heading">Contact Us</h1>
