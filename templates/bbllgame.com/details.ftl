@@ -80,27 +80,20 @@
 
                         <div class="col-lg-9 col-12 mx-auto">
                             <div class="custom-block-info">
-                                <div class="custom-block-top d-flex mb-5">
+                                <div class="custom-block-top d-flex mb-5 mx-auto">
 
-                                    <small>
-                                        <i class="bi-clock-fill custom-icon"></i>
-                                        ${game.createTime?string("yyyy-MM-dd")}
-                                    </small>
 
                                     <small class="me-4">
-                                        <a href="${game.gameUri}" style="width: 10rem; height: 100%; background: white;
+                                        <a href="${game.gameUri}" style="width: 100%; height: 100%; background: white;
                                         font-weight: bolder; color: black;
 text-align: center; border-radius: 25px; line-height: 4; margin-left: 5rem;">
                                             <i class="bi-play"></i>
                                             Play now
                                         </a>
                                     </small>
-
-
-                                    <small class="ms-auto">Episode <span class="badge">${game.gameHot}</span></small>
                                 </div>
 
-                                <h2 class="mb-2">Modern Vintage</h2>
+                                <h2 class="mb-2">${game.gameName}</h2>
 
                                 <p>${game.gameDesc}</p>
                             </div>
