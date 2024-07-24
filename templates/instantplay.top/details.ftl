@@ -21,7 +21,7 @@
 <header class="header">
     <div class="header-2" style="background: black;">
         <a class="logo" href="/">
-            <img src="/${service_name}/Logo.png" alt="logo">
+            <img src="/${service_name}/logo.png" alt="logo">
         </a>
         <div class="container">
             <nav class="navbar">
@@ -102,8 +102,8 @@
 <footer class="footer">
     <div class="box-container">
         <div class="footer-item">
-            <a class="logo" href="">
-                <img src="/${service_name}/Logo.png" alt="logo">
+            <a class="logo" href="/">
+                <img src="/${service_name}/logo.png" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>

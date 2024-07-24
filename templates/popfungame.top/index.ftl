@@ -59,7 +59,7 @@
                         <a class="nav-link" aria-current="page" href="/privacy_policy">Privacy Policy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/term_of_use">Term of Use</a>
+                        <a class="nav-link" aria-current="page" href="/term_of_use">Terms of Use</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/contact_us">Contact Us</a>

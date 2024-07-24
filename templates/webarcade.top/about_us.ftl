@@ -8,8 +8,6 @@
 </head>
 
 <body style="color: white;background-color: black;">
-
-<!-- ***** Preloader Start ***** -->
 <div id="js-preloader" class="js-preloader loaded">
   <div class="preloader-inner">
     <span class="dot"></span>
@@ -20,9 +18,7 @@
     </div>
   </div>
 </div>
-<!-- ***** Preloader End ***** -->
 
-<!-- ***** Header Area End ***** -->
 
 
 
