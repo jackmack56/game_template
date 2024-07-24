@@ -78,12 +78,12 @@
                 <img src="${game.gamePreview}" alt="Road Biking Adventure" >
             </a>
             <a href="${game.gameUri}"><p
-                        style=" margin: 15px auto;
-                        width: 10rem; height: 5rem; background: #0a53be; color:white; text-align: center; line-height:5rem">
+                        style=" margin: 15px auto; border-radius: 25px;
+                        width: 30rem; height: 5rem; background: #0a53be; color:white; text-align: center; line-height:5rem">
                     PLAY</p></a>
         </div>
 
-        <div class="content" style="padding: 7rem">
+        <div class="content" style="padding-top: 7rem">
             <h3 class="main-heading">${game.gameName}</h3>
             <p>${game.gameDesc}</p>
 
