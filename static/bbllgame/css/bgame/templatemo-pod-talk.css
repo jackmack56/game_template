@@ -470,11 +470,6 @@ main {
 .navbar-toggler .navbar-toggler-icon::after {
   top: 8px;
 }
-
-
-/*---------------------------------------
-  CAROUSEL
------------------------------------------*/
 .hero-section {
   background-image: url('../../image/templatemo-wave-banner.jpg'), linear-gradient(#348CD2, #FFFFFF);
   background-repeat: no-repeat;
@@ -1153,7 +1148,7 @@ main {
   }
 
   .section-padding {
-    padding-top: 50px;
+    /*padding-top: 50px;*/
     padding-bottom: 50px;
   }
 
