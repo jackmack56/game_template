@@ -21,8 +21,8 @@
 <header class="header">
     <div class="header__content">
         <div class="header__logo">
-            <a href="index.html">
-                <img src="/${service_name}/img/logo.svg" alt="">
+            <a href="/">
+                <img src="/${service_name}/logo.png" alt="">
             </a>
         </div>
 
@@ -166,7 +166,7 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="footer__logo">
-                    <img src="img/logo.svg" alt="">
+                    <img src="/${service_name}/logo.png" alt="">
                 </div>
                 <p class="footer__tagline">${advert.content}</p>
             </div>

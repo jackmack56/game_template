@@ -129,30 +129,7 @@
       </div>
     </div>
   </section>
-  
 
-
-  
-  
-  
-
-  
-  
-  
-
-
-  
-  
-  
-
-
-  
-  
-  
-
-
-
-  
   <section class="footer position-relative pt-5 mt-5 pb-4">
     <div class="container d-flex flex-column gap-16">
       
@@ -179,8 +156,7 @@
             </div>
           </div>
         </div>
-        
-        
+
       </div>
     </div>
   </section>
