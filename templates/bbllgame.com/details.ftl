@@ -80,13 +80,11 @@
 
                         <div class="col-lg-9 col-12 mx-auto">
                             <div class="custom-block-info">
-                                <div class="custom-block-top d-flex mb-5 mx-auto">
-
-
-                                    <small class="me-4">
-                                        <a href="${game.gameUri}" style="width: 100%; height: 100%; background: white;
+                                <div class="custom-block-top d-flex mb-5 ">
+                                    <small class="mx-auto">
+                                        <a href="${game.gameUri}" style="width: 10rem; height: 100%; background: white;
                                         font-weight: bolder; color: black;
-text-align: center; border-radius: 25px; line-height: 4; margin-left: 5rem;">
+text-align: center; border-radius: 25px; line-height: 4;">
                                             <i class="bi-play"></i>
                                             Play now
                                         </a>
