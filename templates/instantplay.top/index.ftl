@@ -141,11 +141,11 @@
                             <div class="btn-container">
                                 <a class="view" href="/details/${game.id}"><i
                                             class="fa-solid fa-camera-retro"></i></a>
-                                <a href="Portfolio-Single.html"><i class="fa-solid fa-link"></i></a>
+                                <a href="/details/${game.id}"><i class="fa-solid fa-link"></i></a>
                             </div>
                             <div class="text">
                                 <p>${game.gameCategory}</p>
-                                <a href="Portfolio-Single.html"><h3>${game.gameName}</h3></a>
+                                <a href="/details/${game.id}"><h3>${game.gameName}</h3></a>
                             </div>
                         </div>
                     </div>
