@@ -2345,7 +2345,7 @@ input:-webkit-autofill:active {
 .page-info .page-gallery img{
     height: 100%;
     width: 100%;
-    border-radius: var(--border-radius-2);
+    /*border-radius: var(--border-radius-2);*/
     object-fit: cover;
     -webkit-box-shadow: var(--box-shadow);
             box-shadow: var(--box-shadow);
