@@ -55,7 +55,7 @@
               <a class="nav-link" aria-current="page" href="/privacy_policy.html">Privacy Policy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/term_of_use.html">Term of Use</a>
+              <a class="nav-link" aria-current="page" href="/term_of_use.html">Terms of Use</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/contact_us.html">Contact Us</a>
@@ -104,7 +104,7 @@
     <div class="container d-flex flex-column gap-64">
       <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start">
         <div class="heading d-flex flex-column col-lg-8 col-12 ">
-          <h1 class="heading-1">Trending Games</h1>
+          <h1 class="heading-1">${category ! ''} Games</h1>
         </div>
       </div>
       <div class="row g-4">

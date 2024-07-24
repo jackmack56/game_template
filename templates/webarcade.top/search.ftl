@@ -76,7 +76,7 @@
                     <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-8">
                             <div class="section-title">
-                                <h4>Trending Now</h4>
+                                <h4>${category ! ''} <span>Games</span></h4>
                             </div>
                         </div>
                     </div>

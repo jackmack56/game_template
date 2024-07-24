@@ -80,7 +80,7 @@
 
                         <div class="col-lg-9 col-12 mx-auto">
                             <div class="custom-block-info">
-                                <div class="custom-block-top d-flex mb-1">
+                                <div class="custom-block-top d-flex mb-5">
 
                                     <small>
                                         <i class="bi-clock-fill custom-icon"></i>
@@ -88,7 +88,8 @@
                                     </small>
 
                                     <small class="me-4">
-                                        <a href="${game.gameUri}" style="width: 20rem; height: 100%; background: #B60EE5;
+                                        <a href="${game.gameUri}" style="width: 20rem; height: 100%; background: white;
+                                        font-width: bolder; color: black;
 text-align: center; border-radius: 25px; line-height: 100%; margin-left: 5rem;">
                                             <i class="bi-play"></i>
                                             Play now
