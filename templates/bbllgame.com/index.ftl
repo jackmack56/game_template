@@ -69,19 +69,15 @@
         <div class="row">
 
             <div class="col-lg-12 col-12">
-                <div class="text-center mb-5 pb-2">
-                    <h1 class="text">Welcome To ${advert.serviceName}</h1>
-                </div>
             </div>
         </div>
     </section>
-
 
     <section class="topics-section section-padding pb-0" id="section_3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-12">
-                    <div class="section-title-wrap mb-5">
+                    <div class="section-title-wrap">
                         <h4 class="section-title">New Games</h4>
                     </div>
                 </div>

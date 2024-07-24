@@ -144,7 +144,7 @@ strong {
 -----------------------------------------*/
 .section-title-wrap {
   position: relative;
-  margin-top: 6rem;
+  /*margin-top: 6rem;*/
 }
 
 .section-title-wrap::after {
@@ -480,7 +480,7 @@ main {
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .owl-carousel {
