@@ -73,14 +73,13 @@
 
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="portfolio-info page-info" >
-        <div class="image" style="width: 40%; margin: 10px auto">
+        <div class="image" style="width: 100%; margin: 0px auto">
             <a href="${game.gameUri}">
                 <img src="${game.gamePreview}" alt="Road Biking Adventure" >
             </a>
             <a href="${game.gameUri}"><p
-                        style=" margin: 15px auto; border-radius: 25px;
+                        style=" margin: 15px auto;
                         width: 10rem; height: 5rem; background: #0a53be; color:white; text-align: center; line-height:5rem">
-
                     PLAY</p></a>
         </div>
 
