@@ -6,7 +6,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="/${service_name}/css/style.min.css?ver=140">
-  <title>${service_name}</title>
+  <meta name="description" content="${advert.content}" />
+  <meta name="keywords" content="${advert.keywords}" />
+  <meta name="author" content="">
+  <title>${advert.title}</title>
   <style>
     .game-box {
       flex: 0 1 420px;
