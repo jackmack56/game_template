@@ -171,7 +171,7 @@
                 <p class="footer__tagline">${advert.content}</p>
             </div>
             <div class="col-12 col-lg-4">
-                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px;">The Volna</h6>
+                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px;">H5 Arcade</h6>
                 <div class="footer__nav">
                     <p class="col-10">
                         <a href="/about_us">About</a>

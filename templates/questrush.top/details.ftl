@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <link rel="stylesheet" href="/7-24/css/style.min.css?ver=140">
+  <link rel="stylesheet" href="/${service_name}/css/style.min.css?ver=140">
   <title>${service_name}</title>
   <style>
     .game-box {
@@ -209,7 +209,7 @@
     <div class="as-wrapper-info">
       <div class="container-fluid" style="max-width:1200px;">
         <div class="row row-info">
-          <div class="col-md-8 col-12">
+          <div class="col-md-8 col-12 mx-auto">
             <div aria-label="breadcrumb"></div>
             <div class="mb-3 clearfix">
               <h2 class="h4 d-block d-sm-inline-block" id="as-scroll-info">Game Information</h2>
@@ -219,7 +219,7 @@
               <div class="as-info-box-img shadow mr-3 mb-2"><img itemscope="" itemtype="https://schema.org/ImageObject"
                   itemprop="image" src="${game.gamePreview}" alt="donut box game" width="164" height="164"
                   loading="lazy"></div>
-              <p style="max-height: 200px;overflow: auto;">${game.gameDesc}</p>
+              <p>${game.gameDesc}</p>
               <div class="pt-2 mb-3 as-info-box-tags flex-wrap" role="group" aria-label="Game Tags">
 
                 <a class="btn btn-sm btn-secondary" href="/type/${game.gameCategory}">
@@ -227,15 +227,6 @@
                 </a>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="as-generic-box-outline px-3 py-2 mx-3 mb-4 shadow-sm rounded-lg">
-            <p>Play Donut Box game online in your browser free of charge on Arcade Spot. Donut Box is a high quality
-              game that works in all major modern web browsers. This online game is part of the Puzzle and Mobile gaming categories. If you enjoy this game then
-              also play games Papa's Donuteria and Donut Vs Donut. Arcade Spot brings you the best games without
-              downloading and a fun gaming experience on your computers, mobile phones, and tablets. New arcade games
-              and the most popular free online games are added every day to the site.</p>
           </div>
         </div>
       </div>
@@ -260,18 +251,18 @@
                 Us</a></li>
           </ul>
         </div>
-        <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">© 2024 Arcade Spot</div>
+        <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">Copyright &copy; 2024 ${service_name}. All Rights Reserved.</div>
       </div>
     </div>
   </footer>
-  <script src="/7-24/js/lozad.min.js" defer=""></script>
+  <script src="/${service_name}/js/lozad.min.js" defer=""></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
-  <script src="/7-24/js/script.min.js?v=162" defer=""></script>
+  <script src="/${service_name}/js/script.min.js?v=162" defer=""></script>
 </body>
 
 </html>

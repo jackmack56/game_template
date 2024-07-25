@@ -18,13 +18,12 @@
         font-size: 43px;
     }
     .content p {
-        font-size: 20px;
-        letter-spacing: 1px;
+        font-size: 22px;
     }
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
-    <div class="content" style="padding: 7rem">
+    <div class="content">
         <h1 class="main-heading">Contact Us</h1>
         <p></p><br>
         <h3>Welcome to ${service_name}</h3>

@@ -18,8 +18,7 @@
         font-size: 43px;
     }
     .content p {
-        font-size: 20px;
-        letter-spacing: 1px;
+        font-size: 22px;
     }
 </style>
 <body>

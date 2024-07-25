@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <link rel="stylesheet" href="/7-24/css/style.min.css?ver=140">
+  <link rel="stylesheet" href="/${service_name}/css/style.min.css?ver=140">
   <title>Arcade Games - Play Free Online Games - Arcade Spot</title>
 </head>
 
@@ -79,20 +79,6 @@
           </ul>
         </div>
       </div>
-      <div class="py-4"></div>
-      <div class="as-generic-box px-3 py-2 mx-3 mb-4 shadow-sm rounded-lg">
-        <p><a href="/">Arcade Spot</a> is the place to play free online arcade games on the web!
-          We've got tons of the best games from all over the internet, and the latest New Games coming out daily. With
-          various game categories and
-          sorting options, you'll have the ability to explore a broad range of fun games and find the right arcade games
-          just for you. You can Browse Games that Arcade Spot has to offer
-          and play the popular games as voted by the site users. There are also specific genres of game types, such as
-          <a href="https://arcadespot.com/type/Racing/">Racing Games</a>, <a
-            href="https://arcadespot.com/type/puzzle/">Puzzle Games</a>, <a
-            href="https://arcadespot.com/type/arcade/">Arcade Games</a> and many more that can be accessed from the
-          button above! Have fun and enjoy playing high quality games!
-        </p>
-      </div>
     </div>
   </main>
   <footer class="py-2">
@@ -114,18 +100,18 @@
                 Us</a></li>
           </ul>
         </div>
-        <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">© 2024 Arcade Spot</div>
+        <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">Copyright &copy; 2024 ${service_name}. All Rights Reserved.</div>
       </div>
     </div>
   </footer>
-  <script src="/7-24/js/lozad.min.js" defer=""></script>
+  <script src="/${service_name}/js/lozad.min.js" defer=""></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
-  <script src="/7-24/js/script.min.js?v=162" defer=""></script>
+  <script src="/${service_name}/js/script.min.js?v=162" defer=""></script>
 </body>
 
 </html>
