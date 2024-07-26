@@ -19,7 +19,6 @@
     }
     .content p {
         font-size: 20px;
-        letter-spacing: 1px;
     }
 </style>
 <body>
