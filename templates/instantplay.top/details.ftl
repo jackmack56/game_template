@@ -41,7 +41,7 @@
                 <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div>
                 <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
             </div>
-            <form class="search-container">
+            <form class="search-container" action="/search" method="get">
                 <input type="search" id="search-bar" placeholder="Search Podcast" name="s" value="">
             </form>
         </div>
