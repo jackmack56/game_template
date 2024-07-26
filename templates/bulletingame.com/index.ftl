@@ -300,7 +300,7 @@
                 <p class="footer__tagline" style="color: black">${advert.content}</p>
             </div>
             <div class="col-12 col-lg-4">
-                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px; color: black">H5 Arcade</h6>
+                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px; color: black">${service_name}/h6>
                 <div class="footer__nav" style="color: black">
                     <p class="col-10">
                         <a href="/about_us" style="color: black">About</a>

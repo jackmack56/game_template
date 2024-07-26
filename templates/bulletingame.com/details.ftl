@@ -138,31 +138,29 @@
     </div>
 </main>
 
-<footer class="footer">
+<footer class="footer" style="background: #f7f7f7">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="footer__logo">
                     <img src="/${service_name}/logo.png" alt="">
                 </div>
-                <p class="footer__tagline">${advert.content}</p>
+                <p class="footer__tagline" style="color: black">${advert.content}</p>
             </div>
-
             <div class="col-12 col-lg-4">
-                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px;">The Volna</h6>
-                <div class="footer__nav">
+                <h6 class="footer__title" style="font-weight: bolder; font-size: 25px; color: black">${service_name}</h6>
+                <div class="footer__nav" style="color: black">
                     <p class="col-10">
-                        <a href="/about_us">About</a>
-                        <a href="/contact_us" style="float: right">Contact Us</a>
-
+                        <a href="/about_us" style="color: black">About</a>
+                        <a href="/contact_us" style="float: right;color: black" style="color: black">Contact Us</a>
                     </p>
                     <p class="col-10">
-                        <a href="/term_of_use">Terms of Use</a>
-                        <a href="/privacy_policy" style="float: right">Privacy Policy</a>
+                        <a href="/term_of_use" style="color: black">Terms of Use</a>
+                        <a href="/privacy_policy" style="float: right;color: black">Privacy Policy</a>
                     </p>
                 </div>
                 <div class="footer__links">
-                    <a href="mailto:support@volna.template">
+                    <a href="#" style="color: black">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7A3,3,0,0,0,19,4Zm-.41,2-5.88,5.88a1,1,0,0,1-1.42,0L5.41,6ZM20,17a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V7.41l5.88,5.88a3,3,0,0,0,4.24,0L20,7.41Z"/>
                         </svg>
@@ -174,7 +172,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="footer__content">
-                    <small class="footer__copyright">Copyright &copy; 2024 ${service_name}. All Rights
+                    <small class="footer__copyright" style="color: black">Copyright &copy; 2024 ${service_name}. All Rights
                         Reserved.</small>
                 </div>
             </div>
