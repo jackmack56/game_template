@@ -107,7 +107,9 @@
             </a>
             <p>${advert.content}</p>
         </div>
-        <div class="footer-item" style="color: white">
+    </div>
+    <div class="box-container">
+        <div class="footer-item" >
             <p> <a href="/about_us" style="color: white">About Us</a></p>
             <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
             <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
@@ -117,6 +119,7 @@
             <h2>Contact Info</h2>
             <div class="info connect">
                 <p><span>${advert.contactMail}</span></p>
+                <p></p>
             </div>
         </div>
     </div>

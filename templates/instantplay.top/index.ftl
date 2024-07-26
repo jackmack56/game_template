@@ -163,6 +163,8 @@
             </a>
             <p>${advert.content}</p>
         </div>
+    </div>
+    <div class="box-container">
         <div class="footer-item" >
             <p> <a href="/about_us" style="color: white">About Us</a></p>
             <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
