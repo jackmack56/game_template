@@ -150,10 +150,8 @@
         </div>
         <div class="footer-item">
             <h2>Contact Info</h2>
-            <div class="info connect">
                 <p><span>${advert.contactMail}</span></p>
                 <p> <a href="/contact_us" style="color: white">Contact Us</a> </p>
-            </div>
         </div>
     </div>
     <div class="content" style="background: #409EFF">
