@@ -17,12 +17,12 @@
     <meta name="author" content="">
     <title>${advert.title}</title>
 </head>
-<body style="background: white">
-<header class="header" style="background: #f7f7f7;">
+<body style="background: wheat">
+<header class="header" style="background: #ee00ff;">
     <div class="header__content">
         <div class="header__logo">
             <a href="/">
-                <img src="/${service_name}/logo.png" alt="">
+                <img src="/${service_name}/logo.png" alt="${service_name}">
             </a>
         </div>
 
@@ -65,17 +65,18 @@
     <div class="container-fluid">
 
 
+
         <section class="row row--grid">
             <div class="col-12">
                 <div class="main__title">
-                    <h2>Home Games</h2>
+                    <h2>Other Games</h2>
                 </div>
             </div>
             <#list all_game as game>
-                <#if game_index < 12>
+                <#if 38 < game_index && game_index < 69>
                     <div class="col-6 col-sm-4 col-lg-2">
                         <div class="album">
-                            <div class="album__cover" style="background: #f7f7f7; border-radius: 0px; ">
+                            <div class="album__cover" style="background: #f7f7f7; ">
                                 <img src="${game.gamePreview}" alt="" style="height: 100%">
                                 <a href="/details/${game.id}">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -100,19 +101,59 @@
             </#list>
         </section>
 
+
+        <section class="row row--grid">
+            <div class="col-12">
+                <div class="main__title">
+                    <h2>Recommend Games</h2>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="main__carousel-wrap">
+                    <div class="main__carousel main__carousel--store owl-carousel" id="store">
+                        <#list all_game as game>
+                            <#if  game_index < 6>
+                                <div class="product" >
+                                    <a href="/details/${game.id}" class="product__img">
+                                        <img src="${game.gamePreview}" alt="" >
+                                    </a>
+                                    <h3 class="product__title"><a href="/details/${game.id}">${game.gameName}</a></h3>
+                                    <span class="product__price">${game.gameCategory}</span>
+                                    <span class="product__new">${game.createTime?string("yyyy-MM-dd")}</span>
+                                </div>
+                            </#if>
+                        </#list>
+                    </div>
+
+                    <button class="main__nav main__nav--prev" data-nav="#store" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/>
+                        </svg>
+                    </button>
+                    <button class="main__nav main__nav--next" data-nav="#store" type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
         <section class="row row--grid">
             <div class="col-12 col-md-6 col-xl-4">
                 <div class="row row--grid">
                     <div class="col-12">
                         <div class="main__title">
-                            <h2><a href="#">TOP Games</a></h2>
+                            <h2><a href="#">New Games</a></h2>
                         </div>
                     </div>
 
                     <div class="col-12">
                         <ul class="main__list">
                             <#list all_game as game>
-                                <#if 17 < game_index && game_index < 22>
+                                <#if 6 < game_index && game_index < 11>
                                     <li class="single-item">
                                         <a data-link data-title="Cinematic" data-artist="AudioPizza"
                                            data-img="${game.gamePreview}" href="/details/${game.id}"
@@ -142,14 +183,14 @@
                 <div class="row row--grid">
                     <div class="col-12">
                         <div class="main__title">
-                            <h2><a href="#">New Games</a></h2>
+                            <h2><a href="#">TOP Games</a></h2>
                         </div>
                     </div>
 
                     <div class="col-12">
                         <ul class="main__list">
                             <#list all_game as game>
-                                <#if 22 < game_index && game_index < 27>
+                                <#if 11 < game_index && game_index < 16>
                                     <li class="single-item">
                                         <a data-link data-title="Got What I Got" href="/details/${game.id}"
                                            class="single-item__cover">
@@ -185,7 +226,7 @@
                     <div class="col-12">
                         <ul class="main__list">
                             <#list all_game as game>
-                                <#if 27 < game_index && game_index < 32>
+                                <#if 16 < game_index && game_index < 21>
                                     <li class="single-item">
                                         <a data-link data-title="Got What I Got" href="/details/${game.id}"
                                            class="single-item__cover">
@@ -212,85 +253,51 @@
         </section>
 
 
-        <section class="row row--grid">
-            <div class="col-12">
-                <div class="main__title">
-                    <h2>Recommend Games</h2>
-                </div>
-            </div>
 
-            <div class="col-12">
-                <div class="main__carousel-wrap">
-                    <div class="main__carousel main__carousel--store owl-carousel" id="store">
-                        <#list all_game as game>
-                            <#if 32 < game_index && game_index < 38>
-                                <div class="product" >
-                                    <a href="/details/${game.id}" class="product__img">
-                                        <img src="${game.gamePreview}" alt="" >
-                                    </a>
-                                    <h3 class="product__title"><a href="/details/${game.id}">${game.gameName}</a></h3>
-                                    <span class="product__price">${game.gameCategory}</span>
-                                    <span class="product__new">${game.createTime?string("yyyy-MM-dd")}</span>
-                                </div>
-                            </#if>
-                        </#list>
-                    </div>
 
-                    <button class="main__nav main__nav--prev" data-nav="#store" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M17,11H9.41l3.3-3.29a1,1,0,1,0-1.42-1.42l-5,5a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l5,5a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42L9.41,13H17a1,1,0,0,0,0-2Z"/>
-                        </svg>
-                    </button>
-                    <button class="main__nav main__nav--next" data-nav="#store" type="button">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </section>
+
+
 
 
         <section class="row row--grid">
+
             <div class="col-12">
                 <div class="main__title">
-                    <h2>Other Games</h2>
+                    <h2>News</h2>
+
+                    <a href="news.html" class="main__link">See all <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.92,11.62a1,1,0,0,0-.21-.33l-5-5a1,1,0,0,0-1.42,1.42L14.59,11H7a1,1,0,0,0,0,2h7.59l-3.3,3.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l5-5a1,1,0,0,0,.21-.33A1,1,0,0,0,17.92,11.62Z"/></svg></a>
                 </div>
             </div>
+
             <#list all_game as game>
-                <#if 38 < game_index && game_index < 69>
-                    <div class="col-6 col-sm-4 col-lg-2">
-                        <div class="album">
-                            <div class="album__cover" style="background: #f7f7f7; border-radius: 0px; ">
-                                <img src="${game.gamePreview}" alt="" style="height: 100%">
-                                <a href="/details/${game.id}">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M18.54,9,8.88,3.46a3.42,3.42,0,0,0-5.13,3V17.58A3.42,3.42,0,0,0,7.17,21a3.43,3.43,0,0,0,1.71-.46L18.54,15a3.42,3.42,0,0,0,0-5.92Zm-1,4.19L7.88,18.81a1.44,1.44,0,0,1-1.42,0,1.42,1.42,0,0,1-.71-1.23V6.42a1.42,1.42,0,0,1,.71-1.23A1.51,1.51,0,0,1,7.17,5a1.54,1.54,0,0,1,.71.19l9.66,5.58a1.42,1.42,0,0,1,0,2.46Z"/>
-                                    </svg>
-                                </a>
-                                <span class="album__stat">
-								<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path
-                                                d="M3.71,16.29a1,1,0,0,0-.33-.21,1,1,0,0,0-.76,0,1,1,0,0,0-.33.21,1,1,0,0,0-.21.33,1,1,0,0,0,.21,1.09,1.15,1.15,0,0,0,.33.21.94.94,0,0,0,.76,0,1.15,1.15,0,0,0,.33-.21,1,1,0,0,0,.21-1.09A1,1,0,0,0,3.71,16.29ZM7,8H21a1,1,0,0,0,0-2H7A1,1,0,0,0,7,8ZM3.71,11.29a1,1,0,0,0-1.09-.21,1.15,1.15,0,0,0-.33.21,1,1,0,0,0-.21.33.94.94,0,0,0,0,.76,1.15,1.15,0,0,0,.21.33,1.15,1.15,0,0,0,.33.21.94.94,0,0,0,.76,0,1.15,1.15,0,0,0,.33-.21,1.15,1.15,0,0,0,.21-.33.94.94,0,0,0,0-.76A1,1,0,0,0,3.71,11.29ZM21,11H7a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2ZM3.71,6.29a1,1,0,0,0-.33-.21,1,1,0,0,0-1.09.21,1.15,1.15,0,0,0-.21.33.94.94,0,0,0,0,.76,1.15,1.15,0,0,0,.21.33,1.15,1.15,0,0,0,.33.21,1,1,0,0,0,1.09-.21,1.15,1.15,0,0,0,.21-.33.94.94,0,0,0,0-.76A1.15,1.15,0,0,0,3.71,6.29ZM21,16H7a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Z"/></svg>
-                                     ${game.createTime?string("yyyy-MM-dd")}</span>
-								<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M18.54,9,8.88,3.46a3.42,3.42,0,0,0-5.13,3V17.58A3.42,3.42,0,0,0,7.17,21a3.43,3.43,0,0,0,1.71-.46L18.54,15a3.42,3.42,0,0,0,0-5.92Zm-1,4.19L7.88,18.81a1.44,1.44,0,0,1-1.42,0,1.42,1.42,0,0,1-.71-1.23V6.42a1.42,1.42,0,0,1,.71-1.23A1.51,1.51,0,0,1,7.17,5a1.54,1.54,0,0,1,.71.19l9.66,5.58a1.42,1.42,0,0,1,0,2.46Z"/></svg> ${game.gameHot}</span>
-							</span>
-                            </div>
-                            <div class="album__title">
-                                <h3><a href="/details/${game.id}">${game.gameName}</a></h3>
-                                <span><a href="/type/${game.gameCategory}">${game.gameCategory}</a></span>
+                <#if 69 < game_index && game_index < 78>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="post">
+                            <a href="/details/${game.id}" class="post__img">
+                                <img src="${game.gamePreview}" alt="">
+                            </a>
+                            <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="post__video open-video">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16,10.27,11,7.38A2,2,0,0,0,8,9.11v5.78a2,2,0,0,0,1,1.73,2,2,0,0,0,2,0l5-2.89a2,2,0,0,0,0-3.46ZM15,12l-5,2.89V9.11L15,12ZM12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,18a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z"/></svg> ${game.createTime?string("yyyy-MM-dd")}
+                            </a>
+
+                            <div class="post__content">
+                                <a href="/type/${game.gamePreview}" class="post__category">${game.gamePreview}</a>
+                                <h3 class="post__title"><a href="/details/${game.id}">${game.gameName}</a></h3>
                             </div>
                         </div>
                     </div>
                 </#if>
             </#list>
+
         </section>
+
+    </div>
 
 
     </div>
 </main>
 
-<footer class="footer" style="background: #f7f7f7">
+<footer class="footer" style="background: #ee00ff;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6">

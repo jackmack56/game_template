@@ -360,7 +360,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #f7f7f7;
+  background-color: wheat;
   z-index: 1;
   padding: 0 15px;
   /*border-bottom: 1px solid #222227;*/
@@ -2093,7 +2093,7 @@ body::-webkit-scrollbar-thumb {
   fill: #fff;
 }
 .hero__btn--green {
-  background-color: #25a56a;
+  background-color: #ee00ff;
   color: #fff;
 }
 .hero__btn--green:hover {
@@ -2185,7 +2185,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*border-radius: 12px;*/
+  border-radius: 12px;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -2813,7 +2813,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*border-radius: 8px;*/
+  border-radius: 8px;
   overflow: hidden;
   transition: 0.5s ease;
 }
@@ -3020,6 +3020,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   position: relative;
   z-index: 1;
+  height: 16rem;
 }
 .post__img:hover:before {
   opacity: 0.3;
@@ -3303,7 +3304,7 @@ body::-webkit-scrollbar-thumb {
 }
 .product__img {
   width: 100%;
-  /*border-radius: 12px;*/
+  border-radius: 12px;
   overflow: hidden;
   position: relative;
   height: 100%;
@@ -4362,7 +4363,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: bolder;
 }
 .article__place svg {
-  fill: #fff;
+  fill: #ee00ff;
   width: 18px;
   height: auto;
   margin-right: 5px;
