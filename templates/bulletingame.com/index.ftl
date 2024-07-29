@@ -3,15 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/${service_name}/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/${service_name}/css/select2.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/paymentfont.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/slider-radio.css">
-    <link rel="stylesheet" href="/${service_name}/css/plyr.css">
-    <link rel="stylesheet" href="/${service_name}/css/main.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/magnific-popup.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/select2.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/paymentfont.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/slider-radio.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/plyr.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
@@ -22,7 +22,7 @@
     <div class="header__content">
         <div class="header__logo">
             <a href="/">
-                <img src="/${service_name}/logo.png" alt="">
+                <img src="/domain/${advert.domain}/logo.png" alt="">
             </a>
         </div>
 
@@ -295,7 +295,7 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="footer__logo">
-                    <img src="/${service_name}/logo.png" alt="">
+                    <img src="/domain/${advert.domain}/logo.png" alt="">
                 </div>
                 <p class="footer__tagline" style="color: black">${advert.content}</p>
             </div>
@@ -333,14 +333,14 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/${service_name}/js/bootstrap.bundle.min.js"></script>
-<script src="/${service_name}/js/owl.carousel.min.js"></script>
-<script src="/${service_name}/js/jquery.magnific-popup.min.js"></script>
-<script src="/${service_name}/js/smooth-scrollbar.js"></script>
-<script src="/${service_name}/js/select2.min.js"></script>
-<script src="/${service_name}/js/slider-radio.js"></script>
-<script src="/${service_name}/js/jquery.inputmask.min.js"></script>
-<script src="/${service_name}/js/plyr.min.js"></script>
-<script src="/${service_name}/js/main.js"></script>
+<script src="/domain/${advert.domain}/js/bootstrap.bundle.min.js"></script>
+<script src="/domain/${advert.domain}/js/owl.carousel.min.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.magnific-popup.min.js"></script>
+<script src="/domain/${advert.domain}/js/smooth-scrollbar.js"></script>
+<script src="/domain/${advert.domain}/js/select2.min.js"></script>
+<script src="/domain/${advert.domain}/js/slider-radio.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.inputmask.min.js"></script>
+<script src="/domain/${advert.domain}/js/plyr.min.js"></script>
+<script src="/domain/${advert.domain}/js/main.js"></script>
 </body>
 </html>

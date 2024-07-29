@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="/${service_name}/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/plyr.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/${service_name}/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -198,11 +198,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/${service_name}/js/player.js"></script>
-<script src="/${service_name}/js/jquery.nice-select.min.js"></script>
-<script src="/${service_name}/js/mixitup.min.js"></script>
-<script src="/${service_name}/js/jquery.slicknav.js"></script>
-<script src="/${service_name}/js/owl.carousel.min.js"></script>
-<script src="/${service_name}/js/main.js"></script>
+<script src="/domain/${advert.domain}/js/player.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.nice-select.min.js"></script>
+<script src="/domain/${advert.domain}/js/mixitup.min.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.slicknav.js"></script>
+<script src="/domain/${advert.domain}/js/owl.carousel.min.js"></script>
+<script src="/domain/${advert.domain}/js/main.js"></script>
 </body>
 </html>

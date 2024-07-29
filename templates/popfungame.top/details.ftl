@@ -6,11 +6,11 @@
   <meta name="description" content="${advert.content}"/>
   <meta name="keywords" content="${advert.keywords}"/>
   <title>${service_name}</title>
-  <link rel="stylesheet" href="/${service_name}/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/${service_name}/css/toastr.min.css">
-  <link rel="stylesheet" href="/${service_name}/css/all.min.css">
-  <link rel="stylesheet" href="/${service_name}/css/all.min1.css">
-  <link rel="stylesheet" href="/${service_name}/css/styles.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/toastr.min.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min1.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/styles.css">
 </head>
 
 <body class="body      pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
@@ -162,13 +162,13 @@
   </section>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/${service_name}/js/pace.js"></script>
-<script src="/${service_name}/js/jquery.bez.js"></script>
-<script src="/${service_name}/js/toastr.min.js"></script>
-<script src="/${service_name}/js/TweenMax.min.js"></script>
-<script src="/${service_name}/js/owl.carousel.min.js"></script>
-<script src="/${service_name}/js/bootstrap.bundle.min.js"></script>
-<script src="/${service_name}/js/jquery.counterup.min.js"></script>
-<script src="/${service_name}/js/jquery.waypoints.js"></script>
-<script src="/${service_name}/js/main.js"></script>
+<script src="/domain/${advert.domain}/js/pace.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.bez.js"></script>
+<script src="/domain/${advert.domain}/js/toastr.min.js"></script>
+<script src="/domain/${advert.domain}/js/TweenMax.min.js"></script>
+<script src="/domain/${advert.domain}/js/owl.carousel.min.js"></script>
+<script src="/domain/${advert.domain}/js/bootstrap.bundle.min.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.counterup.min.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.waypoints.js"></script>
+<script src="/domain/${advert.domain}/js/main.js"></script>
 </body></html>

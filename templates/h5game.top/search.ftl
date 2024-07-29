@@ -8,11 +8,11 @@
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/${service_name}/css/all.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/${service_name}/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/main.css">
-    <link rel="stylesheet" href="/${service_name}/css/responsive.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/magnific-popup.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
 </head>
 <style>
     :root {
@@ -38,7 +38,7 @@
 <header class="header">
     <div class="header-2" style="background: #409EFF;">
         <a class="logo" href="/">
-            <img src="/${service_name}/logo.png" alt="logo">
+            <img src="/domain/${advert.domain}/logo.png" alt="logo">
         </a>
         <div class="container">
             <nav class="navbar">
@@ -117,7 +117,7 @@
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
-                <img src="/${service_name}/logo.png" alt="logo">
+                <img src="/domain/${advert.domain}/logo.png" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>
@@ -141,8 +141,8 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/${service_name}/js/jquery.magnific-popup.min.js"></script>
-<script src="/${service_name}/js/script.js"></script>
-<script src="/${service_name}/js/nav-link-toggler.js"></script>
+<script src="/domain/${advert.domain}/js/jquery.magnific-popup.min.js"></script>
+<script src="/domain/${advert.domain}/js/script.js"></script>
+<script src="/domain/${advert.domain}/js/nav-link-toggler.js"></script>
 </body>
 </html>

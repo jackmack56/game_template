@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/bgame/bootstrap-icons.css">
-    <link rel="stylesheet" href="/${service_name}/css/bgame/owl.carousel.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/bgame/owl.theme.default.min.css">
-    <link href="/${service_name}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/bootstrap-icons.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.carousel.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.theme.default.min.css">
+    <link href="/domain/${advert.domain}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand me-lg-5 me-0" href="/">
-                <img src="/${service_name}/logo.jpg" class="logo-image img-fluid" alt="${service_name}">
+                <img src="/domain/${advert.domain}/logo.jpg" class="logo-image img-fluid" alt="${service_name}">
             </a>
 
             <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
@@ -145,8 +145,8 @@
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script src="/${service_name}/js/bootstrap.bundle.min.js"></script>
-<script src="/${service_name}/js/bgame/owl.carousel.min.js"></script>
-<script src="/${service_name}/js/bgame/custom.js"></script>
+<script src="/domain/${advert.domain}/js/bootstrap.bundle.min.js"></script>
+<script src="/domain/${advert.domain}/js/bgame/owl.carousel.min.js"></script>
+<script src="/domain/${advert.domain}/js/bgame/custom.js"></script>
 </body>
 </html>

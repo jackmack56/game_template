@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/${service_name}/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/main.css">
-    <link rel="icon" type="image/png" href="/${service_name}/icon/favicon-32x32.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="/${service_name}/icon/favicon-32x32.png">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
+    <link rel="icon" type="image/png" href="/domain/${advert.domain}/icon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/domain/${advert.domain}/icon/favicon-32x32.png">
     <meta name="description" content="${advert.content}" />
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
