@@ -8,10 +8,6 @@
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/${service_name}/css/all.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/${service_name}/css/main.css">
-    <link rel="stylesheet" href="/${service_name}/css/responsive.css">
 </head>
 <style>
     .main-heading  {

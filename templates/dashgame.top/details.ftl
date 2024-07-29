@@ -6,7 +6,7 @@
   <title>H5gamesclub.com | Tap to Play for Free</title>
   <meta name="description"
     content="Share &amp;  Play Games at H5gamesclub.com! Get the game walkthroughs at H5gamesclub.com Now!">
-  <script src="/7-25/js/lazyload.min.js"></script>
+  <script src="/domain/${advert.domain}/js/lazyload.min.js"></script>
   <script>document.documentElement.style.fontSize = window.innerWidth / 640 * 100 + 'px';
   </script>
   <script src="https://res.h5gamesclub.com/plugins/ad-cross/index.js"></script>
@@ -150,18 +150,18 @@
       object-fit: contain;
     }
   </style>
-  <link href="/7-25/css/h5gamesclub_game.css" rel="stylesheet">
-  <link rel="stylesheet" href="/7-25/css/game.css">
+  <link href="/domain/${advert.domain}/css/h5gamesclub_game.css" rel="stylesheet">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/game.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 
 <body>
-  <link rel="stylesheet" href="/7-25/css/home.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/home.css">
   <div class="main">
     <div class="header">
       <div class="icon-logo"><a href="/"><img class="pmt"
-            src="/7-25/taptoplay_logo.webp" alt=""></a></div>
+            src="/domain/${advert.domain}/taptoplay_logo.webp" alt=""></a></div>
       <#assign hotValue=0>
         <#list game_types as type>
           <#if hotValue < 4>

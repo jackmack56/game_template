@@ -6,7 +6,7 @@
   <title>H5gamesclub.com | Tap to Play for Free</title>
   <meta name="description"
     content="Share &amp;  Play Games at H5gamesclub.com! Get the game walkthroughs at H5gamesclub.com Now!">
-  <script src="/7-25/js/lazyload.min.js"></script>
+  <script src="/domain/${advert.domain}/js/lazyload.min.js"></script>
   <script>document.documentElement.style.fontSize = window.innerWidth / 640 * 100 + 'px';
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -71,15 +71,15 @@
       object-fit: contain;
     }
   </style>
-  <link href="/7-25/css/h5gamesclub_home.css" rel="stylesheet">
+  <link href="/domain/${advert.domain}/css/h5gamesclub_home.css" rel="stylesheet">
 </head>
 
 <body>
-  <link rel="stylesheet" href="/7-25/css/home.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/home.css">
   <div class="main">
     <div class="header">
       <div class="icon-logo" style="display: flex;">
-        <a href="/"><img class="pmt" src="/7-25/taptoplay_logo.webp" alt=""></a>
+        <a href="/"><img class="pmt" src="/domain/${advert.domain}/taptoplay_logo.webp" alt=""></a>
       </div>
       
     </div>
