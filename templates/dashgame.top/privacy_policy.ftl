@@ -15,12 +15,11 @@
     }
     .content p {
         font-size: 20px;
-        letter-spacing: 1px;
     }
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
-    <div class="content" style="padding: 7rem">
+    <div class="content">
         <h1 class="main-heading">Privacy Policy</h1>
         <p></p><br>
         <h2>1. General and definitions</h2>
