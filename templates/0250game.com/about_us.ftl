@@ -10,11 +10,11 @@
   <title>${advert.title}</title>
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/${service_name}/css/fontawesome.css">
-  <link rel="stylesheet" href="/${service_name}/css/templatemo-lugx-gaming.css">
-  <link rel="stylesheet" href="/${service_name}/css/owl.css">
-  <link rel="stylesheet" href="/${service_name}/css/animate.css">
-  <link rel="stylesheet" href="/${service_name}/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/fontawesome.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/templatemo-lugx-gaming.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/owl.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/animate.css">
+  <link rel="stylesheet" href="/domain/${advert.domain}/css/swiper-bundle.min.css">
 </head>
 <body>
 
@@ -55,8 +55,8 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery.min.js@3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap.min.js@3.3.5/bootstrap.min.js"></script>
-<script src="/${service_name}/js/isotope.min.js"></script>
-<script src="/${service_name}/js/owl-carousel.js"></script>
-<script src="/${service_name}/js/counter.js"></script>
-<script src="/${service_name}/js/custom.js"></script>
+<script src="/domain/${advert.domain}/js/isotope.min.js"></script>
+<script src="/domain/${advert.domain}/js/owl-carousel.js"></script>
+<script src="/domain/${advert.domain}/js/counter.js"></script>
+<script src="/domain/${advert.domain}/js/custom.js"></script>
 </body></html>

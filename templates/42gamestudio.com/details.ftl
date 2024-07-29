@@ -11,8 +11,8 @@
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
     <title>${advert.title}</title>
-    <link href="/${service_name}/assets/css/theme.min.css" rel="stylesheet">
-    <link href="/${service_name}/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/domain/${advert.domain}/assets/css/theme.min.css" rel="stylesheet">
+    <link href="/domain/${advert.domain}/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
     <script src="chrome-extension://amkbmndfnliijdhojkpoglbnaaahippg/image/inject.js" id="imt-image-inject"></script>
     <style data-id="immersive-translate-input-injected-css">
         .immersive-translate-input {
@@ -368,7 +368,7 @@
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
         <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
-                <img src="/${service_name}/logo.png" alt="" style="height: 67px"></a>
+                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 67px"></a>
         </div>
     </nav>
 
@@ -470,9 +470,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&amp;display=swap"
         rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<script src="/${service_name}/vendors/@popperjs/popper.min.js"></script>
-<script src="/${service_name}/vendors/bootstrap/bootstrap.min.js"></script>
-<script src="/${service_name}/assets/js/theme.js"></script>
+<script src="/domain/${advert.domain}/vendors/@popperjs/popper.min.js"></script>
+<script src="/domain/${advert.domain}/vendors/bootstrap/bootstrap.min.js"></script>
+<script src="/domain/${advert.domain}/assets/js/theme.js"></script>
 </body>
 <div id="immersive-translate-popup" style="all: initial"></div>
 

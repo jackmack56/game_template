@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <title>${advert.title}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/${service_name}/css/my/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/my/templatemo-cyborg-gaming.css">
 </head>
 
 <body>
@@ -50,10 +50,10 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/${service_name}/js/my/isotope.min.js"></script>
-<script src="/${service_name}/js/my/owl-carousel.js"></script>
-<script src="/${service_name}/js/my/tabs.js"></script>
-<script src="/${service_name}/js/my/popup.js"></script>
-<script src="/${service_name}/js/my/custom.js"></script>
+<script src="/domain/${advert.domain}/js/my/isotope.min.js"></script>
+<script src="/domain/${advert.domain}/js/my/owl-carousel.js"></script>
+<script src="/domain/${advert.domain}/js/my/tabs.js"></script>
+<script src="/domain/${advert.domain}/js/my/popup.js"></script>
+<script src="/domain/${advert.domain}/js/my/custom.js"></script>
 </body>
 </html>
