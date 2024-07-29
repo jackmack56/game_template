@@ -10,19 +10,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="/${service_name}/css/tools.css">
-    <link rel="stylesheet" href="/${service_name}/css/bulma.min.css">
-    <link rel="stylesheet" href="/${service_name}/css/consent.css">
-    <link rel="stylesheet" href="/${service_name}/css/common.css">
-    <script src="/${service_name}/js/jquery-3.7.1.min.js"></script>
-    <script src="/${service_name}/js/jquery.validate.js"></script>
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/tools.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bulma.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/consent.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/common.css">
+    <script src="/domain/${advert.domain}/js/jquery-3.7.1.min.js"></script>
+    <script src="/domain/${advert.domain}/js/jquery.validate.js"></script>
 </head>
 
 <body>
 <nav class="navbar is-info" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <img src="/${service_name}/logo.png" alt="" style="max-height: 3.75rem;">
+            <img src="/domain/${advert.domain}/logo.png" alt="" style="max-height: 3.75rem;">
         </a>
         <a role="button" class="navbar-burger is-active" aria-label="menu" aria-expanded="false"
            data-target="navbarBasicExample">
