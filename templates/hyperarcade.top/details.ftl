@@ -125,9 +125,11 @@
         <div class="footer-grids">
             <div class="footer-top">
                 <div class="footer-top-nav">
-                    <p style="font-size: 15px; color: white">
-                        ${advert.content}
-                    </p>
+                    <div class="footer-top-nav">
+                        <p style="font-size: 15px; color: white; margin-left: 10px; margin-bottom: 60px">
+                            ${advert.content}
+                        </p>
+                    </div>
                 </div>
 
                 <div class="footer-top-nav">
