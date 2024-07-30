@@ -310,7 +310,7 @@
                 <h6 class="footer__title" style="font-weight: bolder; font-size: 25px; color: black">${service_name}</h6>
                 <div class="footer__nav" style="color: black">
                     <p class="col-10">
-                        <a href="/about_us" style="color: black">About</a>
+                        <a href="/about_us" style="color: black">About Us</a>
                         <a href="/contact_us" style="float: right;color: black" style="color: black">Contact Us</a>
                     </p>
                     <p class="col-10">

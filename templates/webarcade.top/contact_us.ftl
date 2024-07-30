@@ -35,7 +35,7 @@
   <div class="container">
     <div class="row">
       <div data-v-362b6a26="" class="mid_content">
-        <h1>Contact us</h1>
+        <h1>Contact Us</h1>
         <p></p><br>
         <h3>Welcome to ${service_name}</h3>
         <p>Need help with something? Send us your question, feedback, or comment.</p><br>

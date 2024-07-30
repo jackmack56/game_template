@@ -151,9 +151,8 @@
                 <h6 class="footer__title" style="font-weight: bolder; font-size: 25px;">The Volna</h6>
                 <div class="footer__nav">
                     <p class="col-10">
-                        <a href="/about_us">About</a>
-                        <a href="/contact_us" style="float: right">Contact Us</a>
-
+                        <a href="/about_us">About Us</a>
+                        <a href="/contact_us" style="float: right">Contact Us &nbsp;&nbsp;</a>
                     </p>
                     <p class="col-10">
                         <a href="/term_of_use">Terms of Use</a>

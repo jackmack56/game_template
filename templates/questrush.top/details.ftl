@@ -245,7 +245,7 @@
                   loading="lazy"></a></li>
             <li class="w-100 d-block d-sm-none"></li>
             <li class="nav-item"><a class="nav-link" href="/about_us"><i class="fas fa-gamepad"></i>
-                About</a></li>
+                About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="/privacy_policy"><i class="fas fa-envelope"></i> Privacy
                 Policy</a></li>
             <li class="nav-item"><a class="nav-link" href="/term_of_use"><i class="fas fa-question-circle"></i> Terms of
