@@ -3353,7 +3353,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 400;
 }
 .product__new {
-  font-size: 14px;
+  font-size: 11px;
   color: #eb5757;
   position: absolute;
   bottom: 20px;
