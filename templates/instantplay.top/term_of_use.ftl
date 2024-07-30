@@ -23,7 +23,7 @@
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
-    <div class="content" style="padding: 7rem">
+    <div class="content">
         <h1 class="main-heading">Terms of Use</h1>
         <p></p><br>
         <h3>1.ACCEPTANCE OF TERMS OF USE</h3>

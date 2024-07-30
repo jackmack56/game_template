@@ -23,7 +23,7 @@
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
-        <div class="content" style="padding: 7rem">
+        <div class="content">
             <h1 class="main-heading">About Us</h1>
             <p></p><br>
             <p>We're thrilled to present ${service_name}, a pioneering online gaming hub designed to connect global gamers with an array of diverse digital games. We house a broad spectrum of games on our platform, from educational to complex ones, catering to the entertainment needs of gamers of all age groups.</p>
