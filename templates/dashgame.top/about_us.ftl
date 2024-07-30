@@ -16,6 +16,7 @@
     .content p {
         font-size: 20px;
     }
+
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">

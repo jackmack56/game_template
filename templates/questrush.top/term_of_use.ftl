@@ -21,6 +21,9 @@
         font-size: 20px;
         letter-spacing: 1px;
     }
+    .content h3 h2{
+        font-size: 30px;
+    }
 </style>
 <body>
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
