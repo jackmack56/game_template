@@ -18,10 +18,8 @@
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-
 </head>
 <body>
-<!-- header -->
 <header class="header">
     <div class="header__content">
         <div class="header__logo">
@@ -182,7 +180,6 @@
         </div>
     </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/domain/${advert.domain}/js/bootstrap.bundle.min.js"></script>
 <script src="/domain/${advert.domain}/js/owl.carousel.min.js"></script>
