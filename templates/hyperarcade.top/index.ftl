@@ -26,7 +26,7 @@
                 </form>
             </div>
         </div>
-        <div class="clearfix"> </div>
+        <div class="clearfix"></div>
     </div>
 </nav>
 
@@ -59,14 +59,87 @@
 
     </div>
 </div>
-<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-0 main">
     <div class="main-grids">
+        <div class="recommended">
+            <div class="recommended-grids">
+                <div class="recommended-info">
+                    <h3 style="color: white">Recommend Games</h3>
+                </div>
+
+                <div  id="top" class="callbacks_container">
+                    <ul class="rslides" id="slider3">
+                        <li>
+                            <div class="animated-grids">
+                                <#list all_game as game>
+                                    <#if 24 < game_index && game_index < 31 >
+
+                                        <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">
+                                            <div class="resent-grid-img recommended-grid-img">
+                                                <a href="/details/${game.id}"><img src="${game.gamePreview}" alt="" /></a>
+                                                <div class="time small-time slider-time">
+                                                    <p>${game.createTime?string("yyyy-MM-dd")}</p>
+                                                </div>
+                                            </div>
+                                            <div class="resent-grid-info recommended-grid-info">
+                                                <div class="slid-bottom-grids">
+                                                    <div class="slid-bottom-grid">
+                                                        <p class="author author-info"><a href="/details/${game.id}" class="author">${game.gameName}</a></p>
+                                                    </div>
+                                                    <div class="slid-bottom-grid slid-bottom-right">
+                                                        <p class="views views-info">${game.gameHot}</p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </#if>
+                                </#list>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="animated-grids">
+                                <#list all_game as game>
+                                    <#if 31 < game_index && game_index < 38 >
+                                        <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids " >
+                                            <div class="resent-grid-img recommended-grid-img">
+                                                <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""  /></a>
+                                                <div class="time small-time slider-time">
+                                                    <p>${game.createTime?string("yyyy-MM-dd")}</p>
+                                                </div>
+                                            </div>
+                                            <div class="resent-grid-info recommended-grid-info">
+                                                <div class="slid-bottom-grids">
+                                                    <div class="slid-bottom-grid">
+                                                        <p class="author author-info"><a href="/details/${game.id}" class="author">${game.gameName}</a></p>
+                                                    </div>
+                                                    <div class="slid-bottom-grid slid-bottom-right">
+                                                        <p class="views views-info">${game.gameHot}</p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </#if>
+                                </#list>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
         <div class="top-grids">
             <div class="recommended-info">
-                <h3>${category ! ''} <span>Games</span></h3>
+                <h3 style="color: white">New Game</h3>
             </div>
             <#list all_game as game>
-                    <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">
+                <#if game_index < 24>
+                    <div class="col-lg-2 resent-grid recommended-grid slider-top-grids ">
                         <div class="resent-grid-img recommended-grid-img">
                             <a href="/details/${game.id}"><img src="${game.gamePreview}" alt="" /></a>
                             <div class="time">
@@ -80,8 +153,39 @@
                             </ul>
                         </div>
                     </div>
+
+                </#if>
             </#list>
             <div class="clearfix"> </div>
+        </div>
+
+
+
+        <div class="recommended">
+            <div class="recommended-grids">
+                <div class="recommended-info">
+                    <h3 style="color: white">Other Games</h3>
+                </div>
+                <#list all_game as game>
+                    <#if 37 < game_index && game_index < 80 >
+                        <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">
+                            <div class="resent-grid-img recommended-grid-img">
+                                <a href="/details/${game.id}"><img src="${game.gamePreview}" alt="" /></a>
+                                <div class="time">
+                                    <p>${game.createTime?string("yyyy-MM-dd")}</p>
+                                </div>
+
+                            </div>
+                            <div class="resent-grid-info recommended-grid-info">
+                                <ul>
+                                    <li><p class="author author-info"><a href="/details/${game.id}" class="author">${game.gameName}</a></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </#if>
+                </#list>
+                <div class="clearfix"> </div>
+            </div>
         </div>
 
     </div>
@@ -111,6 +215,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap.min.js@3.3.5/bootstrap.min.js"></script>
@@ -148,7 +254,6 @@
         });
     });
     $(function () {
-        // Slideshow 4
         $("#slider3").responsiveSlides({
             auto: true,
             pager: false,
@@ -162,7 +267,6 @@
                 $('.events').append("<li>after event fired.</li>");
             }
         });
-
     });
 </script>
 </body>

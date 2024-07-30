@@ -63,7 +63,7 @@
     <div class="main-grids">
         <div class="top-grids">
             <div class="recommended-info">
-                <h3>New Game</h3>
+                <h3>${category ! ''} <span>Games</span></h3>
             </div>
             <#list all_game as game>
                     <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">

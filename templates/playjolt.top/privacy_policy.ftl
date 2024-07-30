@@ -19,9 +19,9 @@
 
 <main class="main">
     <div class="container-fluid">
-        <h1>1. General and definitions</h1>
-
+        <h1>Privacy Policy</h1>
         <p></p><br>
+        <h1>1. General and definitions</h1>
         <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the ${service_name}. The use of the Internet pages of the ${service_name} is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
         <br>
         <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the ${service_name}. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>

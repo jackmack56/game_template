@@ -14,7 +14,7 @@
     <title>${advert.title}</title>
 
 </head>
-<body style="background: #272c2e">
+<body style="background: #956383">
 
 
 <main class="main">

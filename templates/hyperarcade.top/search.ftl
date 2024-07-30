@@ -59,11 +59,11 @@
 
     </div>
 </div>
-<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-0 main">
     <div class="main-grids">
         <div class="top-grids">
             <div class="recommended-info">
-                <h3>${category ! ''} <span>Games</span></h3>
+                <h3 style="color: white">${category ! ''} <span>Games</span></h3>
             </div>
             <#list all_game as game>
                     <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">
