@@ -5159,7 +5159,6 @@ body::-webkit-scrollbar-thumb {
 }
 @media (min-width: 1200px) {
   .footer {
-    padding-left: 295px;
     padding-right: 15px;
   }
   .footer__social {

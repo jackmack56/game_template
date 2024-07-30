@@ -164,7 +164,7 @@
 <footer class="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-6">
+            <div>
                 <div class="footer__logo">
                     <img src="/domain/${advert.domain}/logo.png" alt="">
                 </div>

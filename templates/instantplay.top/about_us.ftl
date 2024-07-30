@@ -22,7 +22,7 @@
     }
 </style>
 <body>
-<section class="portfolio-single page-single" style="margin-top: 10rem;">
+<section class="portfolio-single page-single" style="margin-top: 2rem;">
         <div class="content">
             <h1 class="main-heading">About Us</h1>
             <p></p><br>
