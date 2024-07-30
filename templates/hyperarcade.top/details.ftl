@@ -125,6 +125,12 @@
         <div class="footer-grids">
             <div class="footer-top">
                 <div class="footer-top-nav">
+                    <p style="font-size: 15px; color: white">
+                        ${advert.content}
+                    </p>
+                </div>
+
+                <div class="footer-top-nav">
                     <ul>
                         <li><a href="/about_us" style="color: white">About Us</a></li>
                         <li><a href="/privacy_policy" style="color: white">Privacy Policy</a></li>

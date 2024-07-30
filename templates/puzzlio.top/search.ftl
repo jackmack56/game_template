@@ -89,7 +89,7 @@
         <div class="footer-grids">
             <div class="footer-top">
                 <div class="footer-top-nav">
-                    <p>
+                    <p style="font-size: 15px; color: white">
                         ${advert.content}
                     </p>
                 </div>
