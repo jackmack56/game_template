@@ -20,21 +20,17 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/style.css" type="text/css">
 </head>
-
 <body>
-<!-- Page Preloder -->
 <div id="preloder">
     <div class="loader"></div>
 </div>
-
-<!-- Header Section Begin -->
 <header class="header">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="/">
-                        ${service_name}
+                        <img src="/domain/${advert.domain}/logo.png" />
                     </a>
                 </div>
             </div>
@@ -66,9 +62,6 @@
         <div id="mobile-menu-wrap"></div>
     </div>
 </header>
-<!-- Header End -->
-
-<!-- Anime Section Begin -->
 <section class="anime-details spad">
     <div class="container">
         <div class="anime__details__content">

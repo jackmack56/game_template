@@ -22,19 +22,18 @@
 </head>
 
 <body>
-<!-- Page Preloder -->
 <div id="preloder">
     <div class="loader"></div>
 </div>
 
-<!-- Header Section Begin -->
+
 <header class="header">
     <div class="container">
         <div class="row">
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="/">
-                        ${service_name}
+                        <img src="/domain/${advert.domain}/logo.png" />
                     </a>
                 </div>
             </div>
@@ -65,9 +64,7 @@
         <div id="mobile-menu-wrap"></div>
     </div>
 </header>
-<!-- Header End -->
 
-<!-- Product Section Begin -->
 <section class="product spad">
     <div class="container">
         <div class="row">
@@ -229,5 +226,4 @@
 <script src="/domain/${advert.domain}/js/owl.carousel.min.js"></script>
 <script src="/domain/${advert.domain}/js/main.js"></script>
 </body>
-
 </html>

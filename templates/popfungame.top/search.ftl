@@ -36,22 +36,15 @@
     <div class="pace-activity"></div>
 </div>
 
-<!-- start scroll to top button -->
 <div id="progress" style="display: none; background: conic-gradient(rgb(31, 43, 227) 0%, rgb(215, 215, 215) 0%);">
     <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
 </div>
-<!-- end scroll to top button -->
-
-
-<!-- ======= start Header ======= -->
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="/">
-                <h3 class="heading-3  primary-text">${service_name}</h3>
+                <img src="/domain/${advert.domain}/logo.png"/>
             </a>
-            <!-- if you prefer to use an image as logo -->
-            <!-- <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
@@ -115,11 +108,8 @@
         </div>
     </div>
 </section>
-
-
 <section class="footer position-relative pt-5 mt-5 pb-4">
     <div class="container d-flex flex-column gap-16">
-
         <hr>
         <div class="row justify-content-between align-items-start g-4 py-5" style="
     justify-content: space-between;
@@ -144,12 +134,9 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 </section>
-
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script src="/domain/${advert.domain}/js/pace.js"></script>
 <script src="/domain/${advert.domain}/js/jquery.bez.js"></script>
