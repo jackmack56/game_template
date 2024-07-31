@@ -36,19 +36,15 @@
     <div class="pace-activity"></div>
 </div>
 
-<!-- start scroll to top button -->
 <div id="progress" style="display: none; background: conic-gradient(rgb(31, 43, 227) 0%, rgb(215, 215, 215) 0%);">
     <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
 </div>
-<!-- end scroll to top button -->
 
-
-<!-- ======= start Header ======= -->
 <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="/">
-                <img src="/domain/${advert.domain}/logo.png"/>
+                <img src="/domain/${advert.domain}/logo.png" style="width: 5rem; aspect-ratio: 0;" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

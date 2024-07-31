@@ -31,7 +31,7 @@
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="/">
-                        <img src="/domain/${advert.domain}/logo.png"/>
+                        <img src="/domain/${advert.domain}/logo.png" style="width: 3rem" />
                     </a>
                 </div>
             </div>
