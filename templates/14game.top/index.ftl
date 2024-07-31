@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/common.css">
     <script src="/domain/${advert.domain}/js/jquery-3.7.1.min.js"></script>
     <script src="/domain/${advert.domain}/js/jquery.validate.js"></script>
+    ${advert.gaCode}
 </head>
 
 <body>

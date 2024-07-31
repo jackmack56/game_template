@@ -5,6 +5,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
   <title>${service_name}</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
+  ${advert.gaCode}
 </head>
 <body style="color: white;background-color: black;">
 <div id="js-preloader" class="js-preloader loaded">

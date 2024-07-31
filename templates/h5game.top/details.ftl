@@ -46,7 +46,7 @@
         </a>
         <div class="container">
             <nav class="navbar">
-                <a class="nav-btn" href="">home</a>
+                <a class="nav-btn" href="/">home</a>
                 <a class="nav-btn" href="/about_us">About</a>
                 <div class="dropdown-menu">
                     <button class="nav-btn">Category</button>
