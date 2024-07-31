@@ -118,21 +118,19 @@
         </div>
     </div>
 </section>
+
+<section class="portfolio section" id="portfolio">
+    <div class="container d-flex flex-column gap-64" style="color: white">
+        ${advert.content}
+    </div>
+</section>
+
 <section class="footer position-relative pt-5 mt-5 pb-4">
     <div class="container d-flex flex-column gap-16">
         <hr>
         <div class="row justify-content-between align-items-start g-4 py-5" style="
     justify-content: space-between;
 ">
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="d-flex flex-column gap-8">
-
-                    <h4 class="m-0 p-0">
-                        <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</p>
-                        <p></p>
-                    </h4>
-                </div>
-            </div>
             <div class="col-lg-2 col-md-6 col-12">
                 <div class="d-flex flex-column gap-2">
                     <h4>About</h4>
@@ -142,6 +140,15 @@
                         <a href="/term_of_use">Terms of Use</a>
                         <a href="/contact_us">Contact Us</a>
                     </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="d-flex flex-column gap-8">
+
+                    <h4 class="m-0 p-0">
+                        <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</p>
+                        <p></p>
+                    </h4>
                 </div>
             </div>
         </div>

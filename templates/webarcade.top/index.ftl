@@ -229,6 +229,11 @@
     </div>
 </div>
 
+
+<section class="product spad">
+    <p style="color: white">${advert.content}</p>
+</section>
+
 <footer class="footer">
     <div class="page-up">
         <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
