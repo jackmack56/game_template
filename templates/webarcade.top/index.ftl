@@ -231,7 +231,9 @@
 
 
 <section class="product spad">
+    <div class="container">
     <p style="color: white">${advert.content}</p>
+    </div>
 </section>
 
 <footer class="footer">

@@ -88,8 +88,8 @@
 </header>
 
 <section class="team">
-    <div class="heading">
-        <h2 style="color: #409EFF;">${category ! ''} <span>Games</span></h2>
+    <div class="heading" style="margin-top: 17rem">
+        <h2>${category ! ''} <span>Games</span></h2>
     </div>
     <div class="box-container">
         <#list all_game as game>
