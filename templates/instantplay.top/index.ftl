@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
+    ${advert.gaCode}
 </head>
 <body>
 <a href="#" class="scroll-top">

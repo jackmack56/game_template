@@ -10,6 +10,7 @@
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
+    ${advert.gaCode}
     <style>
         .game-box {
             flex: 0 1 420px;

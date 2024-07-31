@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="icon" type="image/png" href="/domain/${advert.domain}/icon/favicon-32x32.png" sizes="32x32">
     <link rel="apple-touch-icon" href="/domain/${advert.domain}/icon/favicon-32x32.png">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Dmitry Volkov">
-    <title>Volna – Record label & Music streaming HTML Template</title>
-
+    <meta name="description" content="${advert.content}" />
+    <meta name="keywords" content="${advert.keywords}" />
+    <meta name="author" content="">
+    <title>${advert.title}</title>
+    ${advert.gaCode}
 </head>
 <body style="background: white">
 

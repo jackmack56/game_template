@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/style.css" type="text/css">
+    ${advert.gaCode}
 </head>
 
 <body>

@@ -8,6 +8,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
+    ${advert.gaCode}
 
 </head>
 

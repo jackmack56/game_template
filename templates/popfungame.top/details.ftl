@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min1.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/styles.css">
+    ${advert.gaCode}
 </head>
 
 <body class="body      pace-done">

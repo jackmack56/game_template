@@ -16,6 +16,7 @@
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
+    ${advert.gaCode}
 </head>
 <body style="background: white">
 <header class="header" style="background: #f7f7f7;">

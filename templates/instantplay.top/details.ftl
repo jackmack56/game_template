@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/magnific-popup.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
-
+    ${advert.gaCode}
 </head>
 <body>
 <a href="#" class="scroll-top">

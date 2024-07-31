@@ -72,6 +72,7 @@
     }
   </style>
   <link href="/domain/${advert.domain}/css/h5gamesclub_home.css" rel="stylesheet">
+  ${advert.gaCode}
 </head>
 
 <body>

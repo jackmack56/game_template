@@ -361,6 +361,7 @@
             cursor: pointer;
         }
     </style>
+    ${advert.gaCode}
 </head>
 
 <body>

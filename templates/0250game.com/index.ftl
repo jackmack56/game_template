@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/domain/${advert.domain}/css/owl.css">
   <link rel="stylesheet" href="/domain/${advert.domain}/css/animate.css">
   <link rel="stylesheet" href="/domain/${advert.domain}/css/swiper-bundle.min.css">
+  ${advert.gaCode}
 </head>
 <body>
   <div id="js-preloader" class="js-preloader loaded">

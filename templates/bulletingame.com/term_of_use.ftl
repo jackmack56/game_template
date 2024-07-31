@@ -12,7 +12,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="Dmitry Volkov">
     <title>Volna – Record label & Music streaming HTML Template</title>
-
+    ${advert.gaCode}
 </head>
 <body style="background: white">
 

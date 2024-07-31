@@ -10,6 +10,7 @@
   <title>${advert.title}</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/domain/${advert.domain}/css/my/templatemo-cyborg-gaming.css">
+  ${advert.gaCode}
 </head>
 <body>
 <div id="js-preloader" class="js-preloader">
