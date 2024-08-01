@@ -3,9 +3,9 @@
 <head>
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
+    <title>${advert.title}</title>
     <link rel="stylesheet" type="text/css"
           href="https://fonts.googleapis.com/css?keyAIzaSyBXqXcdvinZsgURKUWnSn7f0dQzCytS0YM&amp;family=Lato:400,700,900,400italic">
-    <title>${advert.title}</title>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
