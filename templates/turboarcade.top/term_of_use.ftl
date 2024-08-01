@@ -30,21 +30,21 @@
                 <h1>Terms of Use</h1>
                 <p></p><br>
                 <h3>1.ACCEPTANCE OF TERMS OF USE</h3>
-                <p>By using or accessing the Websites and Services, you are accepting the Terms of Use. ${service_name}
+                <p>By using or accessing the Websites and Services, you are accepting the Terms of Use. ${advert.serverName}
                     reserves the right to update the Terms of Use at any time without notice to you. The most current
                     version of the Terms of Use can be reviewed by clicking on the "Terms of Use" hypertext link located
                     at the bottom of the pages of the Websites.</p>
                 <h3>2. LINKS TO THIRD PARTY SITES AND THIRD PARTY ADVERTISERS</h3>
                 <p>The Websites include references and hyperlinks to websites of third parties and provide access to
-                    games and services of business partners of ${service_name}. Although ${service_name} selects its
-                    business partners carefully, ${service_name} does not provide any warranty and accepts no
+                    games and services of business partners of ${advert.serverName}. Although ${advert.serverName} selects its
+                    business partners carefully, ${advert.serverName} does not provide any warranty and accepts no
                     responsibility regarding the content, use and availability of websites of its business partners or
-                    other third parties. You acknowledge and agree that the websites of ${service_name}'s business
+                    other third parties. You acknowledge and agree that the websites of ${advert.serverName}'s business
                     partners and other third party websites are governed by its own terms and conditions, such as terms
                     of use, privacy statement and cookie statement. Please review these policies prior to using the
-                    services of third parties. Any dealings that you have with ${service_name}'s business partners or
+                    services of third parties. Any dealings that you have with ${advert.serverName}'s business partners or
                     other third parties (e.g. third party advertisers found on the Website) are between you and the
-                    third party. You acknowledge and agree that ${service_name} is not liable for any loss or claim you
+                    third party. You acknowledge and agree that ${advert.serverName} is not liable for any loss or claim you
                     may have against such third party.</p>
                 <h3>3. PRIVACY AND PROTECTION OF PERSONAL DATA</h3>
                 <p>Please see the Privacy relating to the collection and use of your personal data. Please review these
@@ -55,25 +55,25 @@
                     works from, transfer, or sell any information, software, products or services obtained from the
                     Services.</p>
                 <h3>5. LIMITATION OF LIABILITY</h3>
-                <p>In no event shall ${service_name} be liable for any special, indirect or consequential damages or any
+                <p>In no event shall ${advert.serverName} be liable for any special, indirect or consequential damages or any
                     damages whatsoever, whether in an action of contract, negligence or other tortious action, arising
                     out of or in connection with the use or provision of or failure to provide the Services, or
                     information available from the Services.</p>
                 <h3>6. NO GUARANTEE AND SUPPORT</h3>
-                <p>All Services are provided “as is”, with all faults and if and as available. ${service_name} makes no
-                    warranties or guarantees in respect of the Services. ${service_name} is not obligated to provide any
-                    support whatsoever. ${service_name} does not guarantee that the Services will meet your
+                <p>All Services are provided “as is”, with all faults and if and as available. ${advert.serverName} makes no
+                    warranties or guarantees in respect of the Services. ${advert.serverName} is not obligated to provide any
+                    support whatsoever. ${advert.serverName} does not guarantee that the Services will meet your
                     requirements, is error-free, reliable, without interruption or available at all
-                    times. ${service_name} does not guarantee that the results that may be obtained from the use of the
+                    times. ${advert.serverName} does not guarantee that the results that may be obtained from the use of the
                     Services will be effective, reliable, and accurate or will meet your requirements.</p>
                 <h3>7.NO UNLAWFUL OR PROHIBITED USE</h3>
                 <p>As a condition of your use of the Services, you will not use the Services for any purpose that is
                     unlawful or prohibited by the Terms of Use. You may not use the Services in any manner that could
-                    damage, disable, overburden, or impair any ${service_name} server, ${service_name}'s business
+                    damage, disable, overburden, or impair any ${advert.serverName} server, ${advert.serverName}'s business
                     partner's server or the network(s) connected to any of these servers, or interfere with any other
                     party's use and enjoyment of the Services. You may not attempt to gain unauthorized access to any
-                    Services, other accounts, computer systems or networks connected to any ${service_name}
-                    server, ${service_name}'s business partner's server or to any of the Services, through hacking, or
+                    Services, other accounts, computer systems or networks connected to any ${advert.serverName}
+                    server, ${advert.serverName}'s business partner's server or to any of the Services, through hacking, or
                     any other means. You may not obtain or attempt to obtain any materials or information through any
                     means not intentionally made available through the Services.</p>
                 <h3>8.USE OF THE SERVICES</h3>
@@ -139,13 +139,13 @@
                     use, download or otherwise copy, or provide (whether or not for a fee) to a person or entity any directory of users of the Services or other user or usage information or any portion thereof.
                 </span>
                     <br/><br/>
-                    ${service_name} reserves the right to take technical and legal measures to enforce compliance of the
+                    ${advert.serverName} reserves the right to take technical and legal measures to enforce compliance of the
                     Terms of Use, without notice, for any reason whatsoever.
                     <br/><br/>
-                    ${service_name} reserves the right at all times to disclose any information as ${service_name} deems
+                    ${advert.serverName} reserves the right at all times to disclose any information as ${advert.serverName} deems
                     necessary to satisfy any applicable law, regulation, legal process or governmental request, or to
                     edit, refuse to post or to remove any information or materials, in whole or in part,
-                    in ${service_name}'s sole discretion.
+                    in ${advert.serverName}'s sole discretion.
                 </p>
             </div>
         </div>

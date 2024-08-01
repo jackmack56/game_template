@@ -1,7 +1,10 @@
 <html lang="en"><head>
   <meta charset="UTF-8">
-  <title>FRVR - Free online
-    games</title>
+  <meta name="description" content="${advert.content}"/>
+  <meta name="keywords" content="${advert.keywords}"/>
+  <meta name="author" content="">
+  <title>${advert.title}</title>
+  ${advert.gaCode}
   <meta name="viewport" content="width=device-width,user-scalable=no,minimum-scale=1,maximum-scale=1">
   <link href="/domain/${advert.domain}/css/app.cccc71fbc122b4fe8770.css" rel="stylesheet">
   <style data-id="immersive-translate-input-injected-css">
