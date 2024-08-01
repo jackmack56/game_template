@@ -1,7 +1,10 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>FRVR - Free online games</title>
+    <meta name="description" content="${advert.content}"/>
+    <meta name="keywords" content="${advert.keywords}"/>
+    <meta name="author" content="">
+    <title>${advert.title}</title>
+    ${advert.gaCode}
     <meta
       name="viewport"
       content="width=device-width,user-scalable=no,minimum-scale=1,maximum-scale=1"
@@ -5500,7 +5503,6 @@
         --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
     </style>
-    ${advert.gaCode}
   </head>
 
   <body class="dark-mode">
