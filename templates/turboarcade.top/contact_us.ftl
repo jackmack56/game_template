@@ -32,7 +32,7 @@
       <div data-v-362b6a26="" class="mid_content">
         <h1>Contact Us</h1>
         <p></p><br>
-        <h3>Welcome to ${advert.serverName}</h3>
+        <h3>Welcome to ${advert.serviceName}</h3>
         <p>Need help with something? Send us your question, feedback, or comment.</p><br>
         <p>Send us your suggestions, complaints and feedback. We understand and highly appreciate your time. We will respond you asap.</p><br>
         <p>Developer/Publisher/Advitiser & Bussiness/Players.</p><br>
