@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/bootstrap-icons.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.carousel.min.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.theme.default.min.css">
-    <link href="/domain/${advert.domain}}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
+    <link href="/domain/${advert.domain}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
     ${advert.gaCode}
 </head>
 <body>
