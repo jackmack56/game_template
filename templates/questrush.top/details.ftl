@@ -271,7 +271,7 @@
                             Us</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">Copyright &copy; 2024 ${service_name}.
+            <div class="col-12 col-md-3 mt-2 mt-md-0 mb-2 mb-md-0 text-md-right">Copyright &copy; 2024 ${advert.serviceName}.
                 All Rights Reserved.
             </div>
         </div>

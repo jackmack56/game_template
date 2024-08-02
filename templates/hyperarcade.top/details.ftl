@@ -150,7 +150,7 @@
             <div class="footer-bottom">
                 <ul>
                     <li><a style="color:white; font-size: 20px; font-weight: bolder">Copyright ©
-                            2024 ${service_name}. All
+                            2024 ${advert.serviceName}. All
                             Rights Reserved</a></li>
                 </ul>
 

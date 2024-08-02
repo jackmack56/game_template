@@ -212,7 +212,7 @@
             <div class="col-lg-3">
                 <p>Email: ${advert.contactMail}</a>
                 </p>
-                <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.
+                <p>Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
                 </p>
             </div>
         </div>

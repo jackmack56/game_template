@@ -169,7 +169,7 @@
         </div>
     </div>
     <div class="content" style="background: #409EFF">
-        <p>Copyright © 2024 ${service_name}. All Rights Reserved</p>
+        <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>

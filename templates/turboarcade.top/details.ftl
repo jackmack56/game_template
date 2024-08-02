@@ -5308,7 +5308,7 @@
       </div>
     </div>
     <div class="row pt-32 pt-md-50 flex-column flex-md-row">
-      <div class="col text-center text-md-left">Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</div>
+      <div class="col text-center text-md-left">Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.</div>
     </div>
   </footer>
   

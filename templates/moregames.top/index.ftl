@@ -54,7 +54,7 @@
           <div class="row">
             <div class="col-lg-10">
               <div class="header-text">
-                <h4>Welcome To<em> ${service_name}</em></h4>
+                <h4>Welcome To<em> ${advert.serviceName}</em></h4>
                 <h4><em>Browse</em> Our Popular Games</h4>
               </div>
             </div>
@@ -213,7 +213,7 @@
       <div class="col-lg-8">
         <p>Email: ${advert.contactMail}</a>
         </p>
-        <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.
+        <p>Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
         </p>
       </div>
       <div class="col-lg-2">

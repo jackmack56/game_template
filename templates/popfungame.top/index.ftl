@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
-    <title>${service_name}</title>
+    <title>${advert.title}</title>
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap.min.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/toastr.min.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
@@ -147,7 +147,7 @@
                 <div class="d-flex flex-column gap-8">
 
                     <h4 class="m-0 p-0">
-                        <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.</p>
+                        <p>Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.</p>
                         <p></p>
                     </h4>
                 </div>

@@ -153,7 +153,7 @@
         <div class="col-lg-6">
           <div style="display: flex;gap: 10px;font-size: 12px;justify-content: center;padding-top: 50px;">
             <p>Email: ${advert.contactMail}</a> <br>
-              Copyright © 2024 <a href="/">${service_name}</a>
+              Copyright © 2024 <a href="/">${advert.serviceName}</a>
               Company. All rights reserved.
             </p>
           </div>

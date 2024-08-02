@@ -444,7 +444,7 @@
             <p>
                 Email: ${advert.contactMail}
             </p>
-            <p>Copyright © 2024 <a href="/">${service_name}</a>. All Rights Reserved.
+            <p>Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
             </p>
         </ul>
     </div>

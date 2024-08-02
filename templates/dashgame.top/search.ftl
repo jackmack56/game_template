@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>H5gamesclub.com | Tap to Play for Free</title>
+  <meta name="description" content="${advert.content}"/>
+  <meta name="keywords" content="${advert.keywords}"/>
+  <title>${advert.title}</title>
   <meta name="description"
     content="Share &amp;  Play Games at H5gamesclub.com! Get the game walkthroughs at H5gamesclub.com Now!">
   <script src="/domain/${advert.domain}/js/lazyload.min.js"></script>

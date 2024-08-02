@@ -195,7 +195,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="footer__content">
-                    <small class="footer__copyright">Copyright &copy; 2024 ${service_name}. All Rights Reserved.</small>
+                    <small class="footer__copyright">Copyright &copy; 2024 ${advert.serviceName}. All Rights Reserved.</small>
                 </div>
             </div>
         </div>

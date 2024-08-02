@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand me-lg-5 me-0" href="/">
-                <img src="/domain/${advert.domain}/logo.jpg" class="logo-image img-fluid" alt="${service_name}">
+                <img src="/domain/${advert.domain}/logo.jpg" class="logo-image img-fluid" alt="${advert.serviceName}">
             </a>
 
             <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
@@ -115,7 +115,7 @@
                     <a href="#">${advert.contactMail}</a>
                 </p>
                 <p>
-                    Copyright © 2024 ${service_name}. All Rights Reserved
+                    Copyright © 2024 ${advert.serviceName}. All Rights Reserved
                 </p>
             </div>
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0 mb-lg-0">
