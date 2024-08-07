@@ -113,8 +113,9 @@ section{
 }
 
 .logo img{
-    height: 10rem;
+    height: 6rem;
     object-fit: cover;
+    width: 10rem;
 }
 
 /*----- 4- Page Title CSS -----*/
