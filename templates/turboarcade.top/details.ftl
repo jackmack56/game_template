@@ -5157,7 +5157,7 @@
           <a href="/domain/${advert.domain}/index.html" class="nav-link">Discover</a>
         </li>
         <li class="nav-item">
-          <a href="" class="nav-link">All Games</a>
+          <a href="/" class="nav-link">All Games</a>
         </li>
       </ul>
     </nav>
@@ -5171,7 +5171,7 @@
       </a>
       <ul class="navbar-nav pl-24 w-100 align-items-center position-relative">
         <li class="nav-item active">
-          <a href="" class="nav-link">Discover</a>
+          <a href="" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
           <a href="" class="nav-link">All Games</a>
@@ -5190,7 +5190,7 @@
         <div style="display: flex;justify-content: center;">
           <div class="star-group">
             <span class="">${game.gameHot}</span>
-            <div class="star "></div>
+            <div class="star"></div>
           </div>
            |
           <div style="margin-left: 6px;">
@@ -5207,7 +5207,6 @@
         ${game.gameDesc}
       </div>
     </div>
-    
   </main>
 
   <div class="container pt-16 pb-32 pb-md-48 order-5 order-md-6" style="margin-top: 40px;">
@@ -5248,14 +5247,9 @@
         </a>
       </div>
       </#list>
-
     </div>
   </div>
-
-  <footer
-          id="page-footer"
-          class="container-fluid py-30 pt-md-96 pb-md-42 px-16 px-md-40 bg-light"
-  >
+  <footer id="page-footer" class="container-fluid py-30 pt-md-96 pb-md-42 px-16 px-md-40 bg-light">
     <div class="row">
       <div class="col-12">
         <div class="mb-30 text-center">

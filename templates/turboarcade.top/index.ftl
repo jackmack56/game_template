@@ -5541,53 +5541,28 @@
       </div>
     </header>
     <main id="main-content" class="header-spacing">
-      <div
-        class="container py-16 pt-md-56 pb-md-0 px-0 mx-0 w-sm-100 mx-md-auto px-md-12 order-2"
-      >
-        <div
-          class="row border-bottom-light-grey-row align-items-center mx-0 mx-md-n12 mb-md-12 pb-8 pb-md-16"
-        >
+      <div class="container py-16 pt-md-56 pb-md-0 px-0 mx-0 w-sm-100 mx-md-auto px-md-12 order-2">
+        <div class="row border-bottom-light-grey-row align-items-center mx-0 mx-md-n12 mb-md-12 pb-8 pb-md-16">
           <div class="col-9">
             <h3 class="mb-0">Action Games</h3>
           </div>
           <div class="col-3 text-right">
-            <a
-              href="/type/Action"
-              class="text-primary font-secondary text-decoration-none"
-              >Action All</a
-            >
+            <a href="/type/Action" class="text-primary font-secondary text-decoration-none">Action All</a>
           </div>
         </div>
-        <div
-          class="siema"
-          style="overflow: hidden; direction: ltr; cursor: -webkit-grab"
-        >
-          <swiper-container
-            style="overflow-x: hidden; display: flex"
-            slides-per-view="auto"
-          >
-
+        <div class="siema" style="overflow: hidden; direction: ltr; cursor: -webkit-grab">
+          <swiper-container style="overflow-x: hidden; display: flex" slides-per-view="auto">
             <#assign actionValue = 0>
             <#list all_game as game>
             <#if "Action" == game.gameCategory && actionValue < 12>
-            <swiper-slide
-              style="width: 8rem"
-              role="group"
-              aria-label="1 / 10"
-              class="swiper-slide-active"
-            >
+            <swiper-slide style="width: 8rem" role="group" aria-label="1 / 10" class="swiper-slide-active">
               <div class="col p-0 my-16 s-g-icon">
                 <a href="/details/${game.id}" class="text-decoration-none">
                   <div class="row mx-0 align-items-center">
                     <div class="col-12 pb-4 pb-md-0">
                       <div class="img-mb-md img-dt-sm">
                         <span>
-                          <img
-                            width="192"
-                            height="192"
-                            src="${game.gamePreview}"
-                            class="img-fluid game-icon"
-                          />
+                          <img width="192" height="192" src="${game.gamePreview}" class="img-fluid game-icon"/>
                         </span>
                       </div>
                     </div>
@@ -5621,53 +5596,28 @@
         </div>
       </div>
 
-      <div
-              class="container py-16 pt-md-56 pb-md-0 px-0 mx-0 w-sm-100 mx-md-auto px-md-12 order-2"
-      >
-        <div
-                class="row border-bottom-light-grey-row align-items-center mx-0 mx-md-n12 mb-md-12 pb-8 pb-md-16"
-        >
+      <div class="container py-16 pt-md-56 pb-md-0 px-0 mx-0 w-sm-100 mx-md-auto px-md-12 order-2">
+        <div class="row border-bottom-light-grey-row align-items-center mx-0 mx-md-n12 mb-md-12 pb-8 pb-md-16">
           <div class="col-9">
             <h3 class="mb-0">Puzzle Games</h3>
           </div>
           <div class="col-3 text-right">
-            <a
-                    href="/type/Action"
-                    class="text-primary font-secondary text-decoration-none"
-            >Action All</a
-            >
+            <a href="/type/Action" class="text-primary font-secondary text-decoration-none">Action All</a>
           </div>
         </div>
-        <div
-                class="siema"
-                style="overflow: hidden; direction: ltr; cursor: -webkit-grab"
-        >
-          <swiper-container
-                  style="overflow-x: hidden; display: flex"
-                  slides-per-view="auto"
-          >
-
+        <div class="siema" style="overflow: hidden; direction: ltr; cursor: -webkit-grab">
+          <swiper-container style="overflow-x: hidden; display: flex" slides-per-view="auto">
             <#assign actionValue = 0>
             <#list all_game as game>
               <#if "Puzzle" == game.gameCategory && actionValue < 12>
-                <swiper-slide
-                        style="width: 8rem"
-                        role="group"
-                        aria-label="1 / 10"
-                        class="swiper-slide-active"
-                >
+                <swiper-slide style="width: 8rem" role="group" aria-label="1 / 10" class="swiper-slide-active">
                   <div class="col p-0 my-16 s-g-icon">
                     <a href="/details/${game.id}" class="text-decoration-none">
                       <div class="row mx-0 align-items-center">
                         <div class="col-12 pb-4 pb-md-0">
                           <div class="img-mb-md img-dt-sm">
                         <span>
-                          <img
-                                  width="192"
-                                  height="192"
-                                  src="${game.gamePreview}"
-                                  class="img-fluid game-icon"
-                          />
+                          <img width="192" height="192" src="${game.gamePreview}" class="img-fluid game-icon"/>
                         </span>
                           </div>
                         </div>
@@ -5675,15 +5625,8 @@
                           <h4 class="mb-4 truncate">
                             ${game.gameName}
                           </h4>
-                          <div
-                                  class="d-flex pt-md-8"
-                                  style="justify-content: space-between"
-                          >
-                        <span
-                                class="text-lighter-grey exclude-theme"
-                                style="font-size: 0.875rem"
-                        >${game.gameCategory}</span
-                        >
+                          <div class="d-flex pt-md-8" style="justify-content: space-between">
+                        <span class="text-lighter-grey exclude-theme" style="font-size: 0.875rem">${game.gameCategory}</span>
                             <div class="ml-5 ml-md-0" style="display: inline-block">
                               <span class="">${game.gameHot}</span>
                               <div class="star"></div>
@@ -5702,9 +5645,7 @@
       </div>
 
       <div class="container pt-16 pb-32 pt-md-96 pb-md-48 order-5 order-md-6">
-        <div
-          class="row border-bottom-light-grey-row align-items-center pb-8 pb-md-16"
-        >
+        <div class="row border-bottom-light-grey-row align-items-center pb-8 pb-md-16">
           <div class="col-9">
             <h3 class="mb-0">Adventure Games</h3>
           </div>
@@ -5760,10 +5701,7 @@
         </div>
       </div>
     </main>
-    <footer
-      id="page-footer"
-      class="container-fluid py-30 pt-md-96 pb-md-42 px-16 px-md-40 bg-light"
-    >
+    <footer id="page-footer" class="container-fluid py-30 pt-md-96 pb-md-42 px-16 px-md-40 bg-light">
       <div class="row">
         <div class="col-12">
           <div class="mb-30 text-center">
@@ -5783,7 +5721,6 @@
         <div class="col text-center text-md-left">Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.</div>
       </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </body>
 </html>
