@@ -5546,6 +5546,8 @@
         </nav>
       </div>
     </header>
+
+
     <main id="main-content" class="header-spacing">
       <div class="container py-16 pt-md-56 pb-md-0 px-0 mx-0 w-sm-100 mx-md-auto px-md-12 order-2">
         <div class="row border-bottom-light-grey-row align-items-center mx-0 mx-md-n12 mb-md-12 pb-8 pb-md-16">
@@ -5608,7 +5610,7 @@
             <h3 class="mb-0">Puzzle Games</h3>
           </div>
           <div class="col-3 text-right">
-            <a href="/type/Action" class="text-primary font-secondary text-decoration-none">Action All</a>
+            <a href="/type/Puzzle" class="text-primary font-secondary text-decoration-none">Puzzle All</a>
           </div>
         </div>
         <div class="siema" style="overflow: hidden; direction: ltr; cursor: -webkit-grab">
@@ -5654,13 +5656,6 @@
         <div class="row border-bottom-light-grey-row align-items-center pb-8 pb-md-16">
           <div class="col-9">
             <h3 class="mb-0">Adventure Games</h3>
-          </div>
-          <div class="col-3 text-right">
-            <a
-              href="./search.html"
-              class="text-primary font-secondary text-decoration-none"
-              >Adventure All</a
-            >
           </div>
         </div>
         <div class="row">

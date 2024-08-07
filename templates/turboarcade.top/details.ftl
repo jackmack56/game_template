@@ -5192,7 +5192,7 @@
         <img src="${game.gamePreview}" width="132" height="132" class="app-logo">
       </div>
       <div style="width: 70%;">
-        <h1 style="margin-top: 24px;" class="truncate"></h1>
+        <h1 style="margin-top: 24px;" class="truncate">${game.gameName}</h1>
         <div style="display: flex;justify-content: center;">
           <div class="star-group">
             <span class="">${game.gameHot}</span>
@@ -5227,7 +5227,7 @@
     <div class="row">
       <#list alikeGame as game>
       <div class="col-12 col-md-4 col-lg-3 col-xl-2 my-8 my-md-24">
-        <a href="/details/${game.gameCategory}" class="text-decoration-none">
+        <a href="/details/${game.id}" class="text-decoration-none">
           <div class="row align-items-center">
             <div class="col-3 col-md-12">
               <div class="img-mb-sm img-dt-md">
