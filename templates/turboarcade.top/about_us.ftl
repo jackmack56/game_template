@@ -24,8 +24,6 @@
 
 
 
-
-
 <div class="section most-played">
   <div class="container">
     <div class="row">
