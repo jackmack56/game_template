@@ -14,10 +14,8 @@
     <title>${advert.title}</title>
     ${advert.gaCode}
 </head>
-<body>
-
-
-<main class="main" style="color: black;">
+<body style="background: black">
+<main class="main" style="color: white;">
     <div class="container-fluid">
         <h1>Contact us</h1>
         <p></p><br>
