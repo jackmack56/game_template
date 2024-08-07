@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
+    <link rel="icon" type="image/png" href="/domain/${advert.domain}/icon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/domain/${advert.domain}/icon/favicon-32x32.png">
     <meta name="description" content="${advert.content}" />
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
     ${advert.gaCode}
 </head>
-<style>
-    .main-heading  {
-        font-size: 43px;
-    }
-    .content p {
-        font-size: 22px;
-    }
-    .content h3 h2 {
-        font-size: 30px;
-    }
-</style>
 <body>
-<section class="portfolio-single page-single" style="margin-top: 2rem;">
-    <div class="content">
-        <h1 class="main-heading">Privacy Policy</h1>
+
+
+<main class="main" style="color: white">
+    <div class="container-fluid">
+        <h1>Privacy Policy</h1>
         <p></p><br>
         <h2>1. General and definitions</h2>
+        <p></p><br>
         <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the ${advert.serviceName}. The use of the Internet pages of the ${advert.serviceName} is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
         <br>
         <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the ${advert.serviceName}. By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>
@@ -258,8 +250,6 @@
         <p>Last updated: Feb 23 2023</p>
         <p>
     </div>
-    </div>
-    </div>
-</section>
+</main>
 </body>
 </html>

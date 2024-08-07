@@ -1,35 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
+    <link rel="icon" type="image/png" href="/domain/${advert.domain}/icon/favicon-32x32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/domain/${advert.domain}/icon/favicon-32x32.png">
     <meta name="description" content="${advert.content}" />
     <meta name="keywords" content="${advert.keywords}" />
     <meta name="author" content="">
     <title>${advert.title}</title>
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/magnific-popup.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
     ${advert.gaCode}
 </head>
-<style>
-    .main-heading  {
-        font-size: 43px;
-    }
-    .content p {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-    .content h3 h2{
-        font-size: 30px;
-    }
-</style>
 <body>
-<section class="portfolio-single page-single" style="margin-top: 2rem;">
-    <div class="content" style="padding: 7rem">
-        <h1 class="main-heading">Terms of Use</h1>
+
+
+<main class="main" style="color: white">
+    <div class="container-fluid">
+        <h1>Terms of Use</h1>
         <p></p><br>
         <h3>1.ACCEPTANCE OF TERMS OF USE</h3>
         <p>By using or accessing the Websites and Services, you are accepting the Terms of Use. ${advert.serviceName} reserves the right to update the Terms of Use at any time without notice to you. The most current version of the Terms of Use can be reviewed by clicking on the "Terms of Use" hypertext link located at the bottom of the pages of the Websites.</p>
@@ -113,8 +103,6 @@
             ${advert.serviceName} reserves the right at all times to disclose any information as ${advert.serviceName} deems necessary to satisfy any applicable law, regulation, legal process or governmental request, or to edit, refuse to post or to remove any information or materials, in whole or in part, in ${advert.serviceName}'s sole discretion.
         </p>
     </div>
-    </div>
-    </div>
-</section>
+</main>
 </body>
 </html>
