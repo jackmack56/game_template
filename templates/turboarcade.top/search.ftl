@@ -5559,7 +5559,7 @@
         <div class="row">
             <#list all_game as game>
                 <div class="col-12 col-md-4 col-lg-3 col-xl-2 my-8 my-md-24">
-                    <a href="/details/${game.gameCategory}" class="text-decoration-none">
+                    <a href="/details/${game.id}" class="text-decoration-none">
                         <div class="row align-items-center">
                             <div class="col-3 col-md-12">
                                 <div class="img-mb-sm img-dt-md">
