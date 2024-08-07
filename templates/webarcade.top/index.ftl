@@ -43,11 +43,9 @@
                             <li class="active"><a href="/">Homepage</a></li>
                             <li><a style="pointer-events: none;">Categories</a>
                                 <ul class="dropdown">
-                                    <!-- type list -->
                                     <#list game_types as game_type>
                                         <li><a href="/type/${game_type}">${game_type}</a></li>
                                     </#list>
-
                                 </ul>
                             </li>
                             <li><a href="/contact_us">Contacts</a></li>
@@ -88,8 +86,6 @@
                     <#assign hotValue++>
                 </#if>
             </#list>
-
-
         </div>
     </div>
 </section>

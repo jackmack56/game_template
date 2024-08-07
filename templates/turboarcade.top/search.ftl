@@ -5515,10 +5515,13 @@
             </a>
             <ul class="navbar-nav pl-72">
                 <li class="nav-item active">
-                    <a href="/domain/${advert.domain}/index.html" class="nav-link">Discover</a>
+                    <a href="/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">All Games</a>
+                    <a class="nav-link" href="/privacy_policy">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact_us">Contact Us</a>
                 </li>
             </ul>
         </nav>
@@ -5532,10 +5535,13 @@
             </a>
             <ul class="navbar-nav pl-24 w-100 align-items-center position-relative">
                 <li class="nav-item active">
-                    <a href="" class="nav-link">Discover</a>
+                    <a href="/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">All Games</a>
+                    <a class="nav-link" href="/privacy_policy">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact_us">Contact Us</a>
                 </li>
             </ul>
         </nav>
