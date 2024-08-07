@@ -5146,7 +5146,7 @@
 </head>
 
 <body class="dark-mode">
-<header id="page-header" class="fixed-top">
+  <header id="page-header" class="fixed-top">
   <div class="d-none d-lg-flex w-100 px-40 align-items-center justify-content-between">
     <nav class="navbar navbar-expand-md navbar-light">
       <a href="/" class="navbar-brand">
@@ -5167,7 +5167,7 @@
             class="navbar navbar-expand navbar-light white-space-no-wrap svg-menu-animate w-100"
     >
       <a href="/" class="navbar-brand">
-        <img src="/domain/${advert.domain}/logo.png" />
+        <img src="/domain/${advert.domain}/logo.png"  style="width: 10rem; height: 6rem"/>
       </a>
       <ul class="navbar-nav pl-24 w-100 align-items-center position-relative">
         <li class="nav-item active">
