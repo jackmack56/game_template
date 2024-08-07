@@ -15,7 +15,7 @@
     ${advert.gaCode}
 </head>
 <body>
-<main class="main" style="color: white">
+<main class="main" style="color: black">
     <div class="container-fluid">
         <h1>About Us</h1>
         <p></p><br>

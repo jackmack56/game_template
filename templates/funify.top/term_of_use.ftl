@@ -17,7 +17,7 @@
 <body>
 
 
-<main class="main" style="color: white">
+<main class="main" style="color: black">
     <div class="container-fluid">
         <h1>Terms of Use</h1>
         <p></p><br>
