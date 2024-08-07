@@ -141,8 +141,8 @@
         <a href="/contact_us" target="_blank">Contact Us</a>
         <a href="/about_us" target="_blank">About Us</a>
       </div>
-      <div class="bottom-navbar">
-        <p>  ${advert.content}</p>
+      <div>
+        <p> ${advert.content}</p>
         <br>
         <p>Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
