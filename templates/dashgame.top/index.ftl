@@ -134,16 +134,16 @@
       </div>
     </div>
     <div class="footer">
-      <div class="about-us">
-        <p>  ${advert.content}</p>
-      </div>
+
       <div class="bottom-navbar">
         <a href="/privacy_policy" target="_blank">Privacy Policy</a>
         <a href="/term_of_use" target="_blank">Terms of Service</a>
         <a href="/contact_us" target="_blank">Contact Us</a>
         <a href="/about_us" target="_blank">About Us</a>
       </div>
-      <div>
+      <div class="bottom-navbar">
+        <p>  ${advert.content}</p>
+        <br>
         <p>Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
         </p>
