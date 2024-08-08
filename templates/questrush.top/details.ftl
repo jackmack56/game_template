@@ -253,7 +253,7 @@
         <div class="row text-center align-items-center">
             <div class="col-12 col-md-9">
                 <ul class="nav justify-content-center justify-content-md-start align-items-center">
-                    <li class="nav-item"><a class="nav-link active pl-0" href="/">
+                    <li class="nav-item"><a class="as-logo-holder nav-link active pl-0" href="/">
                             <img src="/domain/${advert.domain}/logo.png"
                                  alt="Arcade Spot" width="424" height="123"></a></li>
                     <li class="w-100 d-block d-sm-none"></li>
