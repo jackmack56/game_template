@@ -134,7 +134,7 @@
       </div>
     </div>
     <div class="footer">
-      <div style="background: #001858">
+      <div style="background: #001858; ">
         <p> ${advert.content}</p>
         <p >Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.

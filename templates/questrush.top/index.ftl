@@ -104,10 +104,10 @@
         <div class="row text-center align-items-center">
             <div class="col-12 col-md-9">
                 <ul class="nav justify-content-center justify-content-md-start align-items-center">
-                    <li class="nav-item"><a class="nav-link active pl-0" href="/"><img
-                                    src="https://arcadespot.com/images/logo-bottom.png" alt="Arcade Spot" width="144"
-                                    height="45"
-                                    loading="lazy"></a></li>
+                    <li class="nav-item"><a class="nav-link active pl-0" href="/">
+                            <img src="/domain/${advert.domain}/logo.png"
+                                 alt="Arcade Spot" width="424" height="123"></div>
+                        </a></li>
                     <li class="w-100 d-block d-sm-none"></li>
                     <li class="nav-item"><a class="nav-link" href="/about_us"><i class="fas fa-gamepad"></i>
                             About Us</a></li>
