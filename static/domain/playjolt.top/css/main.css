@@ -638,7 +638,7 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1200px) {
   .header {
     position: relative;
-    padding-left: 280px;
+    /*padding-left: 280px;*/
   }
   .header--mobile {
     display: none;
