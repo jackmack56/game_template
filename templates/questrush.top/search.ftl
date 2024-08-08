@@ -100,7 +100,7 @@
                 <ul class="nav justify-content-center justify-content-md-start align-items-center">
                     <li class="nav-item"><a class="nav-link active pl-0" href="/">
                             <img src="/domain/${advert.domain}/logo.png"
-                                 alt="Arcade Spot" width="424" height="123"></div>
+                                 alt="Arcade Spot" width="424" height="123">
                         </a></li>
                     <li class="w-100 d-block d-sm-none"></li>
                     <li class="nav-item"><a class="nav-link" href="/about_us"><i class="fas fa-gamepad"></i>
