@@ -83,6 +83,10 @@ a {
     height: 12rem;
 }
 
+.logo img{
+    width: 5rem;
+    margin-left: 4rem;
+}
 
 @media (min-width: 992px) {
     .nav-item {
@@ -119,6 +123,8 @@ a {
         width: 5rem;
         margin-left: 4rem;
     }
+
+
 
 
 }
