@@ -13,7 +13,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="/domain/${advert.domain}/logo.jpg" class="h-100" alt="${advert.serviceName}"/>
+            <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
         </a>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
