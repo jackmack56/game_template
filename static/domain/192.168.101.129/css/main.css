@@ -1,0 +1,116 @@
+.navbar {
+    border-bottom: 1px solid black;
+}
+
+.nav-item a {
+    font-weight: bolder;
+}
+
+.carousel-inner {
+    width: 100%;
+    background: #c0c0c0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.overflow_txt {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.cencent-box{
+
+}
+
+.centent-img-box {
+    position: relative;
+}
+.centent-game-name {
+    position: absolute;
+    left: .6rem;
+    bottom: 0px;
+    background: #409EFF;
+    color: white;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 0px 15px;
+    text-overflow: ellipsis
+}
+
+
+.group-list-box {
+    margin-top: 5rem;
+
+}
+.group-list-box-img {
+    position: relative;
+    height: 7rem;
+}
+.group-play-btn {
+    position: absolute;
+    width: 5rem;
+    height: 2rem;
+    background: #00aeff;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+    right: 0;
+    bottom: 0;
+}
+
+.play-btn {
+    width: 50%;
+    height: 5rem;
+    margin: 6rem auto;
+    font-size: 20px;
+    background: #f88d1e;
+    border-radius: 20rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        margin-right: 2rem;
+    }
+
+    .new-img-content-1 {
+        height: 15rem;
+    }
+    .centent-img-box {
+        height: 18rem;
+    }
+    .group-list-box-box {
+        width: 30rem;
+        height: 7rem;
+    }
+
+    .fiex-card-box {
+        height: 20rem;
+    }
+
+    .carouse-content-box {
+        height: 15rem;
+    }
+    .carousel-inner {
+        height: 32rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .centent-img-box {
+        height: 15rem;
+    }
+}
