@@ -163,19 +163,19 @@
             <p>${advert.content}</p>
         </div>
     </div>
-    <div class="row box-container">
-        <div class="footer-item col-8">
+    <div class="row box-container mt-2">
+        <div class="footer-item col-7">
             <p><a href="/about_us">About Us</a></p>
             <p><a href="/privacy_policy">Privacy Policy</a></p>
             <p><a href="/term_of_use">Terms of Use</a></p>
             <p><a href="/contact_us">Contact Us</a></p>
         </div>
-        <div class="footer-item col-4">
+        <div class="footer-item col-5">
             <h2>Contact Info</h2>
             <p><span>${advert.contactMail}</span></p>
         </div>
     </div>
-    <div class="content">
+    <div class="content mt-2">
         <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>

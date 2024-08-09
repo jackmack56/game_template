@@ -2,19 +2,15 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css" rel="stylesheet">
+    <link href="/domain/${advert.domain}/css/main.css" rel="stylesheet">
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
     ${advert.gaCode}
 </head>
-<style>
-
-</style>
-
 <body>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
@@ -23,12 +19,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end navbar-dark bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Games</h5>
+                <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">${advert.domain}</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body ">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -52,7 +48,7 @@
                     </li>
                 </ul>
                 <form class="d-flex" action="/search">
-                    <input name="s" value="" type="search" class="form-control" id="search"
+                    <input name="s" value="" type="search" class="form-control bg-dark text-white" id="search"
                            placeholder="Search Podcast" aria-label="Search">
                 </form>
             </div>
@@ -60,59 +56,14 @@
     </div>
 </nav>
 
-
-<section class="col-12 col-lg-10 mx-auto" style="margin-top: 10rem;">
-    <div class="w-100">
-        <h2  style="font-weight: bolder; font-size: 40px;">${game.gameName}</h2>
-        <hr>
-    </div>
-
-    <div class="row w-95 mx-auto mt-5">
-        <div class="row col-12 col-lg-8" >
-            <div class="col-12 col-lg-6 mx-auto">
-                <div class="detail-img-box-1">
-                    <img src="${game.gamePreview}" class="rounded-4 h-100 "/>
-                </div>
-                <div class="row col-12 " style="height: 2rem; margin: 2rem auto; font-size: 15px;">
-                    <p class="col-10">${game.createTime?string("yyyy-MM-dd")}</p>
-                    <p class="col-2">${game.gameHot}</p>
-                </div>
-                <p class="play-btn bg-info text-white"><a href="${game.gameUri}" class="text-white">Play</a></p>
-                <div>
-                    <h2  style="font-weight: bolder; font-size: 40px;">Describe</h2>
-                    <p style="font-size: 15px">${game.gameDesc}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row col-12 col-lg-4">
-            <#list alikeGame as game>
-                <#if game_index < 6>
-                    <div class="col-6 col-lg-4">
-                        <a href="/details/${game.id}">
-                            <div class="detail-more-box-1">
-                                <img src="${game.gamePreview}"  class="rounded-4 h-100"/>
-                            </div>
-                            <div>
-                                <p >${game.gameName}</p>
-                                <p >${game.gameHot}</p>
-                            </div>
-                        </a>
-                    </div>
-                </#if>
-            </#list>
-        </div>
-    </div>
-</section>
-
-
 <section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
     <div class="w-100">
-        <h2 style="font-weight: bolder; font-size: 40px;">Other <span style="color: red">Games</span></h2>
+        <h2 style="font-weight: bolder; font-size: 40px;">${category ! ''} <span style="color: red">Games</span></h2>
         <hr>
     </div>
     <div class="row w-95 mx-auto mt-5 shadow rounded-4">
-        <#list alikeGame as game>
-        <#if 6 < game_index   >
+        <#list all_game as game>
+        <#if game_index < 13  >
         <#if game_index % 3 == 0>
         <div class="col-12 col-lg-4 col-md-4 my-2 fiex-card-box">
             </#if>
@@ -137,6 +88,33 @@
         </div>
 </section>
 
+
+<section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
+    <div class="w-100">
+        <h2 style="font-weight: bolder; font-size: 40px;">Other <span class="text">Games</span></h2>
+        <hr>
+    </div>
+    <div class="row w-95 mx-auto mt-5 shadow rounded-4">
+        <#list all_game as game>
+            <#if 24 < game_index >
+                <div class="col-6 col-lg-2 col-md-2 my-2 ">
+                    <a href="/details/${game.id}">
+                        <div class="card border-warning shadow h-100">
+                            <div class="card-img-box h-100">
+                                <img src="${game.gamePreview}" class="rounded-4">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title overflow_txt" style="height: 2rem">${game.gameName}</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </#if>
+        </#list>
+    </div>
+</section>
+
+
 <footer class="footer col-11 mx-auto mt-5">
     <div class="box-container">
         <div class="footer-item">
@@ -159,11 +137,9 @@
         </div>
     </div>
     <div class="content mt-2">
-        <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
+        <p class="mx-auto">Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
 
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>

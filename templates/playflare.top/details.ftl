@@ -14,7 +14,7 @@
 </style>
 
 <body>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
@@ -23,12 +23,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end navbar-dark bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Games</h5>
+                <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">${advert.domain}</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body ">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -52,7 +52,7 @@
                     </li>
                 </ul>
                 <form class="d-flex" action="/search">
-                    <input name="s" value="" type="search" class="form-control" id="search"
+                    <input name="s" value="" type="search" class="form-control bg-dark text-white" id="search"
                            placeholder="Search Podcast" aria-label="Search">
                 </form>
             </div>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="row col-12 " style="height: 2rem; margin: 2rem auto; font-size: 15px;">
                     <p class="col-10">${game.createTime?string("yyyy-MM-dd")}</p>
-                    <p class="col-2">${game.gameHot}</p>
+                    <p class="col-2 text-danger">${game.gameHot}</p>
                 </div>
                 <p class="play-btn bg-info text-white"><a href="${game.gameUri}" class="text-white">Play</a></p>
                 <div>
@@ -92,9 +92,9 @@
                             <div class="detail-more-box-1">
                                 <img src="${game.gamePreview}"  class="rounded-4 h-100"/>
                             </div>
-                            <div>
-                                <p >${game.gameName}</p>
-                                <p >${game.gameHot}</p>
+                            <div class="row col-12">
+                                <p class="col-8  overflow_txt text-white">${game.gameName}</p>
+                                <p class="col-4  overflow_txt text-danger">${game.gameHot}</p>
                             </div>
                         </a>
                     </div>
@@ -107,34 +107,27 @@
 
 <section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
     <div class="w-100">
-        <h2 style="font-weight: bolder; font-size: 40px;">Other <span style="color: red">Games</span></h2>
+        <h2 style="font-weight: bolder; font-size: 40px;">Other <span class="text">Games</span></h2>
         <hr>
     </div>
     <div class="row w-95 mx-auto mt-5 shadow rounded-4">
         <#list alikeGame as game>
-        <#if 6 < game_index   >
-        <#if game_index % 3 == 0>
-        <div class="col-12 col-lg-4 col-md-4 my-2 fiex-card-box">
-            </#if>
-            <#if game_index % 3 != 0>
-            <div class="col-6 col-lg-2 col-md-2 my-2 ">
-                </#if>
-                <a href="/details/${game.id}">
-                    <div class="card border-warning shadow h-100">
-                        <div class="card-img-box h-100">
-                            <img src="${game.gamePreview}" class="rounded-4">
-                        </div>
-                        <#if game_index % 3 != 0>
+            <#if  game_index < 12>
+                <div class="col-6 col-lg-2 col-md-2 my-2 ">
+                    <a href="/details/${game.id}">
+                        <div class="card border-warning shadow h-100">
+                            <div class="card-img-box h-100">
+                                <img src="${game.gamePreview}" class="rounded-4">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title overflow_txt" style="height: 2rem">${game.gameName}</h5>
                             </div>
-                        </#if>
-                    </div>
-                </a>
-            </div>
+                        </div>
+                    </a>
+                </div>
             </#if>
-            </#list>
-        </div>
+        </#list>
+    </div>
 </section>
 
 <footer class="footer col-11 mx-auto mt-5">
