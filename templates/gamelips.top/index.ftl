@@ -154,7 +154,7 @@
     </div>
 </section>
 
-<footer class="footer col-11 mx-auto">
+<footer class="footer col-11 mx-auto mt-5">
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">

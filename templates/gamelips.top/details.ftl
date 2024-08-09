@@ -137,13 +137,7 @@
         </div>
 </section>
 
-
-
-
-
-
-
-<footer class="footer">
+<footer class="footer col-11 mx-auto mt-5">
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
@@ -153,21 +147,22 @@
         </div>
     </div>
     <div class="box-container">
-        <div class="footer-item" >
-            <p> <a href="/about_us" style="color: white">About Us</a></p>
-            <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
-            <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
-            <p> <a href="/contact_us" style="color: white">Contact Us</a> </p>
+        <div class="footer-item">
+            <p><a href="/about_us">About Us</a></p>
+            <p><a href="/privacy_policy">Privacy Policy</a></p>
+            <p><a href="/term_of_use">Terms of Use</a></p>
+            <p><a href="/contact_us">Contact Us</a></p>
         </div>
         <div class="footer-item">
             <h2>Contact Info</h2>
             <p><span>${advert.contactMail}</span></p>
         </div>
     </div>
-    <div class="content" style="background: #0a0a0a">
+    <div class="content">
         <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
+
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 </body>

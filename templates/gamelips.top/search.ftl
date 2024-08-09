@@ -115,7 +115,7 @@
 </section>
 
 
-<footer class="footer col-11 mx-auto">
+<footer class="footer col-11 mx-auto mt-5">
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
@@ -140,7 +140,6 @@
         <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
-
 
 <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
 </body>
