@@ -19,14 +19,14 @@
         <a class="navbar-brand" href="/">
             <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
         </a>
-        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-end navbar-dark bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-top  navbar-dark bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">${advert.domain}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">${advert.domain}</h5>
+                <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body ">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
