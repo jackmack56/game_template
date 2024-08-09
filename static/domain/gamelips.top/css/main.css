@@ -82,10 +82,7 @@ a {
 .detail-more-box-1 {
     height: 12rem;
 }
-.navbar-brand img{
-    width: 10rem;
-    height: 7rem;
-}
+
 
 @media (min-width: 992px) {
     .nav-item {
@@ -118,7 +115,10 @@ a {
         width: 100%;
         height: 28rem;
     }
-
+    .navbar-brand img{
+        width: 5rem;
+        margin-left: 4rem;
+    }
 
 
 }
@@ -126,6 +126,10 @@ a {
 @media (max-width: 992px) {
     .centent-img-box {
         height: 15rem;
+    }
+    .navbar-brand img{
+        width: 3rem;
+        margin-left: 2rem;
     }
 
 }
