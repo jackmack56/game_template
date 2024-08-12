@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/domain/${advert.domain}/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css" rel="stylesheet">
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
     ${advert.gaCode}
 </head>
+<style>
+
+</style>
+
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -56,76 +60,50 @@
     </div>
 </nav>
 
-<section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
-    <div class="row w-95 mx-auto shadow rounded-4">
-        <div class="col-12 col-lg-6 col-md-4 my-2">
-            <div id="carouselExampleInterval" class="rounded-4 carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <#list all_game as game>
-                    <#if game_index < 4>
-                    <#if game_index == 1>
-                    <div class="carousel-item active h-100" data-bs-interval="10000">
-                        </#if>
-                        <#if game_index != 1>
-                        <div class="carousel-item h-100" data-bs-interval="10000">
-                            </#if>
-                            <a href="/details/${game.id}">
-                            <img src="${game.gamePreview}" class="d-block w-100 rounded-4 h-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>${game.gameName}</h5>
-                            </div>
-                            </a>
-                        </div>
-                        </#if>
-                        </#list>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </a>
-                </div>
-            </div>
 
-            <div class="row col-12 col-lg-6  my-2 mx-auto">
-                <#list all_game as game>
-                    <#if game_index < 6>
-                        <div class="col-6 col-lg-4 my-2 carouse-content-box">
-                            <a href="/details/${game.id}">
-                                <img src="${game.gamePreview}" class="rounded-4 h-100"/>
-                            </a>
-                        </div>
-                    </#if>
-                </#list>
+<section class="col-12 col-lg-10 mx-auto" style="margin-top: 10rem;">
+    <div class="w-100">
+        <h2  style="font-weight: bolder; font-size: 40px;">${game.gameName}</h2>
+        <hr>
+    </div>
+
+    <div class="row w-95 mx-auto mt-5">
+        <div class="row col-12 col-lg-8" >
+            <div class="col-12 col-lg-6 mx-auto">
+                <div class="detail-img-box-1">
+                    <img src="${game.gamePreview}" class="rounded-4 h-100 "/>
+                </div>
+                <div class="row col-12 " style="height: 2rem; margin: 2rem auto; font-size: 15px;">
+                    <p class="col-10">${game.createTime?string("yyyy-MM-dd")}</p>
+                    <p class="col-2 text-danger">${game.gameHot}</p>
+                </div>
+                <p class="play-btn bg-info text-white"><a href="${game.gameUri}" class="text-white">Play</a></p>
+                <div>
+                    <h2  style="font-weight: bolder; font-size: 40px;">Describe</h2>
+                    <p style="font-size: 15px">${game.gameDesc}</p>
+                </div>
             </div>
         </div>
-</section>
-
-<section class="col-12 col-lg-10 mx-auto group-list-box ">
-    <div class="row w-85 mx-auto shadow rounded-4">
-        <#list all_game as game>
-            <#if  13 < game_index  && game_index < 24>
-                <div class="group-list-box-box col-10 col-lg-4 mx-auto my-3 bg-white  shadow rounded-4">
-                    <a href="details/${game.id}" class="random-box-1 ">
-                        <div class="row group-list-box-img ">
-                            <div class="col-6 mt-3 ">
-                                <p class="overflow_txt fs-4 text-black">${game.gameName}</p>
-                                <a href="/type/${game.gameCategory}" class="text-danger fs-6">${game.gameCategory}</a>
+        <div class="row col-12 col-lg-4">
+            <#list alikeGame as game>
+                <#if game_index < 6>
+                    <div class="col-6 col-lg-4">
+                        <a href="/details/${game.id}">
+                            <div class="detail-more-box-1">
+                                <img src="${game.gamePreview}"  class="rounded-4 h-100"/>
                             </div>
-                            <a href="/detail/${game.id}" class="group-play-btn rounded-3">Play</a>
-                            <div class="group-list-img col-6 h-100">
-                                <img src="${game.gamePreview}" class="mx-3 rounded-4 border border-warning"/>
+                            <div class="row col-12">
+                                <p class="col-8  overflow_txt text-white">${game.gameName}</p>
+                                <p class="col-4  overflow_txt text-danger">${game.gameHot}</p>
                             </div>
-                        </div>
-                    </a>
-                </div>
-            </#if>
-        </#list>
+                        </a>
+                    </div>
+                </#if>
+            </#list>
+        </div>
     </div>
 </section>
+
 
 <section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
     <div class="w-100">
@@ -133,8 +111,8 @@
         <hr>
     </div>
     <div class="row w-95 mx-auto mt-5 shadow rounded-4">
-        <#list all_game as game>
-            <#if 24 < game_index >
+        <#list alikeGame as game>
+            <#if  game_index < 12>
                 <div class="col-6 col-lg-2 col-md-2 my-2 ">
                     <a href="/details/${game.id}">
                         <div class="card border-warning shadow h-100">
@@ -151,7 +129,6 @@
         </#list>
     </div>
 </section>
-
 
 <footer class="footer col-11 mx-auto mt-5">
     <div class="box-container">
@@ -178,5 +155,8 @@
         <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
-<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 </body>
+</html>

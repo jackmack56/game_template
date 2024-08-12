@@ -10,21 +10,25 @@
     ${advert.gaCode}
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-            <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
-        </a>
-        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="offcanvas offcanvas-top  navbar-dark bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+
+        <a class="navbar-brand" href="/">
+            <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}"/>
+        </a>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel"
+             style="background-color: #e3f2fd;">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">${advert.domain}</h5>
                 <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body ">
+            <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -48,7 +52,7 @@
                     </li>
                 </ul>
                 <form class="d-flex" action="/search">
-                    <input name="s" value="" type="search" class="form-control bg-dark text-white" id="search"
+                    <input name="s" value="" type="search" class="form-control" id="search"
                            placeholder="Search Podcast" aria-label="Search">
                 </form>
             </div>
@@ -56,24 +60,25 @@
     </div>
 </nav>
 
-<section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
-    <div class="row w-95 mx-auto shadow rounded-4">
-        <div class="col-12 col-lg-6 col-md-4 my-2">
+
+<section class="col-12 mx-auto" style="margin-top: 5rem">
+    <div class="row w-95 mx-auto rounded-4">
+        <div class="col-12 col-lg-4 col-md-4 my-2 mx-auto">
             <div id="carouselExampleInterval" class="rounded-4 carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <#list all_game as game>
                     <#if game_index < 4>
-                    <#if game_index == 1>
-                    <div class="carousel-item active h-100" data-bs-interval="10000">
+                        <#if game_index == 1>
+                            <div class="carousel-item active h-100" data-bs-interval="10000">
                         </#if>
                         <#if game_index != 1>
-                        <div class="carousel-item h-100" data-bs-interval="10000">
-                            </#if>
+                            <div class="carousel-item h-100" data-bs-interval="10000">
+                        </#if>
                             <a href="/details/${game.id}">
-                            <img src="${game.gamePreview}" class="d-block w-100 rounded-4 h-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>${game.gameName}</h5>
-                            </div>
+                                <img src="${game.gamePreview}" class="d-block w-100 rounded-4 h-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>${game.gameName}</h5>
+                                </div>
                             </a>
                         </div>
                         </#if>
@@ -92,10 +97,11 @@
 
             <div class="row col-12 col-lg-6  my-2 mx-auto">
                 <#list all_game as game>
-                    <#if game_index < 6>
+                    <#if 4 < game_index && game_index < 11>
                         <div class="col-6 col-lg-4 my-2 carouse-content-box">
                             <a href="/details/${game.id}">
                                 <img src="${game.gamePreview}" class="rounded-4 h-100"/>
+                                <p class="carouse-game-name overflow_txt col-8">${game.gameName}</p>
                             </a>
                         </div>
                     </#if>
@@ -104,52 +110,32 @@
         </div>
 </section>
 
-<section class="col-12 col-lg-10 mx-auto group-list-box ">
-    <div class="row w-85 mx-auto shadow rounded-4">
-        <#list all_game as game>
-            <#if  13 < game_index  && game_index < 24>
-                <div class="group-list-box-box col-10 col-lg-4 mx-auto my-3 bg-white  shadow rounded-4">
-                    <a href="details/${game.id}" class="random-box-1 ">
-                        <div class="row group-list-box-img ">
-                            <div class="col-6 mt-3 ">
-                                <p class="overflow_txt fs-4 text-black">${game.gameName}</p>
-                                <a href="/type/${game.gameCategory}" class="text-danger fs-6">${game.gameCategory}</a>
-                            </div>
-                            <a href="/detail/${game.id}" class="group-play-btn rounded-3">Play</a>
-                            <div class="group-list-img col-6 h-100">
-                                <img src="${game.gamePreview}" class="mx-3 rounded-4 border border-warning"/>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </#if>
-        </#list>
-    </div>
-</section>
 
-<section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
+
+<section class="col-12  mx-auto" style="margin-top: 5rem">
     <div class="w-100">
-        <h2 style="font-weight: bolder; font-size: 40px;">Other <span class="text">Games</span></h2>
+        <h2 style="font-weight: bolder; font-size: 40px;">Other <span style="color: red">Games</span></h2>
         <hr>
     </div>
-    <div class="row w-95 mx-auto mt-5 shadow rounded-4">
+    <div class="row w-95 mx-auto mt-5">
         <#list all_game as game>
-            <#if 24 < game_index >
-                <div class="col-6 col-lg-2 col-md-2 my-2 ">
-                    <a href="/details/${game.id}">
-                        <div class="card border-warning shadow h-100">
-                            <div class="card-img-box h-100">
-                                <img src="${game.gamePreview}" class="rounded-4">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title overflow_txt" style="height: 2rem">${game.gameName}</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+        <#if 25 < game_index>
+        <#if game_index % 7 == 0>
+        <div class="col-12 col-lg-4 col-md-4 my-3 fiex-card-box">
             </#if>
-        </#list>
-    </div>
+            <#if game_index % 7 != 0>
+            <div class="col-6 col-lg-2 col-md-2 my-2 ">
+                </#if>
+                <a href="/details/${game.id}">
+                    <div class="border-warning h-100 content-box-2">
+                        <img src="${game.gamePreview}" class="rounded-4 h-100">
+                        <p class="content-box-name overflow_txt col-6">${game.gameName}</p>
+                    </div>
+                </a>
+            </div>
+            </#if>
+            </#list>
+        </div>
 </section>
 
 
@@ -178,5 +164,8 @@
         <p>Copyright © 2024 ${advert.serviceName}. All Rights Reserved</p>
     </div>
 </footer>
-<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</html>
