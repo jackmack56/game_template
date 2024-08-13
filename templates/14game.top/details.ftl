@@ -114,7 +114,7 @@
         <p>
         <li >
             Email: ${advert.contactMail}   <br>
-            Copyright © 2024 ${service_name}. All Rights Reserved.
+            Copyright © 2024 ${adver.domain}. All Rights Reserved.
         </li>
         </p>
         <p>

@@ -125,7 +125,7 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <div class="main">
     <div class="header">
-      <div class="icon-logo"><a href="/"><img class="pmt" src="/domain/${advert.domain}/taptoplay_logo.webp" alt=""></a></div>
+      <div class="icon-logo"><a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt=""></a></div>
       <#assign hotValue=0>
         <#list game_types as type>
           <#if hotValue < 4>
