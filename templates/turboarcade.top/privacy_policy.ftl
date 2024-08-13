@@ -9,10 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
   ${advert.gaCode}
 </head>
-
 <body style="color: white;background-color: black;">
-
-<!-- ***** Preloader Start ***** -->
 <div id="js-preloader" class="js-preloader loaded">
   <div class="preloader-inner">
     <span class="dot"></span>
@@ -23,12 +20,6 @@
     </div>
   </div>
 </div>
-<!-- ***** Preloader End ***** -->
-
-<!-- ***** Header Area End ***** -->
-
-
-
 <div class="section most-played">
   <div class="container">
     <div class="row">
@@ -268,8 +259,4 @@
     </div>
   </div>
 </div>
-
-
-
-
 </body></html>

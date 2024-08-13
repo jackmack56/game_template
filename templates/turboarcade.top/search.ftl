@@ -5589,11 +5589,10 @@
         </div>
     </div>
 </main>
-
 <footer id="page-footer" class="container-fluid py-30 pt-md-96 pb-md-42 px-16 px-md-40 bg-light">
     <div class="row">
         <div class="col-12">
-            <div class="mb-30 text-center">
+            <div class="mb-30 ">
                 ${advert.content}
             </div>
             <div>
@@ -5607,12 +5606,9 @@
         </div>
     </div>
     <div class="row pt-32 pt-md-50 flex-column flex-md-row">
-        <div class="col text-center text-md-left">Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights
-            Reserved.
-        </div>
+        <div class="col-lg-6" style="margin: 0 auto;">Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.</div>
     </div>
 </footer>
-
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </body>
 </html>

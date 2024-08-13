@@ -27,7 +27,9 @@
                 </form>
             </div>
         </div>
-        <div class="clearfix"></div>
+        <div class="clearfix">
+            <img src="/domain/${advert.domain}/logo.png" style="width: 10rem; height: 6rem" />
+        </div>
     </div>
 </nav>
 

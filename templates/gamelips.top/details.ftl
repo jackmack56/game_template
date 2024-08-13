@@ -9,10 +9,6 @@
     <title>${advert.title}</title>
     ${advert.gaCode}
 </head>
-<style>
-
-</style>
-
 <body>
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
