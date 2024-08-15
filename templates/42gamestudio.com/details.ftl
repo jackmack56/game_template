@@ -413,10 +413,15 @@
         </div>
     </nav>
 
-    <div id='div-gpt-ad-1641723687369' style='min-width: 300px; min-height: 250px;'></div>
-    <script>
-        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641723687369'); });
-    </script>
+    <section>
+        <div class="container">
+            <div id='div-gpt-ad-1641723687369'></div>
+            <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641723687369'); });
+            </script>
+        </div>
+    </section>
+
 
     <section class="mt-2">
         <div class="container">
