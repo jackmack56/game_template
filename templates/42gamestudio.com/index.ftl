@@ -418,17 +418,15 @@
                     : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
             );
             if (anchorSlot) {
-                anchorSlot.setTargeting(""test"", ""anchor"").addService(googletag.pubads());
+                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
             }
 
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
     </script>
-
 </head>
 <body>
-
 
 <script>
     googletag.cmd.push(() => {
