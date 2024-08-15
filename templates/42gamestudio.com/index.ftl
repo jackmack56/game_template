@@ -469,13 +469,15 @@
                 <#list all_game as game>
                     <#if 4000 <=game.gameHot>
                         <#if game_index == 8>
-                            <div style="margin: 0 auto; width: 300px;">
-                                <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
-                                <script>
-                                    googletag.cmd.push(function () {
-                                        googletag.display('div-gpt-ad-171723687299');
-                                    });
-                                </script>
+                            <div class="col-12" >
+                                <div style="margin: 0 auto; width: 300px;">
+                                    <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
+                                    <script>
+                                        googletag.cmd.push(function () {
+                                            googletag.display('div-gpt-ad-171723687299');
+                                        });
+                                    </script>
+                                </div>
                             </div>
                         </#if>
                         <div class="col-md-6 mb-4">
@@ -505,14 +507,6 @@
         </div>
     </section>
 
-    <div style="margin: 0 auto; width: 300px;">
-        <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
-        <script>
-            googletag.cmd.push(function () {
-                googletag.display('div-gpt-ad-171723687299');
-            });
-        </script>
-    </div>
 
     <section>
         <div class="container">
