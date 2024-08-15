@@ -363,6 +363,7 @@
     </style>
     ${advert.gaCode}
 
+
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
         window.googletag = window.googletag || {cmd: []};
@@ -372,27 +373,6 @@
             googletag.enableServices();
         });
     </script>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-        window.googletag = window.googletag || {cmd: []};
-        let anchorSlot;
-        googletag.cmd.push(() => {
-            anchorSlot = googletag.defineOutOfPageSlot(
-                '/112517806,23185333439/9611723687522',
-                document.body.clientWidth <= 500
-                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
-                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
-            );
-            if (anchorSlot) {
-                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
-            }
-
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
         window.googletag = window.googletag || {cmd: []};
         googletag.cmd.push(function () {
@@ -401,11 +381,7 @@
             googletag.enableServices();
         });
     </script>
-    <script>
-        googletag.cmd.push(() => {
-            googletag.display(anchorSlot);
-        });
-    </script>
+
 
 </head>
 
@@ -435,30 +411,36 @@
             <div class="row d-flex flex-wrap">
                 <#assign hotValue=0>
                 <#list all_game as game>
-                    <#if 4000 <=game.gameHot>
-
-                        <div class="col-md-6 mb-4">
-                            <a href="/details/${game.id}" class="border rounded-1 border-700 features-items"
-                               style="text-decoration: none;display: block;">
-                                <div class="p-2"
-                                     style="background-image: url(${game.gamePreview});background-size: cover;">
-                                    <div class=" rounded p-1" style="background-color: #0b153ccc;">
-                                        <div class="d-flex gap-2">
-                                            <img src="${game.gameIcon}" class="rounded border" alt="Folders"
-                                                 style="width:48px;height:48px;">
-                                            <h3 class="lh-base">${game.gameName}</h3>
-                                        </div>
-                                        <div>${game.gameCategory}</div>
-                                        <p class="mb-0 p-1" style="overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;
-                  color: #ccc;">
-                                            ${game.gameDesc}
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
+                    <#if game_index == 8 >
+                        <div style="margin: 0 auto; width: 300px;">
+                            <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
+                            <script>
+                                googletag.cmd.push(function () {
+                                    googletag.display('div-gpt-ad-171723687299');
+                                });
+                            </script>
                         </div>
-                        <#assign hotValue++>
                     </#if>
+                    <div class="col-md-6 mb-4">
+                        <a href="/details/${game.id}" class="border rounded-1 border-700 features-items"
+                           style="text-decoration: none;display: block;">
+                            <div class="p-2"
+                                 style="background-image: url(${game.gamePreview});background-size: cover;">
+                                <div class=" rounded p-1" style="background-color: #0b153ccc;">
+                                    <div class="d-flex gap-2">
+                                        <img src="${game.gameIcon}" class="rounded border" alt="Folders"
+                                             style="width:48px;height:48px;">
+                                        <h3 class="lh-base">${game.gameName}</h3>
+                                    </div>
+                                    <div>${game.gameCategory}</div>
+                                    <p class="mb-0 p-1" style="overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;
+                  color: #ccc;">
+                                        ${game.gameDesc}
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </#list>
             </div>
             <div class="px-xl-8 px-md-7">
@@ -466,15 +448,6 @@
             </div>
         </div>
     </section>
-
-    <div style="margin: 0 auto; width: 300px;">
-        <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
-        <script>
-            googletag.cmd.push(function () {
-                googletag.display('div-gpt-ad-171723687299');
-            });
-        </script>
-    </div>
 
     <section>
         <div class="container">

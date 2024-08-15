@@ -371,34 +371,15 @@
             googletag.enableServices();
         });
     </script>
-
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
-        window.googletag = window.googletag || { cmd: [] };
-        let interstitialSlot;
-        googletag.cmd.push(() => {
-            interstitialSlot = googletag.defineOutOfPageSlot(
-                '/112517806,23185333439/3771723687439',
-                googletag.enums.OutOfPageFormat.INTERSTITIAL,
-            );
-            if(interstitialSlot) {
-                interstitialSlot.addService(googletag.pubads()).setConfig({
-                    interstitial: {
-                        triggers: {
-                            navBar: true,
-                            unhideWindow: true,
-                        }, },
-                });
-            }
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/171723687299',[[300, 250],[336, 280]],'div-gpt-ad-171723687299').addService(googletag.pubads());
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
     </script>
-    <script>
-        googletag.cmd.push(() => {
-            googletag.display(interstitialSlot);
-        });
-    </script>
+
 </head>
 
 <body>
@@ -458,14 +439,19 @@
         </div>
     </section>
 
-    <!-- ============================================-->
-    <!-- <section> begin ============================-->
+    <div style="margin: 0 auto; width: 300px;">
+        <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-171723687299');
+            });
+        </script>
+    </div>
+
     <section>
         <div class="container">
             <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
             <div class="row d-flex flex-wrap">
-
-
                 <#list alikeGame as game>
                     <div class="col-md-6 mb-4">
                         <a href="/details/${game.id}" style="text-decoration: none;display: block;">
@@ -487,8 +473,6 @@
                         </a>
                     </div>
                 </#list>
-
-
             </div>
             <div class="px-xl-8 px-md-7">
                 <hr class="mt-7 text-1000">
