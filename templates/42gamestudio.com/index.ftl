@@ -424,7 +424,7 @@
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
-    </script>"
+    </script>
 
 </head>
 <body>
