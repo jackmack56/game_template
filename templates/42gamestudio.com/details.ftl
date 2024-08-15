@@ -414,7 +414,7 @@
 
     <section>
         <div class="container">
-            <div id='div-gpt-ad-1231723686894' style='min-width: 300px; min-height: 250px;'></div>
+            <div id='div-gpt-ad-1231723686894' class="col-10 col-lg-8" style='min-height: 250px;'></div>
             <script>
                 googletag.cmd.push(function () {
                     googletag.display('div-gpt-ad-1231723686894');
