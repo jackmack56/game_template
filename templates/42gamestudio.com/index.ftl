@@ -405,9 +405,10 @@
             googletag.enableServices();
         });
     </script>
+
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
-        window.googletag = window.googletag || {cmd: []};
+        window.googletag = window.googletag || { cmd: [] };
         let anchorSlot;
         googletag.cmd.push(() => {
             anchorSlot = googletag.defineOutOfPageSlot(
@@ -417,20 +418,13 @@
                     : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
             );
             if (anchorSlot) {
-                anchorSlot.setTargeting(""
-                test
-                "", ""
-                anchor
-                ""
-            ).
-                addService(googletag.pubads());
+                anchorSlot.setTargeting(""test"", ""anchor"").addService(googletag.pubads());
             }
 
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
-    </script>
-
+    </script>"
 
 </head>
 <body>
