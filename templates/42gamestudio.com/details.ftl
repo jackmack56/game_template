@@ -361,23 +361,65 @@
             cursor: pointer;
         }
     </style>
-
     ${advert.gaCode}
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1641723687369',[[300, 250],[336, 280]],'div-gpt-ad-1641723687369').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        let anchorSlot;
+        googletag.cmd.push(() => {
+            anchorSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/9611723687522',
+                document.body.clientWidth <= 500
+                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
+                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+            );
+            if (anchorSlot) {
+                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
+            }
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <script>
+        googletag.cmd.push(() => {
+            googletag.display(anchorSlot);
+        });
+    </script>
+
+
+
 </head>
 
 <body>
+
+<div id='div-gpt-ad-1641723687369' style='min-width: 300px; min-height: 250px;'></div>
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641723687369'); });
+</script>
+
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
         <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
-                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 67px"></a>
+                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem"></a>
         </div>
     </nav>
 
-    <section class="mt-5">
+    <section class="mt-2">
         <div class="container">
             <div class="text-center">
-                <div class="p-5 bg-primary rounded-3">
+                <div class="p-1 bg-primary rounded-3">
                     <div class="py-3">
                         <h4 class="opacity-50 ls-2 lh-base fw-medium">DETAIL</h4>
                         <h2 class="mt-3 fs-4 fs-sm-7 latter-sp-3 lh-base fw-semi-bold">${game.gameName}</h2>

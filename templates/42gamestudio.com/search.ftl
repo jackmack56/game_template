@@ -362,14 +362,55 @@
         }
     </style>
     ${advert.gaCode}
+
+
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1231723686894',[[300, 250],[336, 280]],'div-gpt-ad-1231723686894').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        let anchorSlot;
+        googletag.cmd.push(() => {
+            anchorSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/9611723687522',
+                document.body.clientWidth <= 500
+                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
+                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+            );
+            if (anchorSlot) {
+                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
+            }
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script>
+        googletag.cmd.push(() => {
+            googletag.display(anchorSlot);
+        });
+    </script>
 </head>
 
 <body>
+
+<div id='div-gpt-ad-1231723686894' style='min-width: 300px; min-height: 250px;'></div>
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1231723686894'); });
+</script>
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
         <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
-                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 67px"></a>
+                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem"></a>
         </div>
     </nav>
     <section>

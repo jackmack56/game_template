@@ -362,38 +362,59 @@
             cursor: pointer;
         }
     </style>
-
     ${advert.gaCode}
-</head>
 
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1231723686894',[[300, 250],[336, 280]],'div-gpt-ad-1231723686894').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        let anchorSlot;
+        googletag.cmd.push(() => {
+            anchorSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/9611723687522',
+                document.body.clientWidth <= 500
+                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
+                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+            );
+            if (anchorSlot) {
+                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
+            }
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script>
+        googletag.cmd.push(() => {
+            googletag.display(anchorSlot);
+        });
+    </script>
+
+
+</head>
 <body>
+
+
+<div id='div-gpt-ad-1231723686894' style='min-width: 300px; min-height: 250px;'></div>
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1231723686894'); });
+</script>
+
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
         <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
-                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 67px"></a>
+                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem"></a>
         </div>
     </nav>
-    <section>
-        <div class="container">
-
-            <div class="px-xl-8 px-md-7">
-                <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
-                    <div class="input-group input-group-lg">
-                        <input name="s" value="" type="search" class="form-control" id="search"
-                               placeholder="Search Game"
-                               aria-label="Search" style="background-color: #0e1738;">
-                    </div>
-                </form>
-            </div>
-            <div class="px-xl-8 px-md-7 mt-4 d-flex flex-wrap gap-4">
-                <#list game_types as game_type>
-                    <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white"
-                                                       style="cursor: pointer;">${game_type}</span></a>
-                </#list>
-            </div>
-        </div>
-    </section>
     <section>
         <div class="container">
             <h1 class="display-6 fw-semi-bold"> Hot Games</h1>
@@ -427,6 +448,27 @@
                 </#list>
             </div>
 
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <div class="px-xl-8 px-md-7">
+                <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
+                    <div class="input-group input-group-lg">
+                        <input name="s" value="" type="search" class="form-control" id="search"
+                               placeholder="Search Game"
+                               aria-label="Search" style="background-color: #0e1738;">
+                    </div>
+                </form>
+            </div>
+            <div class="px-xl-8 px-md-7 mt-4 d-flex flex-wrap gap-4">
+                <#list game_types as game_type>
+                    <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white"
+                                                       style="cursor: pointer;">${game_type}</span></a>
+                </#list>
+            </div>
         </div>
     </section>
 
