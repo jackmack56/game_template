@@ -366,15 +366,15 @@
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
         window.googletag = window.googletag || {cmd: []};
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/112517806,23185333439/1641723687369',[[300, 250],[336, 280]],'div-gpt-ad-1641723687369').addService(googletag.pubads());
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/112517806,23185333439/1641723687369', [[300, 250], [336, 280]], 'div-gpt-ad-1641723687369').addService(googletag.pubads());
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
     </script>
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
-        window.googletag = window.googletag || { cmd: [] };
+        window.googletag = window.googletag || {cmd: []};
         let anchorSlot;
         googletag.cmd.push(() => {
             anchorSlot = googletag.defineOutOfPageSlot(
@@ -398,11 +398,9 @@
     </script>
 
 
-
 </head>
 
 <body>
-
 
 
 <main class="main" id="top">
@@ -413,14 +411,13 @@
         </div>
     </nav>
 
-    <section>
-        <div class="container">
-            <div id='div-gpt-ad-1641723687369'></div>
-            <script>
-                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641723687369'); });
-            </script>
-        </div>
-    </section>
+
+    <div id='div-gpt-ad-1641723687369'></div>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.display('div-gpt-ad-1641723687369');
+        });
+    </script>
 
 
     <section class="mt-2">
