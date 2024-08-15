@@ -363,41 +363,42 @@
     </style>
     ${advert.gaCode}
 
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script>
         window.googletag = window.googletag || {cmd: []};
-        googletag.cmd.push(function () {
-            googletag.defineSlot('/112517806,23185333439/1641723687369', [[300, 250], [336, 280]], 'div-gpt-ad-1641723687369').addService(googletag.pubads());
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1641723687369',[[300, 250],[336, 280]],'div-gpt-ad-1641723687369').addService(googletag.pubads());
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
     </script>
+
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
-        window.googletag = window.googletag || {cmd: []};
-        let anchorSlot;
+        window.googletag = window.googletag || { cmd: [] };
+        let interstitialSlot;
         googletag.cmd.push(() => {
-            anchorSlot = googletag.defineOutOfPageSlot(
-                '/112517806,23185333439/9611723687522',
-                document.body.clientWidth <= 500
-                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
-                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+            interstitialSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/3771723687439',
+                googletag.enums.OutOfPageFormat.INTERSTITIAL,
             );
-            if (anchorSlot) {
-                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
+            if(interstitialSlot) {
+                interstitialSlot.addService(googletag.pubads()).setConfig({
+                    interstitial: {
+                        triggers: {
+                            navBar: true,
+                            unhideWindow: true,
+                        }, },
+                });
             }
-
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
     </script>
     <script>
         googletag.cmd.push(() => {
-            googletag.display(anchorSlot);
+            googletag.display(interstitialSlot);
         });
     </script>
-
-
 </head>
 
 <body>
@@ -442,7 +443,7 @@
                                     class="fas fa-arrow-right"></span></a></div>
                 </div>
             </div>
-        </div><!-- end of .container-->
+        </div>
     </section>
 
     <section>
