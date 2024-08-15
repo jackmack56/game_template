@@ -412,14 +412,14 @@
     </nav>
 
 
-    <section>
-        <div class="container">
-            <div id='div-gpt-ad-1641723687369' style='min-width: 300px;min-height: 250px; margin: 0px auto;'></div>
-            <script>
-                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1641723687369'); });
-            </script>
-        </div>
-    </section>
+    <div style="margin: 0 auto; width: 300px;">
+        <div id='div-gpt-ad-1641723687369' style='min-width: 300px;min-height: 250px; '></div>
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-1641723687369');
+            });
+        </script>
+    </div>
 
 
     <section class="mt-2">

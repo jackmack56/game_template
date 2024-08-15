@@ -363,7 +363,6 @@
     </style>
     ${advert.gaCode}
 
-
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
         window.googletag = window.googletag || {cmd: []};
@@ -398,6 +397,7 @@
             googletag.display(anchorSlot);
         });
     </script>
+
 </head>
 
 <body>
@@ -411,37 +411,17 @@
         </div>
     </nav>
 
-    <section>
-        <div class="container">
-            <div id='div-gpt-ad-1231723686894' style='min-width: 300px;min-height: 250px; margin: 0px auto;'></div>
-            <script>
-                googletag.cmd.push(function () {
-                    googletag.display('div-gpt-ad-1231723686894');
-                });
-            </script>
-        </div>
-    </section>
 
-    <section>
-        <div class="container">
+    <div style="margin: 0 auto; width: 300px;">
+        <div id='div-gpt-ad-1231723686894' style='min-width: 300px;min-height: 250px;'></div>
+        <script>
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-1231723686894');
+            });
+        </script>
+    </div>
 
-            <div class="px-xl-8 px-md-7">
-                <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
-                    <div class="input-group input-group-lg">
-                        <input name="s" value="" type="search" class="form-control" id="search"
-                               placeholder="Search Game"
-                               aria-label="Search" style="background-color: #0e1738;">
-                    </div>
-                </form>
-            </div>
-            <div class="px-xl-8 px-md-7 mt-4 d-flex flex-wrap gap-4">
-                <#list game_types as game_type>
-                    <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white"
-                                                       style="cursor: pointer;">${game_type}</span></a>
-                </#list>
-            </div>
-        </div>
-    </section>
+
     <section>
         <div class="container">
             <h1 class="display-6 fw-semi-bold"> ${category ! ''} Games</h1>
@@ -479,6 +459,28 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="container">
+
+            <div class="px-xl-8 px-md-7">
+                <form action="/search" method="get" class="custom-form search-form flex-fill me-3" role="search">
+                    <div class="input-group input-group-lg">
+                        <input name="s" value="" type="search" class="form-control" id="search"
+                               placeholder="Search Game"
+                               aria-label="Search" style="background-color: #0e1738;">
+                    </div>
+                </form>
+            </div>
+            <div class="px-xl-8 px-md-7 mt-4 d-flex flex-wrap gap-4">
+                <#list game_types as game_type>
+                    <a href="/type/${game_type}"><span class="p-2 rounded d-inline-block bg-primary text-white"
+                                                       style="cursor: pointer;">${game_type}</span></a>
+                </#list>
+            </div>
+        </div>
+    </section>
+
     <div class="footer__nav">
         <ul style="display: flex;gap: 20px;flex-wrap: wrap; justify-content: center; padding-left: 20px;padding-right: 20px;padding-bottom: 20px;">
             <p>
