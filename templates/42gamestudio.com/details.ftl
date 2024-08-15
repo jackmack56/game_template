@@ -371,16 +371,6 @@
             googletag.enableServices();
         });
     </script>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-        window.googletag = window.googletag || {cmd: []};
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/112517806,23185333439/171723687299',[[300, 250],[336, 280]],'div-gpt-ad-171723687299').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-
 </head>
 
 <body>
@@ -393,7 +383,6 @@
                 <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 5rem"></a>
         </div>
     </nav>
-
 
     <div style="margin: 0 auto; width: 300px;">
         <div id='div-gpt-ad-1641723687369' style='min-width: 300px;min-height: 250px; '></div>
@@ -439,15 +428,6 @@
             </div>
         </div>
     </section>
-
-    <div style="margin: 0 auto; width: 300px;">
-        <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
-        <script>
-            googletag.cmd.push(function () {
-                googletag.display('div-gpt-ad-171723687299');
-            });
-        </script>
-    </div>
 
     <section>
         <div class="container">
