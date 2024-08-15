@@ -402,17 +402,20 @@
 
 <body>
 
-<div id='div-gpt-ad-1231723686894' style='min-width: 300px; min-height: 250px;'></div>
-<script>
-    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1231723686894'); });
-</script>
+
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
          style="padding-top: 48px; background-image: none; border-bottom: 1px solid rgba(22, 32, 68, 0); background-color: rgba(7, 14, 39, 0);">
         <div class="container pt-2"><a class="navbar-brand" href="/" style="color: white;">
-                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem"></a>
+                <img src="/domain/${advert.domain}/logo.png" alt="" style="height: 5rem"></a>
         </div>
     </nav>
+
+    <div id='div-gpt-ad-1231723686894' style='min-width: 300px; min-height: 250px;'></div>
+    <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1231723686894'); });
+    </script>
+
     <section>
         <div class="container">
 
