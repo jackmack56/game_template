@@ -431,15 +431,16 @@
         });
     </script>
 
-    <script>
-        googletag.cmd.push(() => {
-            googletag.display(anchorSlot);
-        });
-    </script>
+
 </head>
 <body>
 
 
+<script>
+    googletag.cmd.push(() => {
+        googletag.display(anchorSlot);
+    });
+</script>
 
 <script>
     googletag.cmd.push(() => {
