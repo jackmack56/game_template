@@ -141,7 +141,7 @@
 
       <div style="padding-top: 20px; width: 80%; margin: 10px auto">
         <p style="font-size: 16px;"> ${advert.content}</p>
-        <p style="font-size: 18px;margin-top: 30px; margin-left: 22%">Email: ${advert.contactMail}</a> <br>
+        <p style="font-size: 18px;margin-top: 30px;">Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
         </p>
       </div>

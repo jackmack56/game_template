@@ -125,7 +125,9 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <div class="main">
     <div class="header">
-      <div class="icon-logo"><a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem; width: 10rem"></a></div>
+      <div class="icon-logo" style="display: flex;">
+        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="width: 1.2rem; margin-left: 0.4rem"></a>
+      </div>
       <#assign hotValue=0>
         <#list game_types as type>
           <#if hotValue < 4>
