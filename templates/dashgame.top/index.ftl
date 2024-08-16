@@ -138,13 +138,14 @@
     </div>
 
 
-    <div class="content">
 
+      <div style="font-size: 16px;padding-top: 20px; width: 80%; margin: 0 auto">
         <p> ${advert.content}</p>
         <p >Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
         </p>
-    </div>
+      </div>
+
 
 
     <div class="footer">
