@@ -138,14 +138,15 @@
     </div>
 
 
+    <div class="content">
 
-    <div class="footer" >
-      <div class="bottom-navbar">
-          <a> ${advert.content}</a>
-          <a>Email: ${advert.contactMail}</a> <br>
-            Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
-      </div>
+        <p> ${advert.content}</p>
+        <p >Email: ${advert.contactMail}</a> <br>
+          Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
+        </p>
     </div>
+
+
     <div class="footer">
       <div class="bottom-navbar">
         <a href="/privacy_policy" target="_blank">Privacy Policy</a>
