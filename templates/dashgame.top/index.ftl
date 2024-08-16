@@ -139,16 +139,16 @@
 
 
 
-      <div style="font-size: 16px;padding-top: 20px; width: 80%; margin: 0 auto">
-        <p> ${advert.content}</p>
-        <p >Email: ${advert.contactMail}</a> <br>
+      <div style="padding-top: 20px; width: 80%; margin: 0 auto">
+        <p style="font-size: 16px;"> ${advert.content}</p>
+        <p style="margin: 10px 30%">Email: ${advert.contactMail}</a> <br>
           Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
         </p>
       </div>
 
 
 
-    <div class="footer">
+    <div class="footer" style="padding-top: 0">
       <div class="bottom-navbar">
         <a href="/privacy_policy" target="_blank">Privacy Policy</a>
         <a href="/term_of_use" target="_blank">Terms of Service</a>
