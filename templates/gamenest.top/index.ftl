@@ -20,7 +20,8 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div id="navbar" class="navbar-collapse collapse">
-            <div class="top-search">
+            <div class="row top-search">
+                <img src="/domain/${advert.domain}/logo.png"style="width: 10rem; height: 5rem" />
                 <form class="navbar-form navbar-right" action="/search" method="get">
                     <input type="search" class="form-control" placeholder="Search Game " name="s" value="">
                     <input type="submit" value=" ">
