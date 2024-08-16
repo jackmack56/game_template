@@ -20,7 +20,8 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div id="navbar" class="navbar-collapse collapse">
-            <div class="top-search">
+            <div class="row top-search">
+                <img src="/domain/${advert.domain}/logo.png"style="width: 10rem; height: 5rem" />
                 <form class="navbar-form navbar-right" action="/search" method="get">
                     <input type="search" class="form-control" placeholder="Search Game " name="s" value="">
                     <input type="submit" value=" ">
@@ -81,6 +82,8 @@
             <div class="clearfix"></div>
             <div class="published">
                 <div class="load_more">
+                    <p class="col-6 mx-auto" style="height: 3rem; align-content: center; border-radius: 25px;
+background: #0da9fd; line-height: 3rem; font-size: 18px; text-align: center; "><a href="${game.gameUri}" style="color:white">Play</a></p>
                     <ul id="myList">
                         <li>
                             <h4>${game.createTime?string("yyyy-MM-dd")}</h4>
