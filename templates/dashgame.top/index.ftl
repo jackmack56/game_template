@@ -85,7 +85,7 @@
   <div class="main">
     <div class="header">
       <div class="icon-logo" style="display: flex;">
-        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="width: 1rem; margin-left: 0.4rem"></a>
+        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="width: 2rem; margin-left: 0.4rem"></a>
       </div>
       
     </div>
@@ -147,17 +147,20 @@
         <a href="/about_us" target="_blank">About Us</a>
       </div>
     </div>
+    <div class="footer">
+      <div class="bottom-navbar">
+        <a href="/privacy_policy" target="_blank">Privacy Policy</a>
+        <a href="/term_of_use" target="_blank">Terms of Service</a>
+        <a href="/contact_us" target="_blank">Contact Us</a>
+        <a href="/about_us" target="_blank">About Us</a>
+      </div>
+    </div>
     <div class="float">
       <div class="cookie-confirm"></div>
     </div>
   </div>
 
-  <div style="background: #001858; ">
-    <p> ${advert.content}</p>
-    <p >Email: ${advert.contactMail}</a> <br>
-      Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
-    </p>
-  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
