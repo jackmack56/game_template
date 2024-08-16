@@ -62,7 +62,6 @@
     </div>
     <div class="row w-95 mx-auto mt-5 shadow rounded-4">
         <#list all_game as game>
-        <#if game_index < 13  >
         <#if game_index % 3 == 0>
         <div class="col-12 col-lg-4 col-md-4 my-2 fiex-card-box">
             </#if>
@@ -82,36 +81,11 @@
                     </div>
                 </a>
             </div>
-            </#if>
             </#list>
         </div>
 </section>
 
 
-<section class="col-12 col-lg-10 mx-auto" style="margin-top: 5rem">
-    <div class="w-100">
-        <h2 style="font-weight: bolder; font-size: 40px;">Other <span class="text">Games</span></h2>
-        <hr>
-    </div>
-    <div class="row w-95 mx-auto mt-5 shadow rounded-4">
-        <#list all_game as game>
-            <#if 24 < game_index >
-                <div class="col-6 col-lg-2 col-md-2 my-2 ">
-                    <a href="/details/${game.id}">
-                        <div class="card border-warning shadow h-100">
-                            <div class="card-img-box h-100">
-                                <img src="${game.gamePreview}" class="rounded-4">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title overflow_txt" style="height: 2rem">${game.gameName}</h5>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </#if>
-        </#list>
-    </div>
-</section>
 
 
 <footer class="footer col-11 mx-auto mt-5">

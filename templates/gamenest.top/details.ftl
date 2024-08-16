@@ -80,6 +80,8 @@
 
             <div class="clearfix"></div>
             <div class="published">
+                <p class="col-6 mx-auto" style="height: 3rem; align-content: center; border-radius: 25px;
+background: #fda50d; line-height: 3rem; font-size: 18px">Play</p>
                 <div class="load_more">
                     <ul id="myList">
                         <li>
@@ -94,7 +96,7 @@
             <h3>Other Games</h3>
             <div class="single-grid-right">
                 <#list alikeGame as game>
-                    <#if game_index < 6>
+                    <#if game_index < 4>
                         <div class="single-right-grids">
                             <div class="col-md-4 single-right-grid-left">
                                 <a href="/details/${game.id}"><img src="${game.gamePreview}" alt=""/></a>
@@ -114,10 +116,10 @@
 
     <div class="top-grids">
         <div class="recommended-info">
-            <h3>New Game</h3>
+            <h3 style="color: white">Other Game</h3>
         </div>
         <#list alikeGame as game>
-            <#if 6 < game_index >
+            <#if 4 < game_index >
                 <div class="col-md-2 col-lg-2 resent-grid recommended-grid slider-top-grids ">
                     <div class="resent-grid-img recommended-grid-img">
                         <a href="/details/${game.id}"><img src="${game.gamePreview}" alt="" /></a>
@@ -141,13 +143,6 @@
     <div class="footer" style="margin-top: 20px">
         <div class="footer-grids">
             <div class="footer-top">
-                <div class="footer-top-nav">
-                    <div class="footer-top-nav">
-                        <p style="font-size: 15px; color: white; margin-left: 10px; margin-bottom: 60px">
-                            ${advert.content}
-                        </p>
-                    </div>
-                </div>
                 <div class="footer-top-nav">
                     <ul>
                         <li><a href="/about_us" style="color: white">About Us</a></li>

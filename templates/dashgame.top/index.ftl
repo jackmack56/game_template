@@ -82,7 +82,7 @@
   <div class="main">
     <div class="header">
       <div class="icon-logo" style="display: flex;">
-        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt=""></a>
+        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="height: 6rem; width: 10rem"></a>
       </div>
       
     </div>
