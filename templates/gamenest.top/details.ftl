@@ -80,8 +80,8 @@
 
             <div class="clearfix"></div>
             <div class="published">
-                <p class="col-6 mx-auto" style="height: 3rem; align-content: center; border-radius: 25px;
-background: #fda50d; line-height: 3rem; font-size: 18px">Play</p>
+                <p class="col-lg-3 col-6 mx-auto" style="height: 3rem; align-content: center; border-radius: 25px;
+background: #fda50d; line-height: 3rem; font-size: 18px; text-align: center; color:white"><a href="${game.gameUri}">Play</a></p>
                 <div class="load_more">
                     <ul id="myList">
                         <li>

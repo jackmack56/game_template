@@ -68,7 +68,7 @@
         <section class="row row--grid">
             <div class="col-12">
                 <div class="main__title">
-                    <h2>Home Games</h2>
+                    <h2>${category ! ''} Games</h2>
                 </div>
             </div>
             <#list all_game as game>
