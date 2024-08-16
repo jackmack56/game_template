@@ -1,4 +1,4 @@
-<html lang="en" style="font-size: 191.094px;">
+<html lang="en" style="font-size: 191.094px;" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="UTF-8">
@@ -85,7 +85,7 @@
   <div class="main">
     <div class="header">
       <div class="icon-logo" style="display: flex;">
-        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="width: 2rem; margin-left: 0.4rem"></a>
+        <a href="/"><img class="pmt" src="/domain/${advert.domain}/logo.png" alt="" style="width: 1.2rem; margin-left: 0.4rem"></a>
       </div>
       
     </div>
@@ -139,12 +139,11 @@
 
 
 
-    <div class="footer" style="background: #ffc107; ">
-      <div class="bottom-navbar" style="background: #ffc107; ">
-          <p> ${advert.content}</p>
-          <p >Email: ${advert.contactMail}</a> <br>
+    <div class="footer" >
+      <div class="bottom-navbar">
+          <a> ${advert.content}</a>
+          <a>Email: ${advert.contactMail}</a> <br>
             Copyright © 2024 <a href="/">${advert.serviceName}</a>. All Rights Reserved.
-          </p>
       </div>
     </div>
     <div class="footer">
