@@ -373,6 +373,15 @@
             googletag.enableServices();
         });
     </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1881724230632',[[300, 250],[336, 280]],'div-gpt-ad-1881724230632').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
 </head>
 <body>
 
@@ -406,11 +415,9 @@
                     <#if game_index == 8>
                         <div class="col-12">
                             <div style="margin: 0 auto; width: 300px;">
-                                <div id='div-gpt-ad-171723687299' style='min-width: 300px; min-height: 250px;'></div>
+                                <div id='div-gpt-ad-1881724230632' style='min-width: 300px; min-height: 250px;'></div>
                                 <script>
-                                    googletag.cmd.push(function () {
-                                        googletag.display('div-gpt-ad-171723687299');
-                                    });
+                                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1881724230632'); });
                                 </script>
                             </div>
                         </div>
