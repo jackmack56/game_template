@@ -367,60 +367,8 @@
     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
     <script>
         window.googletag = window.googletag || {cmd: []};
-        googletag.cmd.push(function () {
-            googletag.defineSlot('/112517806,23185333439/1231723686894', [[300, 250], [336, 280]], 'div-gpt-ad-1231723686894').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-        window.googletag = window.googletag || {cmd: []};
-        googletag.cmd.push(function () {
-            googletag.defineSlot('/112517806,23185333439/171723687299', [[300, 250], [336, 280]], 'div-gpt-ad-171723687299').addService(googletag.pubads());
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-        window.googletag = window.googletag || {cmd: []};
-        let interstitialSlot;
-        googletag.cmd.push(() => {
-            interstitialSlot = googletag.defineOutOfPageSlot(
-                '/112517806,23185333439/3771723687439',
-                googletag.enums.OutOfPageFormat.INTERSTITIAL,
-            );
-            if (interstitialSlot) {
-                interstitialSlot.addService(googletag.pubads()).setConfig({
-                    interstitial: {
-                        triggers: {
-                            navBar: true,
-                            unhideWindow: true,
-                        },
-                    },
-                });
-            }
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    </script>
-
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
-    <script>
-        window.googletag = window.googletag || { cmd: [] };
-        let anchorSlot;
-        googletag.cmd.push(() => {
-            anchorSlot = googletag.defineOutOfPageSlot(
-                '/112517806,23185333439/9611723687522',
-                document.body.clientWidth <= 500
-                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
-                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
-            );
-            if (anchorSlot) {
-                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
-            }
-
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1201724230360',[[300, 250],[336, 280]],'div-gpt-ad-1201724230360').addService(googletag.pubads());
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
@@ -428,17 +376,7 @@
 </head>
 <body>
 
-<script>
-    googletag.cmd.push(() => {
-        googletag.display(anchorSlot);
-    });
-</script>
 
-<script>
-    googletag.cmd.push(() => {
-        googletag.display(interstitialSlot);
-    });
-</script>
 
 <main class="main" id="top">
     <nav class="navbar navbar-light sticky-top" data-navbar-darken-on-scroll="900"
@@ -451,11 +389,10 @@
 
 
     <div style="margin: 0 auto; width: 300px;">
-        <div id='div-gpt-ad-1231723686894' style='min-width: 300px;min-height: 250px;'></div>
+
+        <div id='div-gpt-ad-1201724230360' style='min-width: 300px; min-height: 250px;'></div>
         <script>
-            googletag.cmd.push(function () {
-                googletag.display('div-gpt-ad-1231723686894');
-            });
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1201724230360'); });
         </script>
     </div>
 
