@@ -8,6 +8,8 @@
   <title>${advert.title}</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
   ${advert.gaCode}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3166493188367342"
+          crossorigin="anonymous"></script>
 </head>
 <body style="color: white;background-color: black;">
 

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min1.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/styles.css">
     ${advert.gaCode}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3166493188367342"
+            crossorigin="anonymous"></script>
 </head>
 <body class="body pace-done">
 <div class="pace  pace-inactive">

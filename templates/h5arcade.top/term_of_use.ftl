@@ -13,6 +13,8 @@
     <meta name="author" content="">
     <title>${advert.title}</title>
     ${advert.gaCode}
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3166493188367342"
+            crossorigin="anonymous"></script>
 </head>
 <body>
 
