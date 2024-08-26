@@ -170,7 +170,7 @@ a.btn {
 }
 
 .navbar-nav li > a, .navbar-brand, .navbar-text {
-    text-shadow: 2px 2px 2px rgba(90, 90, 90, 1)
+    color: var(--font-color) !important;
 }
 
 .nav-link {
@@ -239,7 +239,7 @@ header {
 
 .as-wrapper {
     display: block;
-    background: linear-gradient(to bottom, #b4b9ba 0, #cbcbcb 5%)
+    background: var(--bg-color) !important;
 }
 
 .as-wrapper:before, .as-wrapper:after {
