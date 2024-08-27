@@ -65,8 +65,6 @@
 <main class="main">
     <div class="container-fluid">
 
-
-
         <section class="row row--grid">
             <div class="col-12">
                 <div class="main__title">
@@ -95,6 +93,11 @@
                             <div class="album__title">
                                 <h3><a href="/details/${game.id}">${game.gameName}</a></h3>
                                 <span><a href="/type/${game.gameCategory}">${game.gameCategory}</a></span>
+                                <p style="font-size: 16px;
+	font-weight: 300;
+	color: var(--box-font-color) !important;
+	height: 3.3rem;
+	overflow: hidden;">${game.gameDesc}</p>
                             </div>
                         </div>
                     </div>
@@ -282,7 +285,7 @@
                             </a>
 
                             <div class="post__content">
-                                <a href="/type/${game.gamePreview}" class="post__category">${game.gamePreview}</a>
+                                <a href="/type/${game.gameCategory}" class="post__category">${game.gameCategory}</a>
                                 <h3 class="post__title"><a href="/details/${game.id}">${game.gameName}</a></h3>
                             </div>
                         </div>
