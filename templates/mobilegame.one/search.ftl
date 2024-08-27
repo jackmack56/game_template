@@ -16,7 +16,7 @@
 <nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="/domain/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
+            <img src="/template/12/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
         </a>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -94,7 +94,7 @@
             <div class="col-12 col-md-9">
                 <ul class="nav justify-content-center justify-content-md-start align-items-center">
                     <li class="nav-item"><a class="as-logo-holder nav-link active pl-0" href="/">
-                            <img src="/domain/${advert.domain}/logo.png"
+                            <img src="/template/12/${advert.domain}/logo.png"
                                  alt="Arcade Spot" width="424" height="123">
                         </a></li>
                     <li class="w-100 d-block d-sm-none"></li>

@@ -121,7 +121,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="footer__logo">
-                    <a href="/"><img src="img/logo.png" alt=""></a>
+                    <a href="/"><img src="/template/14/${advert.domain}/logo.png" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
