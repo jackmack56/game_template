@@ -191,8 +191,6 @@
         </div>
         <div class="gamebar-right">
             <div class="gamebar-right-games">
-
-                <#assign hotValue=0>
                 <#list alikeGame as game>
                     <#if 4 < hotValue && hotValue < 9>
                         <a href="/details/${game.id}" class="as-game-box as-related-game">
@@ -204,9 +202,7 @@
                             <span class="as-game-box-title as-related-title">${game.gameName}</span>
                         </a>
                     </#if>
-                    <#assign hotValue++>
                 </#list>
-
             </div>
         </div>
     </div>
@@ -246,9 +242,11 @@
                 <ul class="as-game-list">
                     <#list alikeGame as game>
                         <#if 4 < game_index>
-                        <li><a href="/details/${game.id}" class="as-game-box"><img class="lozad"
-                                                                                   data-src="${game.gamePreview}"
-                                                                                   width="140" height="140">
+                        <li><a href="/details/${game.id}" class="as-game-box"><img
+                                        data-src="${game.gamePreview}"
+                                        alt="papa's donuteria game" width="140" height="140"
+                                        src="${game.gamePreview}"
+                                        data-loaded="true">
                                 <div class="as-game-box-title" style="width: 100%;
                             height: 3rem;
                             white-space: normal; overflow: hidden; text-overflow: ellipsis;">${game.gameName}</div>

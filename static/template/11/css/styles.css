@@ -42,7 +42,7 @@ html {
 }
 
 .b-radius {
-  border-radius: var(--border-radius);
+  border-radius: 25px;
 }
 
 .primary-text {
@@ -360,7 +360,7 @@ ul {
 
 img {
   width: 100%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 2/2;
   object-fit: cover;
 }
 
