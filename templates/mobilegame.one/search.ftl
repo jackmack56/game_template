@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/templat/12/css/style.min.css?ver=140">
+    <link rel="stylesheet" href="/template/12/css/style.min.css?ver=140">
     <link rel="stylesheet" href="/template/12/${advert.domain}/main.css">
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
@@ -117,12 +117,12 @@
         </div>
     </div>
 </footer>
-<script src="/templat/12/js/lozad.min.js" defer=""></script>
+<script src="/template/12/js/lozad.min.js" defer=""></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
-<script src="/templat/12/js/script.min.js?v=162" defer=""></script>
+<script src="/template/12/js/script.min.js?v=162" defer=""></script>
 </body>
 
 </html>

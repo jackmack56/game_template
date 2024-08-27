@@ -295,12 +295,12 @@
         </div>
     </div>
 </footer>
-<script src="/templat/12/js/lozad.min.js" defer=""></script>
+<script src="/template/12/js/lozad.min.js" defer=""></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
-<script src="/templat/12/js/script.min.js?v=162" defer=""></script>
+<script src="/template/12/js/script.min.js?v=162" defer=""></script>
 </body>
 
 </html>
