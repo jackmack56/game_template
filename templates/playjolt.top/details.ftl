@@ -128,6 +128,11 @@
                         <div class="album__title">
                             <h3><a href="/details/${game.id}">${game.gameName}</a></h3>
                             <span><a href="/details/${game.id}">${game.gameCategory}</a></span>
+                            <p style="font-size: 16px;
+	font-weight: 300;
+	color: var(--box-font-color) !important;
+	height: 3.3rem;
+	overflow: hidden;">${game.gameDesc}</p>
                         </div>
                     </div>
                 </div>
