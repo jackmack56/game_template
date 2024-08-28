@@ -385,7 +385,7 @@ ol {
 	left: 0;
 	top: 82px;
 	width: 150px;
-	background: #ffffff;
+	background: var(--box-bg-color) !important;
 	text-align: left;
 	padding: 5px 0;
 	z-index: 9;
