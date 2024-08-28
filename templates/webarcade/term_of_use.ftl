@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
           rel="stylesheet">
-    <link href="/template/14/${advert.domain}/main.css"  rel="stylesheet"/>
     <meta name="description" content="${advert.content}"/>
     <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
@@ -12,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/7-6-1/css/bootstrap.min.css" rel="stylesheet">
     ${advert.gaCode}
 </head>
-<body style="color: var(--font-color)!important;background-color: var(--bg-color)!important;">
+<body style="color: white;background-color: black;">
 <div id="js-preloader" class="js-preloader loaded">
     <div class="preloader-inner">
         <span class="dot"></span>

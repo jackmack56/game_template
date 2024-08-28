@@ -19,57 +19,7 @@
 <a href="#" class="scroll-top">
     <i class="fa-solid fa-arrow-up-long"></i>
 </a>
-<header class="header">
-    <div class="header-2" style="background: black;">
-        <a class="logo" href="/">
-            <img src="/domain/${advert.domain}/logo.png" alt="logo">
-        </a>
-        <div class="container">
-            <nav class="navbar">
-                <a class="nav-btn" href="/">home</a>
-                <a class="nav-btn" href="/about_us">About</a>
-                <div class="dropdown-menu">
-                    <button class="nav-btn">Category</button>
-                    <div class="dropdown-content">
-                        <#list game_types as type>
-                            <a href="/type/${type}">${type}</a>
-                        </#list>
-                    </div>
-                </div>
-                <a class="nav-btn" href="/contact_us">Contact</a>
-            </nav>
-            <div class="icon-container">
-                <div id="search-btn" class="icon fa-solid fa-magnifying-glass"></div>
-                <div id="menu-btn" class="icon fa-solid fa-bars-staggered"></div>
-            </div>
-            <form class="search-container" action="/search" method="get">
-                <input type="search" id="search-bar" placeholder="Search Podcast" name="s" value="">
-            </form>
-        </div>
-    </div>
-    <div class="mobile-menu">
-        <nav class="mobile-navbar">
-            <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/">Home</a> </div>
-            </div>
-            <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/">About</a> </div>
-            </div>
-            <div class="nav-link">
-                <div class="main-nav-link"> <div class="nav-btn">Category</div> <i class="fas fa-plus"></i> </div>
-                <div class="sub-nav-link">
-                    <#list game_types as type>
-                        <a href="/type/${type}">${type}</a>
-                    </#list>
-                </div>
-            </div>
 
-            <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/contact_usl">Contact</a> </div>
-            </div>
-        </nav>
-    </div>
-</header>
 
 <section class="services" style="margin-top: 10rem;">
     <div class="heading">
