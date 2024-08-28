@@ -155,9 +155,9 @@
             <a class="logo" href="">
                 <img src="/domain/${advert.domain}/logo.png" alt="logo">
             </a>
-            ${advert.content}
-        </div>
 
+        </div>
+        ${advert.content}
     </div>
     <div class="box-container">
         <div class="footer-item" >
