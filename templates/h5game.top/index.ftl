@@ -132,7 +132,11 @@
                                     style="width: 15rem; height: 3rem; white-space: normal;
                             overflow: hidden;text-overflow: ellipsis;">
                                 ${game.gameName}</h3></a>
-                        <p>${game.gameCategory}</p>
+                        <p style="font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    height: 4.3rem;
+    overflow: hidden;">${game.gameDesc}</p>
                         <div class="icon-container" style="color: white">
                             <span >${game.gameHot}</span>
                             <span >${game.createTime?string("yyyy-MM-dd")}</span>

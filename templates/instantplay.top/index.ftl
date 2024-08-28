@@ -51,7 +51,6 @@
     <div class="box-container">
         <#list all_game as game>
             <#if  4200 <= game.gameHot>
-
                 <div class="product-item">
                     <a href="/details/${game.id}">
                     <div class="image">

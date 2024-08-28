@@ -23,10 +23,6 @@
 </head>
 
 <body>
-<div id="preloder">
-    <div class="loader"></div>
-</div>
-
 <header class="header">
     <div class="container">
         <div class="row">
