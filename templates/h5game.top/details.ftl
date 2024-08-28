@@ -131,6 +131,12 @@
     </div>
 </section>
 
+<section class="team" style="font-size: 18px; line-height: 3rem">
+    ${advert.content}
+</section>
+
+
+
 
 <footer class="footer" style="background: rgba(64,158,255, 0.9);">
     <div class="box-container">
@@ -138,7 +144,6 @@
             <a class="logo" href="">
                 <img src="/domain/${advert.domain}/logo.png" alt="logo">
             </a>
-            ${advert.content}
         </div>
 
     </div>

@@ -149,7 +149,7 @@
 </section>
 
 
-<section class="team">
+<section class="team" style="font-size: 18px; line-height: 3rem">
     ${advert.content}
 </section>
 
