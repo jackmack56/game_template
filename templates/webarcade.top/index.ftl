@@ -180,8 +180,8 @@
 
 
 <section class="product spad">
-    <div class="container">
-        <p style="color: var(--font-color)!important;">${advert.content}</p>
+    <div class="container" style="color: var(--font-color)!important;">
+       ${advert.content}
     </div>
 </section>
 
