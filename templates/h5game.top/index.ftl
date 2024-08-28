@@ -149,6 +149,11 @@
 </section>
 
 
+<section class="team">
+    ${advert.content}
+</section>
+
+
 <footer class="footer" style="background: rgba(64,158,255, 0.9);">
     <div class="box-container">
         <div class="footer-item">
@@ -157,7 +162,6 @@
             </a>
 
         </div>
-        ${advert.content}
     </div>
     <div class="box-container">
         <div class="footer-item" >
