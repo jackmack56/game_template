@@ -59,8 +59,8 @@
 </header>
 
 <section class="product spad">
-    <div class="row col-8 mx-auto">
-        <div class="col-lg-8 col-12">
+    <div class="row col-8 col-12 mx-auto">
+        <div class="col-lg-8 ">
             <div class="trending__product">
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-8">
