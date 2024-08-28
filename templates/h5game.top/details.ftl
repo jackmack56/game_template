@@ -138,7 +138,7 @@
             <a class="logo" href="">
                 <img src="/domain/${advert.domain}/logo.png" alt="logo">
             </a>
-            <p>${advert.content}</p>
+            ${advert.content}
         </div>
 
     </div>
