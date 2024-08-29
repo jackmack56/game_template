@@ -139,7 +139,7 @@
                 <div class="product-item">
                     <a href="/details/${game.id}">
                         <div class="image">
-                            <img src="${game.gamePreview}" alt="Product-Image">
+                            <img data-src="${game.gamePreview}" alt="Product-Image">
                         </div>
                         <div class="content">
                             <div class="rating">
@@ -171,7 +171,7 @@
             <#if  game.gameHot < 4200>
                 <div class="portfolio-item road">
                     <div class="portfolio-content">
-                        <img src="${game.gamePreview}" alt="Road Biking Adventure">
+                        <img data-src="${game.gamePreview}" alt="Road Biking Adventure">
                         <div class="content">
                             <div class="btn-container">
                                 <a class="view" href="/details/${game.id}"><i
