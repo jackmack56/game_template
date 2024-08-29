@@ -21,7 +21,7 @@
             window.gnshbrequest.forceInternalRequest();
         });
     </script>
-    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<#--    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>-->
     <script async src="https://cpt.geniee.jp/hb/v1/220928/2069/wrapper.min.js"></script>
 </head>
 <body>
