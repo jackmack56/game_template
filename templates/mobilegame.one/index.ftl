@@ -18,7 +18,7 @@
 <nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="/template/12/${advert.domain}/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
+            <img src="/template/12/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
         </a>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
