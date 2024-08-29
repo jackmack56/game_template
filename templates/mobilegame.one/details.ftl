@@ -120,7 +120,7 @@
                            aria-expanded="false">
                             Category
                         </a>
-                        <ul class="dropdown-menu ">
+                        <ul class="dropdown-menu" style="background: var(--bg-color) !important">
                             <#list game_types as type>
                                 <li><a class="dropdown-item" href="/type/${type}">${type}</a></li>
                             </#list>
