@@ -103,7 +103,7 @@
             <#list all_game as game>
             <#if game_index < 6>
                 <div class="service-item swiper-slide">
-                    <img src="${game.gamePreview}" alt="Guided Tours">
+                    <img src="${game.gamePreview}" loading="lazy" alt="Guided Tours">
                     <div class="content">
                         <i class="fas fa-route"></i>
                         <a href="/details/${game.id}"><h3> ${game.gameName}</h3></a>
@@ -139,7 +139,7 @@
                 <div class="product-item">
                     <a href="/details/${game.id}">
                         <div class="image">
-                            <img src="${game.gamePreview}" alt="Product-Image">
+                            <img src="${game.gamePreview}" loading="lazy" alt="Product-Image">
                         </div>
                         <div class="content">
                             <div class="rating">
@@ -171,7 +171,7 @@
             <#if  game.gameHot < 4200>
                 <div class="portfolio-item road">
                     <div class="portfolio-content">
-                        <img src="${game.gamePreview}" alt="Road Biking Adventure">
+                        <img src="${game.gamePreview}" loading="lazy" alt="Road Biking Adventure">
                         <div class="content">
                             <div class="btn-container">
                                 <a class="view" href="/details/${game.id}"><i
@@ -194,7 +194,7 @@
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
-                <img src="/domain/${advert.domain}/logo.png" alt="logo">
+                <img src="/domain/${advert.domain}/logo.png"  loading="lazy" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>
@@ -209,8 +209,6 @@
         <div class="footer-item">
             <h2>Contact Info</h2>
                 <p><span>${advert.contactMail}</span></p>
-
-
         </div>
     </div>
     <div class="content">
