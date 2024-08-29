@@ -81,7 +81,7 @@
     </div>
 </header>
 
-<section class="portfolio-single page-single">
+<section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="portfolio-info page-info">
         <div data-cptid="1572538_instantplay.top_Detailbanner" style="display: block;">
             <script>
@@ -94,7 +94,7 @@
 </section>
 
 
-<section class="portfolio-single page-single" style="margin-top: 10rem;">
+<section class="portfolio-single page-single" style="margin-top: 2rem;">
     <div class="portfolio-info page-info">
         <div class="image" style="width: 50%; margin: 0px auto">
             <a href="${game.gameUri}">

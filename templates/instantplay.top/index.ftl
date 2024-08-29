@@ -85,7 +85,7 @@
 </header>
 
 
-<section class="services">
+<section class="services" style="margin-top: 10rem;">
     <div class="heading" style="margin: 0 auto;">
         <div data-cptid="1572522_instantplay.top_300x250_banner_top" style="display: block;">
             <script>
@@ -98,7 +98,7 @@
 </section>
 
 
-<section class="services" style="margin-top: 10rem;">
+<section class="services" style="margin-top: 2rem;">
     <div class="heading">
         <h2>New <span>Games</span></h2>
     </div>
