@@ -58,15 +58,6 @@
         });
     </script>
 </div>
-
-<div data-cptid="1572540_instantplay.top_Anchor" style="min-width: 300px;min-height: 250px; display: block;">
-    <script>
-        window.gnshbrequest.cmd.push(function() {
-            window.gnshbrequest.applyPassback("1572540_instantplay.top_Anchor", "[data-cptid='1572540_instantplay.top_Anchor']");
-        });
-    </script>
-</div>
-
 <section class="home-shop">
     <div class="heading">
         <h2>Hot <span>Games</span></h2>
