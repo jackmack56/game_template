@@ -89,7 +89,7 @@
 
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="portfolio-info page-info" >
-        <div class="image" style="width: 100%; margin: 0px auto">
+        <div class="image" style="width: 50%; margin: 0px auto">
             <a href="${game.gameUri}">
                 <img src="${game.gamePreview}" alt="Road Biking Adventure" >
             </a>
