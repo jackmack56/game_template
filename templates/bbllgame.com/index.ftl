@@ -139,6 +139,10 @@
         </div>
     </nav>
 
+    <div id='div-gpt-ad-1911724918375' style='min-width: 300px; min-height: 250px;'></div>
+    <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1911724918375'); });
+    </script>
 
     <section class="hero-section">
         <div class="row">
@@ -148,6 +152,15 @@
         </div>
     </section>
 
+    <section class="topics-section section-padding pb-0" id="section_3">
+        <div class="container">
+            <div id='div-gpt-ad-1911724918375' style='min-width: 300px; min-height: 250px;'></div>
+            <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1911724918375'); });
+            </script>
+        </div>
+    </section>
+    
     <section class="topics-section section-padding pb-0" id="section_3">
         <div class="container">
             <div class="row">
