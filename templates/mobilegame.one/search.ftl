@@ -13,7 +13,7 @@
     ${advert.gaCode}
 </head>
 <body>
-<nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom" style="style="background: var(--bg-color) !important"">
+<nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="/template/12/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
@@ -21,7 +21,8 @@
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+             style="background: var(--bg-color) !important">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Games</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
