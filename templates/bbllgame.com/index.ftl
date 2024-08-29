@@ -15,9 +15,83 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.theme.default.min.css">
     <link href="/domain/${advert.domain}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
     ${advert.gaCode}
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1911724918375',[[300, 250],[336, 280]],'div-gpt-ad-1911724918375').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1131724918565',[[300, 250],[336, 280]],'div-gpt-ad-1131724918565').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        let anchorSlot;
+        googletag.cmd.push(() => {
+            anchorSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/9261724918866',
+                document.body.clientWidth <= 500
+                    ? googletag.enums.OutOfPageFormat.TOP_ANCHOR
+                    : googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR,
+            );
+            if (anchorSlot) {
+                anchorSlot.setTargeting("test", "anchor").addService(googletag.pubads());
+            }
+
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || { cmd: [] };
+        let interstitialSlot;
+        googletag.cmd.push(() => {
+            interstitialSlot = googletag.defineOutOfPageSlot(
+                '/112517806,23185333439/3441724918806',
+                googletag.enums.OutOfPageFormat.INTERSTITIAL,
+            );
+            if(interstitialSlot) {
+                interstitialSlot.addService(googletag.pubads()).setConfig({
+                    interstitial: {
+                        triggers: {
+                            navBar: true,
+                            unhideWindow: true,
+                        }, },
+                });
+            }
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
 </head>
 
 <body>
+<script>
+    googletag.cmd.push(() => {
+        googletag.display(anchorSlot);
+    });
+</script>
+
+<script>
+    googletag.cmd.push(() => {
+        googletag.display(interstitialSlot);
+    });
+</script>
+
+
 
 <main>
     <nav class="navbar navbar-expand-lg">
@@ -87,7 +161,7 @@
                         <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                    <img src="${game.gamePreview}"
+                                    <img src="${game.gamePreview}" loading="lazy"
                                          class="custom-block-image img-fluid" alt="">
                                 </a>
 
@@ -131,7 +205,7 @@
                                 <div class="custom-block-icon-wrap">
                                     <div class="section-overlay"></div>
                                     <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                        <img src="${game.gamePreview}"
+                                        <img src="${game.gamePreview}" loading="lazy"
                                              class="custom-block-image img-fluid" alt="">
                                     </a>
                                 </div>
@@ -188,7 +262,7 @@
                         <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                    <img src="${game.gamePreview}"
+                                    <img src="${game.gamePreview}" loading="lazy"
                                          class="custom-block-image img-fluid" alt="">
                                 </a>
 
@@ -222,7 +296,7 @@
                         <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                    <img src="${game.gamePreview}"
+                                    <img src="${game.gamePreview}" loading="lazy"
                                          class="custom-block-image img-fluid" alt="">
                                 </a>
 
@@ -256,7 +330,7 @@
                         <div class="col-lg-3 col-md-6 col-6 mb-4 mb-lg-0">
                             <div class="custom-block custom-block-overlay">
                                 <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                    <img src="${game.gamePreview}"
+                                    <img src="${game.gamePreview}" loading="lazy"
                                          class="custom-block-image img-fluid" alt="">
                                 </a>
 

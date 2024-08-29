@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.theme.default.min.css">
     <link href="/domain/${advert.domain}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
     ${advert.gaCode}
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/112517806,23185333439/1731724918710',[[300, 250],[336, 280]],'div-gpt-ad-1731724918710').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
 </head>
 <body>
 
@@ -64,7 +73,13 @@
     </nav>
 
 
+
     <header class="site-header d-flex flex-column justify-content-center align-items-center">
+        <div id='div-gpt-ad-1731724918710' style='min-width: 300px; min-height: 250px;'></div>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1731724918710'); });
+        </script>
+
         <div class="container mt-5">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-10 col-12">
@@ -73,7 +88,7 @@
                             <div class="col-lg-7 col-12 mx-auto">
                                 <div class="custom-block-icon-wrap">
                                     <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                        <img src="${game.gamePreview}" class="custom-block-image img-fluid" alt="">
+                                        <img src="${game.gamePreview}" loading="lazy" class="custom-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -125,7 +140,7 @@ text-align: center; border-radius: 25px; line-height: 4;">
                     <div class="custom-block custom-block-full">
                         <div class="custom-block-image-wrap">
                             <a href="/details/${game.id}">
-                                <img src="${game.gamePreview}" class="custom-block-image img-fluid" alt="">
+                                <img src="${game.gamePreview}" loading="lazy" class="custom-block-image img-fluid" alt="">
                             </a>
                         </div>
 

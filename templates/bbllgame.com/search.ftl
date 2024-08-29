@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="${advert.content}" />
-    <meta name="keywords" content="${advert.keywords}" />
+    <meta name="description" content="${advert.content}"/>
+    <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/bgame/owl.theme.default.min.css">
     <link href="/domain/${advert.domain}/css/bgame/templatemo-pod-talk.css" rel="stylesheet">
     ${advert.gaCode}
+
+
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+        window.googletag = window.googletag || {cmd: []};
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/112517806,23185333439/1131724918565', [[300, 250], [336, 280]], 'div-gpt-ad-1131724918565').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
 </head>
 <body>
 
@@ -81,11 +92,19 @@
                             Games </h4>
                     </div>
                 </div>
+                <div id='div-gpt-ad-1131724918565' style='min-width: 300px; min-height: 250px;'></div>
+                <script>
+                    googletag.cmd.push(function () {
+                        googletag.display('div-gpt-ad-1131724918565');
+                    });
+                </script>
+
+
                 <#list all_game as game>
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="/details/${game.id}" class="custom-block-image-wrap">
-                                <img src="${game.gamePreview}"
+                                <img src="${game.gamePreview}" loading="lazy"
                                      class="custom-block-image img-fluid" alt="">
                             </a>
 
