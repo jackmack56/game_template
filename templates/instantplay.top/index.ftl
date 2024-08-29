@@ -14,13 +14,21 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
     ${advert.gaCode}
+
+    <script>
+        window.gnshbrequest = window.gnshbrequest || {cmd:[]};
+        window.gnshbrequest.cmd.push(function(){
+            window.gnshbrequest.forceInternalRequest();
+        });
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script async src="https://cpt.geniee.jp/hb/v1/220928/2069/wrapper.min.js"></script>
+    <script src="https://cpt.geniee.jp/hb/v1/220928/2069/instbody.min.js"></script>
 </head>
 <body>
 <a href="#" class="scroll-top">
     <i class="fa-solid fa-arrow-up-long"></i>
 </a>
-
-
 <section class="services" style="margin-top: 10rem;">
     <div class="heading">
         <h2>New <span>Games</span></h2>
@@ -43,6 +51,21 @@
     </div>
 </section>
 
+<div data-cptid="1572522_instantplay.top_300x250_banner_top" style="display: block;">
+    <script>
+        window.gnshbrequest.cmd.push(function() {
+            window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
+        });
+    </script>
+</div>
+
+<div data-cptid="1572540_instantplay.top_Anchor" style="display: block;">
+    <script>
+        window.gnshbrequest.cmd.push(function() {
+            window.gnshbrequest.applyPassback("1572540_instantplay.top_Anchor", "[data-cptid='1572540_instantplay.top_Anchor']");
+        });
+    </script>
+</div>
 
 <section class="home-shop">
     <div class="heading">
@@ -83,7 +106,16 @@
     <div class="box-container">
 
         <#list all_game as game>
-            <#if  game.gameHot < 4200>
+            <#if game_index < 100>
+                <#if game_index % 6>
+                    <div data-cptid="1572540_instantplay.top_Anchor" style="display: block;">
+                        <script>
+                            window.gnshbrequest.cmd.push(function() {
+                                window.gnshbrequest.applyPassback("1572540_instantplay.top_Anchor", "[data-cptid='1572540_instantplay.top_Anchor']");
+                            });
+                        </script>
+                    </div>
+                </#if>
                 <div class="portfolio-item road">
                     <div class="portfolio-content">
                         <img src="${game.gamePreview}" alt="Road Biking Adventure">

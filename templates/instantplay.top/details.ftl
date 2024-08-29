@@ -13,6 +13,15 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
     ${advert.gaCode}
+    <script>
+        window.gnshbrequest = window.gnshbrequest || {cmd:[]};
+        window.gnshbrequest.cmd.push(function(){
+            window.gnshbrequest.forceInternalRequest();
+        });
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script async src="https://cpt.geniee.jp/hb/v1/220928/2069/wrapper.min.js"></script>
+
 </head>
 <body>
 <a href="#" class="scroll-top">
@@ -70,6 +79,13 @@
     </div>
 </header>
 
+<div data-cptid="1572538_instantplay.top_Detailbanner" style="display: block;">
+    <script>
+        window.gnshbrequest.cmd.push(function() {
+            window.gnshbrequest.applyPassback("1572538_instantplay.top_Detailbanner", "[data-cptid='1572538_instantplay.top_Detailbanner']");
+        });
+    </script>
+</div>
 
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="portfolio-info page-info" >

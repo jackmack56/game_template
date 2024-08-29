@@ -14,6 +14,16 @@
     <link rel="stylesheet" href="/domain/${advert.domain}/css/main.css">
     <link rel="stylesheet" href="/domain/${advert.domain}/css/responsive.css">
     ${advert.gaCode}
+
+
+    <script>
+        window.gnshbrequest = window.gnshbrequest || {cmd:[]};
+        window.gnshbrequest.cmd.push(function(){
+            window.gnshbrequest.forceInternalRequest();
+        });
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script async src="https://cpt.geniee.jp/hb/v1/220928/2069/wrapper.min.js"></script>
 </head>
 <body>
 <a href="#" class="scroll-top">
@@ -79,6 +89,15 @@
     </div>
     <div class="box-container">
         <#list all_game as game>
+            <#if game_index == 6>
+                <div data-cptid="1572523_instantplay.top_300x250_banner_mid" style="display: block;">
+                    <script>
+                        window.gnshbrequest.cmd.push(function() {
+                            window.gnshbrequest.applyPassback("1572523_instantplay.top_300x250_banner_mid", "[data-cptid='1572523_instantplay.top_300x250_banner_mid']");
+                        });
+                    </script>
+                </div>
+            </#if>
             <div class="product-item">
                 <a href="/details/${game.id}">
                     <div class="image">
