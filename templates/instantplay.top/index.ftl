@@ -51,7 +51,7 @@
     </div>
 </section>
 
-<div data-cptid="1572522_instantplay.top_300x250_banner_top" style="display: block;">
+<div data-cptid="1572522_instantplay.top_300x250_banner_top" style="min-width: 300px;min-height: 250px;display: block;">
     <script>
         window.gnshbrequest.cmd.push(function() {
             window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
@@ -59,7 +59,7 @@
     </script>
 </div>
 
-<div data-cptid="1572540_instantplay.top_Anchor" style="display: block;">
+<div data-cptid="1572540_instantplay.top_Anchor" style="min-width: 300px;min-height: 250px; display: block;">
     <script>
         window.gnshbrequest.cmd.push(function() {
             window.gnshbrequest.applyPassback("1572540_instantplay.top_Anchor", "[data-cptid='1572540_instantplay.top_Anchor']");
