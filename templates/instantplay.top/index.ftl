@@ -25,6 +25,7 @@
     <script async src="https://cpt.geniee.jp/hb/v1/220928/2069/wrapper.min.js"></script>
 </head>
 <body>
+<script src="https://cpt.geniee.jp/hb/v1/220928/2069/instbody.min.js"></script>
 <a href="#" class="scroll-top">
     <i class="fa-solid fa-arrow-up-long"></i>
 </a>
