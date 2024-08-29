@@ -124,7 +124,7 @@
     <div class="box-container">
         <#list all_game as game>
             <#if 6 < game_index && game_index < 66>
-                <#if game_index == 6>
+                <#if game_index == 12>
                     <div class="product-item" style="min-height: 250px; min-width: 300px;">
                         <div data-cptid="1572523_instantplay.top_300x250_banner_mid" style="min-height: 250px; min-width: 300px;display: block;">
                             <script>
