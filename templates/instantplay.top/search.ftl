@@ -83,21 +83,23 @@
     </div>
 </header>
 
+
+
+
 <section class="home-shop" >
     <div class="heading" style="margin-top: 17rem">
         <h2>${category ! ''} <span>Games</span></h2>
     </div>
+    <div data-cptid="1572523_instantplay.top_300x250_banner_mid" style="display: block;">
+        <script>
+            window.gnshbrequest.cmd.push(function() {
+                window.gnshbrequest.applyPassback("1572523_instantplay.top_300x250_banner_mid", "[data-cptid='1572523_instantplay.top_300x250_banner_mid']");
+            });
+        </script>
+    </div>
+
     <div class="box-container">
         <#list all_game as game>
-            <#if game_index == 6>
-                <div data-cptid="1572523_instantplay.top_300x250_banner_mid" style="display: block;">
-                    <script>
-                        window.gnshbrequest.cmd.push(function() {
-                            window.gnshbrequest.applyPassback("1572523_instantplay.top_300x250_banner_mid", "[data-cptid='1572523_instantplay.top_300x250_banner_mid']");
-                        });
-                    </script>
-                </div>
-            </#if>
             <div class="product-item">
                 <a href="/details/${game.id}">
                     <div class="image">

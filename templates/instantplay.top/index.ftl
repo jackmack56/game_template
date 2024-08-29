@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${advert.content}" />
-    <meta name="keywords" content="${advert.keywords}" />
+    <meta name="description" content="${advert.content}"/>
+    <meta name="keywords" content="${advert.keywords}"/>
     <meta name="author" content="">
     <title>${advert.title}</title>
     <link rel="stylesheet" href="/domain/${advert.domain}/css/all.min.css">
@@ -16,8 +16,8 @@
     ${advert.gaCode}
 
     <script>
-        window.gnshbrequest = window.gnshbrequest || {cmd:[]};
-        window.gnshbrequest.cmd.push(function(){
+        window.gnshbrequest = window.gnshbrequest || {cmd: []};
+        window.gnshbrequest.cmd.push(function () {
             window.gnshbrequest.forceInternalRequest();
         });
     </script>
@@ -61,14 +61,16 @@
     <div class="mobile-menu">
         <nav class="mobile-navbar">
             <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/">Home</a> </div>
+                <div class="main-nav-link"><a class="nav-btn" href="/">Home</a></div>
             </div>
 
             <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/">About</a> </div>
+                <div class="main-nav-link"><a class="nav-btn" href="/">About</a></div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link"> <div class="nav-btn">Category</div> <i class="fas fa-plus"></i> </div>
+                <div class="main-nav-link">
+                    <div class="nav-btn">Category</div>
+                    <i class="fas fa-plus"></i></div>
                 <div class="sub-nav-link">
                     <#list game_types as type>
                         <a href="/type/${type}">${type}</a>
@@ -76,20 +78,22 @@
                 </div>
             </div>
             <div class="nav-link">
-                <div class="main-nav-link"> <a class="nav-btn" href="/contact_usl">Contact</a> </div>
+                <div class="main-nav-link"><a class="nav-btn" href="/contact_usl">Contact</a></div>
             </div>
         </nav>
     </div>
 </header>
 
 
-<section class="services" style="margin: 0 auto;">
-    <div data-cptid="1572522_instantplay.top_300x250_banner_top" style="display: block;">
-        <script>
-            window.gnshbrequest.cmd.push(function() {
-                window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
-            });
-        </script>
+<section class="services">
+    <div class="heading" style="margin: 0 auto;">
+        <div data-cptid="1572522_instantplay.top_300x250_banner_top" style="display: block;">
+            <script>
+                window.gnshbrequest.cmd.push(function () {
+                    window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
+                });
+            </script>
+        </div>
     </div>
 </section>
 
@@ -101,16 +105,16 @@
     <div class="swiper-container service-slider">
         <div class="swiper-wrapper">
             <#list all_game as game>
-            <#if game_index < 6>
-                <div class="service-item swiper-slide">
-                    <img src="${game.gamePreview}" loading="lazy" alt="Guided Tours">
-                    <div class="content">
-                        <i class="fas fa-route"></i>
-                        <a href="/details/${game.id}"><h3> ${game.gameName}</h3></a>
-                        <a href="/details/${game.id}" class="btn">Play</a>
+                <#if game_index < 6>
+                    <div class="service-item swiper-slide">
+                        <img src="${game.gamePreview}" loading="lazy" alt="Guided Tours">
+                        <div class="content">
+                            <i class="fas fa-route"></i>
+                            <a href="/details/${game.id}"><h3> ${game.gameName}</h3></a>
+                            <a href="/details/${game.id}" class="btn">Play</a>
+                        </div>
                     </div>
-                </div>
-            </#if>
+                </#if>
             </#list>
         </div>
     </div>
@@ -126,9 +130,10 @@
             <#if 6 < game_index && game_index < 66>
                 <#if game_index == 12>
                     <div class="product-item" style="min-height: 250px; min-width: 300px;">
-                        <div data-cptid="1572523_instantplay.top_300x250_banner_mid" style="min-height: 250px; min-width: 300px;display: block;">
+                        <div data-cptid="1572523_instantplay.top_300x250_banner_mid"
+                             style="min-height: 250px; min-width: 300px;display: block;">
                             <script>
-                                window.gnshbrequest.cmd.push(function() {
+                                window.gnshbrequest.cmd.push(function () {
                                     window.gnshbrequest.applyPassback("1572523_instantplay.top_300x250_banner_mid", "[data-cptid='1572523_instantplay.top_300x250_banner_mid']");
                                 });
                             </script>
@@ -194,21 +199,21 @@
     <div class="box-container">
         <div class="footer-item">
             <a class="logo" href="">
-                <img src="/domain/${advert.domain}/logo.png"  loading="lazy" alt="logo">
+                <img src="/domain/${advert.domain}/logo.png" loading="lazy" alt="logo">
             </a>
             <p>${advert.content}</p>
         </div>
     </div>
     <div class="box-container">
-        <div class="footer-item" >
-            <p> <a href="/about_us" style="color: white">About Us</a></p>
-            <p> <a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
-            <p> <a href="/term_of_use" style="color: white">Terms of Use</a> </p>
-            <p> <a href="/contact_us" style="color: white">Contact Us</a> </p>
+        <div class="footer-item">
+            <p><a href="/about_us" style="color: white">About Us</a></p>
+            <p><a href="/privacy_policy" style="color: white">Privacy Policy</a></p>
+            <p><a href="/term_of_use" style="color: white">Terms of Use</a></p>
+            <p><a href="/contact_us" style="color: white">Contact Us</a></p>
         </div>
         <div class="footer-item">
             <h2>Contact Info</h2>
-                <p><span>${advert.contactMail}</span></p>
+            <p><span>${advert.contactMail}</span></p>
         </div>
     </div>
     <div class="content">
