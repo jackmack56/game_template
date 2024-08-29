@@ -51,13 +51,16 @@
     </div>
 </section>
 
-<div data-cptid="1572522_instantplay.top_300x250_banner_top" style="min-width: 300px;min-height: 250px;display: block;">
-    <script>
-        window.gnshbrequest.cmd.push(function() {
-            window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
-        });
-    </script>
-</div>
+<section class="home-shop">
+    <div data-cptid="1572522_instantplay.top_300x250_banner_top" style="min-width: 300px;min-height: 250px;display: block;">
+        <script>
+            window.gnshbrequest.cmd.push(function() {
+                window.gnshbrequest.applyPassback("1572522_instantplay.top_300x250_banner_top", "[data-cptid='1572522_instantplay.top_300x250_banner_top']");
+            });
+        </script>
+    </div>
+</section>
+
 <section class="home-shop">
     <div class="heading">
         <h2>Hot <span>Games</span></h2>
