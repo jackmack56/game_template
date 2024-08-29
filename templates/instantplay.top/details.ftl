@@ -79,13 +79,16 @@
     </div>
 </header>
 
-<div data-cptid="1572538_instantplay.top_Detailbanner" style="display: block;">
-    <script>
-        window.gnshbrequest.cmd.push(function() {
-            window.gnshbrequest.applyPassback("1572538_instantplay.top_Detailbanner", "[data-cptid='1572538_instantplay.top_Detailbanner']");
-        });
-    </script>
-</div>
+<section class="portfolio-single page-single">
+    <div data-cptid="1572538_instantplay.top_Detailbanner" style="display: block;">
+        <script>
+            window.gnshbrequest.cmd.push(function() {
+                window.gnshbrequest.applyPassback("1572538_instantplay.top_Detailbanner", "[data-cptid='1572538_instantplay.top_Detailbanner']");
+            });
+        </script>
+    </div>
+</section>
+
 
 <section class="portfolio-single page-single" style="margin-top: 10rem;">
     <div class="portfolio-info page-info" >

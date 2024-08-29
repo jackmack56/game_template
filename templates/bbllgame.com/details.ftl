@@ -75,14 +75,12 @@
 
 
     <header class="site-header d-flex flex-column justify-content-center align-items-center">
-        <div id='div-gpt-ad-1731724918710' style='min-width: 300px; min-height: 250px;'></div>
-        <script>
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1731724918710'); });
-        </script>
-
         <div class="container mt-5">
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-10 col-12">
+
+
+
                     <div class="row">
                         <a href="${game.gameUri}">
                             <div class="col-lg-7 col-12 mx-auto">
