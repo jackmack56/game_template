@@ -13,7 +13,7 @@
     ${advert.gaCode}
 </head>
 <body>
-<nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom">
+<nav class="col-10 mx-auto navbar navbar-expand-lg border-bottom" style="style="background: var(--bg-color) !important"">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
             <img src="/template/12/${advert.domain}/logo.png" class="h-100" alt="${advert.serviceName}" width="60" height="60" />
