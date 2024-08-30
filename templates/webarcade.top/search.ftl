@@ -28,7 +28,7 @@
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="/">
-                        <img src="/template/14/${advert.domain}/logo.png" style="width: 6rem" />
+                        <img src="/template/14/${advert.domain}/logo.png" loading="lazy" style="width: 6rem" />
                     </a>
                 </div>
             </div>
@@ -116,7 +116,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="footer__logo">
-                    <a href="/"><img src="/template/14/${advert.domain}/logo.png" alt=""></a>
+                    <a href="/"><img src="/template/14/${advert.domain}/logo.png"  loading="lazy" alt=""></a>
                 </div>
             </div>
             <div class="col-lg-6">
