@@ -30,6 +30,14 @@
     <i class="fa-solid fa-arrow-up-long"></i>
 </a>
 
+<div data-cptid="1572540_instantplay.top_Anchor" style="display: block;">
+    <script>
+        window.gnshbrequest.cmd.push(function() {
+            window.gnshbrequest.applyPassback("1572540_instantplay.top_Anchor", "[data-cptid='1572540_instantplay.top_Anchor']");
+        });
+    </script>
+</div>
+
 <header class="header">
     <div class="header-2" style="background: black;">
         <a class="logo" href="/">
