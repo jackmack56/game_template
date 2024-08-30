@@ -28,7 +28,7 @@
             <div class="col-lg-2">
                 <div class="header__logo">
                     <a href="/">
-                        <img src="/template/14/logo.png" style="width: 3rem" />
+                        <img src="/template/14/${advert.domain}/logo.png" style="width: 6rem" />
                     </a>
                 </div>
             </div>
@@ -103,8 +103,8 @@
 </div>
 
 <section class="product spad">
-    <div class="container">
-        <p style="color: var(--font-color)!important;">${advert.content}</p>
+    <div class="container"  style="color: var(--font-color)!important;">
+        ${advert.content}
     </div>
 </section>
 
